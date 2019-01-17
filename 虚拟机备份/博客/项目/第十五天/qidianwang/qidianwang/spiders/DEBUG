@@ -1,0 +1,1419 @@
+2018-12-06 15:51:55 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qidianwang)
+2018-12-06 15:51:55 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.4.1, Platform Linux-4.13.0-45-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-12-06 15:51:55 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'qidianwang.spiders', 'BOT_NAME': 'qidianwang', 'LOG_FILE': 'DEBUG', 'DOWNLOAD_DELAY': 1, 'SPIDER_MODULES': ['qidianwang.spiders']}
+2018-12-06 15:51:55 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-12-06 15:51:55 [twisted] CRITICAL: Unhandled error in Deferred:
+2018-12-06 15:51:55 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/crawler.py", line 80, in crawl
+    self.engine = self._create_engine()
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/crawler.py", line 105, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/core/engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/core/downloader/__init__.py", line 88, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/middleware.py", line 58, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/utils/misc.py", line 44, in load_object
+    mod = import_module(module)
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 661, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 767, in get_code
+  File "<frozen importlib._bootstrap_external>", line 727, in source_to_code
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "/home/cui/项目/第十五天/qidianwang/qidianwang/middlewares.py", line 137
+    return None
+    ^
+IndentationError: unexpected indent
+2018-12-06 15:52:14 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qidianwang)
+2018-12-06 15:52:14 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.4.1, Platform Linux-4.13.0-45-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-12-06 15:52:14 [scrapy.crawler] INFO: Overridden settings: {'LOG_FILE': 'DEBUG', 'DOWNLOAD_DELAY': 1, 'BOT_NAME': 'qidianwang', 'NEWSPIDER_MODULE': 'qidianwang.spiders', 'SPIDER_MODULES': ['qidianwang.spiders']}
+2018-12-06 15:52:14 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2018-12-06 15:52:14 [twisted] CRITICAL: Unhandled error in Deferred:
+2018-12-06 15:52:14 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/utils/misc.py", line 47, in load_object
+    obj = getattr(mod, name)
+AttributeError: module 'qidianwang.middlewares' has no attribute 'QdianUserAgenDownLoadmiddlerware'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/crawler.py", line 80, in crawl
+    self.engine = self._create_engine()
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/crawler.py", line 105, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/core/engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/core/downloader/__init__.py", line 88, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/middleware.py", line 58, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/utils/misc.py", line 49, in load_object
+    raise NameError("Module '%s' doesn't define any object named '%s'" % (module, name))
+NameError: Module 'qidianwang.middlewares' doesn't define any object named 'QdianUserAgenDownLoadmiddlerware'
+2018-12-06 15:53:05 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qidianwang)
+2018-12-06 15:53:05 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.4.1, Platform Linux-4.13.0-45-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-12-06 15:53:05 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'qidianwang.spiders', 'BOT_NAME': 'qidianwang', 'LOG_FILE': 'DEBUG', 'SPIDER_MODULES': ['qidianwang.spiders'], 'DOWNLOAD_DELAY': 1}
+2018-12-06 15:53:05 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-12-06 15:53:13 [fake_useragent] DEBUG: Error occurred during fetching https://www.w3schools.com/browsers/default.asp
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1106, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1151, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/usr/lib/python3.5/http/client.py", line 1252, in connect
+    super().connect()
+  File "/usr/lib/python3.5/http/client.py", line 849, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/lib/python3.5/socket.py", line 711, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 702, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/fake_useragent/utils.py", line 67, in get
+    context=context,
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/usr/lib/python3.5/urllib/request.py", line 1256, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
+2018-12-06 15:53:13 [fake_useragent] DEBUG: Sleeping for 0.1 seconds
+2018-12-06 15:53:13 [fake_useragent] DEBUG: Error occurred during fetching https://www.w3schools.com/browsers/default.asp
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1106, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1151, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/usr/lib/python3.5/http/client.py", line 1252, in connect
+    super().connect()
+  File "/usr/lib/python3.5/http/client.py", line 849, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/lib/python3.5/socket.py", line 711, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 702, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/fake_useragent/utils.py", line 67, in get
+    context=context,
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/usr/lib/python3.5/urllib/request.py", line 1256, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
+2018-12-06 15:53:13 [fake_useragent] WARNING: Error occurred during loading data. Trying to use cache server https://fake-useragent.herokuapp.com/browsers/0.1.11
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/urllib/request.py", line 1254, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1106, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1151, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/usr/lib/python3.5/http/client.py", line 1252, in connect
+    super().connect()
+  File "/usr/lib/python3.5/http/client.py", line 849, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/usr/lib/python3.5/socket.py", line 711, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 702, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/fake_useragent/utils.py", line 67, in get
+    context=context,
+  File "/usr/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/usr/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/usr/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.5/urllib/request.py", line 1297, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/usr/lib/python3.5/urllib/request.py", line 1256, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 111] Connection refused>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/fake_useragent/utils.py", line 154, in load
+    for item in get_browsers(verify_ssl=verify_ssl):
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/fake_useragent/utils.py", line 97, in get_browsers
+    html = get(settings.BROWSERS_STATS_PAGE, verify_ssl=verify_ssl)
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/fake_useragent/utils.py", line 84, in get
+    raise FakeUserAgentError('Maximum amount of retries reached')
+fake_useragent.errors.FakeUserAgentError: Maximum amount of retries reached
+2018-12-06 16:06:26 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qidianwang)
+2018-12-06 16:06:26 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.4.1, Platform Linux-4.13.0-45-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-12-06 16:06:26 [scrapy.crawler] INFO: Overridden settings: {'SPIDER_MODULES': ['qidianwang.spiders'], 'NEWSPIDER_MODULE': 'qidianwang.spiders', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'DEBUG', 'BOT_NAME': 'qidianwang'}
+2018-12-06 16:06:26 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.memusage.MemoryUsage']
+2018-12-06 16:06:26 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'qidianwang.middlewares.QidianwangDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-12-06 16:06:26 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-12-06 16:06:26 [scrapy.middleware] INFO: Enabled item pipelines:
+['qidianwang.pipelines.QidianwangPipeline']
+2018-12-06 16:06:26 [scrapy.core.engine] INFO: Spider opened
+2018-12-06 16:06:26 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-12-06 16:06:26 [qidian] INFO: Spider opened: qidian
+2018-12-06 16:06:26 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6041
+2018-12-06 16:06:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1> (referer: None)
+2018-12-06 16:06:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1> (referer: https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1)
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '仙侠,神话修真',
+ 'content': '凡人修仙，风云再起时空穿梭，轮回逆转金仙太乙，大罗道祖三千大道，法则至尊《凡人修仙传》仙界篇，一个韩立叱咤仙界的故事，一个凡人小子修仙的不灭传说。特说明下，没有看过前传的书友，并不影响本书的阅读体验，',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010734492/150',
+ 'cuthor': '忘语',
+ 'novalTile': '凡人修仙之仙界篇',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '玄幻,异世大陆',
+ 'content': '蒸汽与机械的浪潮中，谁能触及非凡？历史和黑暗的迷雾里，又是谁在耳语？我从诡秘中醒来，睁眼看见这个世界：枪械，大炮，巨舰，飞空艇，差分机；魔药，占卜，诅咒，倒吊人，封印物……光明依旧照耀，神秘从未远离，',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010868264/150',
+ 'cuthor': '爱潜水的乌贼',
+ 'novalTile': '诡秘之主',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '玄幻,东方玄幻',
+ 'content': '在破败中崛起，在寂灭中复苏。沧海成尘，雷电枯竭，那一缕幽雾又一次临近大地，世间的枷锁被打开了，一个全新的世界就此揭开神秘的一角……',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1004608738/150',
+ 'cuthor': '辰东',
+ 'novalTile': '圣墟',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '都市,都市生活',
+ 'content': '医学院学生凌然有一个小目标，要成为世界上最伟大的医生，结果不小心实现了。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011486666/150',
+ 'cuthor': '志鸟村',
+ 'novalTile': '大医凌然',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '都市,异术超能',
+ 'content': '某天，宋书航意外加入了一个仙侠中二病资深患者的交流群，里面的群友们都以‘道友’相称，群名片都是各种府主、洞主、真人、天师。连群主走失的宠物犬都称为大妖犬离家出走。整天聊的是炼丹、闯秘境、炼功经验啥的。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/3602691/150',
+ 'cuthor': '圣骑士的传说',
+ 'novalTile': '修真聊天群',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '历史,两宋元明',
+ 'content': '弘治十一年。这是一个美好的清晨。此时朱厚照初成年。此时王守仁和唐伯虎磨刀霍霍，预备科举。此时小冰河期已经来临，绵长的严寒肆虐着大地。此时在南和伯府里，地主家的傻儿子，南和伯的嫡传继承人方继藩……开始了',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011705052/150',
+ 'cuthor': '上山打老虎额',
+ 'novalTile': '明朝败家子',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '都市,都市生活',
+ 'content': '高中生吕树在一场车祸中改变人生，当灵气复苏时代来袭，他要做这时代的领跑者。物竞天择，胜者为王。……全订验证群号：696087569',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010191960/150',
+ 'cuthor': '会说话的肘子',
+ 'novalTile': '大王饶命',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '游戏,游戏异界',
+ 'content': '韩萧，《星海》骨灰级代练，被来自东（zuo）方(zhe)的神秘力量扔进穿越大军，携带玩家面板变成NPC，回到《星海》公测之前，毅然选择难度最高的机械系。战舰列队纵横星海，星辰机甲夭矫如龙，幽能炮毁天灭',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1009480992/150',
+ 'cuthor': '齐佩甲',
+ 'novalTile': '超神机械师',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '玄幻,东方玄幻',
+ 'content': '大墟的祖训说，天黑，别出门。大墟残老村的老弱病残们从江边捡到了一个婴儿，取名秦牧，含辛茹苦将他养大。这一天夜幕降临，黑暗笼罩大墟，秦牧走出了家门……做个春风中荡漾的反派吧！瞎子对他说。秦牧的反派之路，',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1009704712/150',
+ 'cuthor': '宅猪',
+ 'novalTile': '牧神记',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '科幻,超级科技',
+ 'content': '“系统，积分能兑钱吗？”“不能。”“干，那我要你何用！”“本系统能让你当上学爸，全人类爸爸的爸，你还要钱有什么用？”',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011449273/150',
+ 'cuthor': '晨星LL',
+ 'novalTile': '学霸的黑科技系统',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '悬疑灵异,恐怖惊悚',
+ 'content': '一家只在深夜开门营业的书屋，欢迎您的光临。————————《舵主群》：587980337（进群粉丝值验证）《读书群》：523978007（无需验证）《战斗群》：457654443（无需验证）',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011335417/150',
+ 'cuthor': '纯洁滴小龙',
+ 'novalTile': '深夜书屋',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '玄幻,东方玄幻',
+ 'content': '一树生的万朵花，天下道门是一家。法术千般变化，人心却亘古不变',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010399782/150',
+ 'cuthor': '高楼大厦',
+ 'novalTile': '太初',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '历史,架空历史',
+ 'content': '我们接受了祖先的遗产，这让中华辉煌了数千年，我们是如此的心安理得，从未想过要回归那个在刀耕火种中苦苦寻找出路的时代。反哺我们苦难的祖先，并从中找到故乡的真正意义，将是本书要讲的故事。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010136878/150',
+ 'cuthor': '孑与2',
+ 'novalTile': '汉乡',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '仙侠,幻想修仙',
+ 'content': '一个地球神级盗墓宗师，闯入修真界的故事……桃花源里，有歌声。山外青山，白骨山。五花马，千金裘，倚天剑。应我多情，啾啾鬼鸣，美人薄嗔。天地无垠，谁家旗鼓，碧落黄泉，万古高楼。为义气争雄！为乱世争霸！你好',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1005236478/150',
+ 'cuthor': '跃千愁',
+ 'novalTile': '道君',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '都市,异术超能',
+ 'content': '地窟入侵，武道崛起。小人物也有大情怀，为生存而战，为守护而战。且看小人物方平，一步步崛起，拯救（忽悠）全世界的故事！（一群群号555700424已满，二群群号931250725已满，三群群号95464',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1012237441/150',
+ 'cuthor': '老鹰吃小鸡',
+ 'novalTile': '全球高武',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '玄幻,异世大陆',
+ 'content': '【2017最火玄幻作品，海外点推双榜第一】张悬穿越异界，成了一名光荣的教师，脑海中多出了一个神秘的图书馆。只要他看过的东西，无论人还是物，都能自动形成书籍，记录下对方各种各样的缺点，于是，他牛大了！教',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1004179514/150',
+ 'cuthor': '横扫天涯',
+ 'novalTile': '天道图书馆',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '玄幻,东方玄幻',
+ 'content': '这是一个科学与武道并重的时代，大灾变之后，人类发现了超古代修炼文明，开启了一个大修炼时代，并开始了昆仑界的殖民之路！这是一个人类危机重重，同时也是一个热血沸腾的，强者辈出的时代！得到了超古代文明强者丹',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1003630241/150',
+ 'cuthor': '傅啸尘',
+ 'novalTile': '修炼狂潮',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '仙侠,修真文明',
+ 'content': '举头三尺无神明，掌心三寸是人间。这是耳根继《仙逆》《求魔》《我欲封天》《一念永恒》后，创作的第五部长篇小说《三寸人间》。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010327039/150',
+ 'cuthor': '耳根',
+ 'novalTile': '三寸人间',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '仙侠,古典仙侠',
+ 'content': '在这个世界，有狐仙、河神、水怪、大妖，也有求长生的修行者。修行者们，开法眼，可看妖魔鬼怪。炼一口飞剑，可千里杀敌。千里眼、顺风耳，更可探查四方。……秦府二公子‘秦云’，便是一位修行者……',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010468795/150',
+ 'cuthor': '我吃西红柿',
+ 'novalTile': '飞剑问道',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '玄幻,异世大陆',
+ 'content': '一觉醒来，世界大变。熟悉的高中传授的是魔法，告诉大家要成为一名出色的魔法师。居住的都市之外游荡着袭击人类的魔物妖兽，虎视眈眈。崇尚科学的世界变成了崇尚魔法，偏偏有着一样以学渣看待自己的老师，一样目光异',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/3489766/150',
+ 'cuthor': '乱',
+ 'novalTile': '全职法师',
+ 'status': '连载中'}
+2018-12-06 16:06:30 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2018-12-06 16:06:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.qidian.com/info/3489766#Catalog> (referer: https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1)
+2018-12-06 16:06:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438> (referer: https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1)
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '玄幻,异世大陆',
+ 'content': '刘浩穿越到了另一个世界中州大陆，这片大陆崇尚修道，刘浩能否得道升仙，升仙后能否用大法力穿越回家呢？大家拭目以待吧',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1251760/150',
+ 'cuthor': '永恒的悲伤之泪',
+ 'novalTile': '转世问道',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '武侠,武侠幻想',
+ 'content': '短篇小说系列之一魔剑，争取10章结束战斗！平时没什么时间写，如果大家喜欢可以收藏下，什么时候写了大家能看到就看了，无聊的时候供大家消遣，可不是什么专业作者，说白了就是个涂油漆的',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1251772/150',
+ 'cuthor': '疯狂猪仔',
+ 'novalTile': '短篇小说系列——魔剑',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '玄幻,东方玄幻',
+ 'content': '本书开头，也就是前十章可能有点那个什么的！慢热型，见谅！女娲怎么了？推倒再说，嫦娥咋了，乖乖暖床被！百花仙子怎地？晚上还不是温柔的酿百花欲酿......跟随猪脚一起推倒想要推倒的神话美女。‘有点’YY',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1251785/150',
+ 'cuthor': '吃书猫',
+ 'novalTile': '证魔道',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '都市,都市生活',
+ 'content': '谢老四相貌平平，年纪不确切。身高一米五六，体重90斤。大眼，薄唇，爱哭爱笑，但我们就是怕她。因为她有一种本领，无论何时何地，都可以把你顷刻间置于一种苦不堪言之地。就好像你正在光明大道上走着走着，突然，',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1251797/150',
+ 'cuthor': 'xiangmi',
+ 'novalTile': '最怕谢老四',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '都市,青春校园',
+ 'content': '唐佳枫、人称唐演，出身贫寒的他、到底会如何。他温柔可爱、古怪刁钻，有着非比寻常的命运。他是父母心中的乖宝贝儿，他是连名字都可以令人闻风丧胆的终极人物。他身怀绝技，他是班级老大，他是老师心中的坏学生？到',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252164/150',
+ 'cuthor': '涵涵02',
+ 'novalTile': '一位少年名垂千古',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '都市,异术超能',
+ 'content': '我们所在的世界之外，还存在着无数另外的世界，它们平行存在，永远没有交叉点。千万年前，所谓的神创造出了一个贯穿所有世界的垂直位面——十三界。这里不只只有人类的存在，兽人，精灵，鱼人，蛇人，甚至还有传说中',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252165/150',
+ 'cuthor': '十三诫',
+ 'novalTile': '十三界',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '都市,异术超能',
+ 'content': '两个少年的驱魔故事',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252170/150',
+ 'cuthor': '凉晾',
+ 'novalTile': '伏魔记之我有异能',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '仙侠,修真文明',
+ 'content': '一个痴迷修仙未果的胖子，一次偶然的穿越让他走上了修炼的道路。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252178/150',
+ 'cuthor': '小笼包',
+ 'novalTile': '异界仙途',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '玄幻,异世大陆',
+ 'content': '本书是对于斗术，法术，封术，的全新诠释。万术归一嘿嘿~激情浪漫的世界，波折起伏的情节，全新的剧情充满激情哦~小序：苍穹之极有一星。高远无比，明亮之极，名曰北辰。北辰之远非人力所及。然众人生畏。久之淡知',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252187/150',
+ 'cuthor': '微笑点',
+ 'novalTile': '寻北辰',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '玄幻,异世大陆',
+ 'content': '生死自古相对,然佛曰:生即是死,死即是生.本书讲述的就是人死后的新生世界,一个充满神奇的地方—冥星!这里有着远古的神秘的神兵法宝,有着令人眼花缭乱的道法武技,有着这个世界独特的生物灵宝……更有着因为神',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252195/150',
+ 'cuthor': '潇潇书生',
+ 'novalTile': '冥星道',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '奇幻,现代魔法',
+ 'content': '由一款FC游戏改编的，讲述了巴莲西亚大陆的故事，故事从远古的两位神，多玛与米拉两兄妹的争执而开始，二人分别在巴莲西亚大陆建立了两个国度，骑士之国利盖鲁和文化之国索菲亚。这一天，两国的皇室分别诞生了一位',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252247/150',
+ 'cuthor': '彼岸月华.QD',
+ 'novalTile': '圣火徽章',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '奇幻,剑与魔法',
+ 'content': '一段穿越故事，一段奇异历史，看街头痞子顾炎天成长成一代龙皇—炎皇.',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252262/150',
+ 'cuthor': '玄桥',
+ 'novalTile': '圣血炎皇',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '奇幻,现代魔法',
+ 'content': '一百年后的机械帝国，被奴役人类唯一的消遣，将100年前的人类传送到计算机和生物工程创造的魔法奇幻世界，展开防御性生存游戏。地点在女校原址，高二1班全体女生和路边的“怪叔叔”都被传送过去。倒计时牌高高的',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252323/150',
+ 'cuthor': '猪真好',
+ 'novalTile': '第十三女中的防御战',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '都市,异术超能',
+ 'content': '人生，就和网络上说的一样上面都是悲剧，但是重生了，就不是悲剧了要的就是爽的感觉。所以。在我的小说里面。没有悲剧。。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252389/150',
+ 'cuthor': '那一滴水',
+ 'novalTile': '遮星',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '玄幻,东方玄幻',
+ 'content': '传说中,在罗亚大陆有着四位执掌天使.他们守护着大陆,并执掌这个世界的一切力量.当爱与宿命重生的光辉普照这片土地.光明、希望、黑暗、邪恶、力量、轮回、生命和秩序将暗淡无光.',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252439/150',
+ 'cuthor': 'z拓殿',
+ 'novalTile': '守护之天使',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '都市,异术超能',
+ 'content': '箫航，一个普通的高中生，就读于XX市德信高校，许多的人都不知道这间高中里面有八成的人都是某些退役的黑道人物、国家高层、特工……的孩子或亲属，这一间看似普通得不能再普通的学校，后面隐藏着恐怖的力量，在一',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252459/150',
+ 'cuthor': '章鱼GG',
+ 'novalTile': '黑侠都市',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '游戏,虚拟网游',
+ 'content': '流淌着的鲜血，就像是一朵啼血的玫瑰，寂寞...妖异.....而..凄美',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252463/150',
+ 'cuthor': '冥殤',
+ 'novalTile': '月临幻世',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '仙侠,幻想修仙',
+ 'content': '正反2个宇宙，无数种族的交锋，一个为了诞生强者而开设的试炼空间，一个靠箭生存的僵尸，如何在宇宙中谱写自己的传奇。全新的等级制度，天冲，灵慧，为气，为力，中枢，为精，为英，命魂，地魂，天魂，三魂七魄凝练',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252466/150',
+ 'cuthor': '伤心后羿',
+ 'novalTile': '试炼空间之箭圣僵尸',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '玄幻,东方玄幻',
+ 'content': '我保证，这是一部漫长的，悲剧。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252480/150',
+ 'cuthor': '莫一白',
+ 'novalTile': '最强神诋',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53438>
+{'category': '历史,架空历史',
+ 'content': '一梦醒来,居然成为靖康之难里的主角－－宋徽宗(赵佶).“靖康耻，犹未雪；臣子恨，何时灭”。如果带上个现代人思维的赵佶会不会将历史重演.－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252502/150',
+ 'cuthor': '独西楼',
+ 'novalTile': '宋之殇',
+ 'status': '连载中'}
+2018-12-06 16:06:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5> (referer: https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1)
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '游戏,游戏异界',
+ 'content': '当方正睁开眼睛时，惊讶的发现自己重生到了一个龙与魔法，骑士与公主的幻想世界。不仅如此，甚至连方正之前所设计的游戏系统，也一并跟随他来到了这个世界。那么接下来，就是穿越万千位面，获得无穷力量，成为勇者，',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011448624/150',
+ 'cuthor': '西贝猫',
+ 'novalTile': '次元法典',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '科幻,时空穿梭',
+ 'content': '在这个磕着碰着都能穿越的年代，作为穿越者没有系统、没有老爷爷、没有随身空间、也不能召唤，怎么办？杜克表示：我自己就是金手指！这是一个遭雷劈的穿越者，在无数个世界抱自己大腿的故事……书友群：281553',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010532203/150',
+ 'cuthor': '凤嘲凰',
+ 'novalTile': '同时穿越了99个世界',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '二次元,原生幻想',
+ 'content': '诺兰大陆的混乱之城中，有着一家奇怪的餐厅。在这里，精灵要和矮人拼桌，兽人被严禁喧哗，巨龙只能围坐在餐厅前的小广场上，恶魔甚至需要自己带特制的凳子……但就是这么一家规矩奇葩的餐厅，门口却每天都排着长队。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010815544/150',
+ 'cuthor': '轻语江湖',
+ 'novalTile': '奶爸的异界餐厅',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '玄幻,异世大陆',
+ 'content': '新纪元来临，天地异变。地星本土动植物疯狂变异、返祖，异界物种沦落地星，最终新纪元人类诞生一种全新的职业御使。收服怪物，培养怪物，训练怪物，这就是御使。一个怀揣着梦想的少年懵懵憧憧的被一脚踢入这个黄金盛',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011512936/150',
+ 'cuthor': '酒池醉',
+ 'novalTile': '神宠进化',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '玄幻,高武世界',
+ 'content': '未来波澜壮阔的星际时代，人类终于攻克了空间传送技术，可是当人类传送到另一端的时候，却发现那里并不是过去未来，也不是星空下的任何一片土地……神秘的庇护所世界，无数强横的异生物，人类迎来了令人热血沸腾的飞',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1003692682/150',
+ 'cuthor': '十二翼黑暗炽天使',
+ 'novalTile': '超级神基因',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '历史,架空历史',
+ 'content': '不停地战斗，不停的杀敌，秦风是国家的悍将，军队的马前卒，永远冲锋在第一线，用赫赫战功书写着自己光荣的履历，但大变陡至，昔日的功臣，转眼之间却成了国家的罪人，人人得而诛之的叛徒，兄弟血洒疆场，部下反目成',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1003247636/150',
+ 'cuthor': '枪手1号',
+ 'novalTile': '马前卒',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '仙侠,幻想修仙',
+ 'content': '不堕轮回入大千，心传一道在人间。愿起一剑杀万劫，无情换作有情天!…………大道争锋全订阅VIP群：【235032815】（新群）粉丝自建订阅群：布须玄天·昆始陆（526275426）入群要求粉丝积分20',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/2226569/150',
+ 'cuthor': '误道者',
+ 'novalTile': '大道争锋',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '都市,异术超能',
+ 'content': '洛邱无意之中成为了一家‘俱乐部’的老板。但是这家俱乐部好奇怪。它不仅仅拥有一个工作了三百年的人偶女仆，而且还会贩卖各种古怪的东西。洛邱渐渐发现，他生活着的社会之中，拥有着多不胜数为欲望所驱使的家伙，而',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1003530168/150',
+ 'cuthor': '夕山白石',
+ 'novalTile': '特拉福买家俱乐部',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '二次元,衍生同人',
+ 'content': '魔术的才能是一流，但体能的方面是废材？召唤的使魔可以是成千上万，但自己是独守后方？对此，只想说一句话。“那都不是事！”这是得到奇迹，亦对奇迹珍爱有加的少年的故事。“只要有使魔（同伴），我便是无敌！”（',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1012650551/150',
+ 'cuthor': '如倾如诉',
+ 'novalTile': '奇迹的召唤师',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '玄幻,东方玄幻',
+ 'content': '世界上最珍贵的东西都是免费的，常人却总视而不见，除了空气，阳光，亲情这些最珍贵的东西之外，还有一种最珍贵的东西，就在你的身边，唾手可得，不知道你是否看见？本书读者群：167726456',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1009601645/150',
+ 'cuthor': '醉虎',
+ 'novalTile': '白银霸主',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '科幻,时空穿梭',
+ 'content': '每部电影都是一段旅程，玛丽莲梦露的性感风情，海外孤岛的无限孤寂，奥黛丽赫本的倾情一吻，努力活着的苦难历程。带你进入电影世界，感受不一样的人生。如果你有特别想要经历的、想要得到的、想要改变的，可以给大雨',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1012797863/150',
+ 'cuthor': '昨夜大雨',
+ 'novalTile': '电影世界私人订制',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '游戏,电子竞技',
+ 'content': '才华横溢的前KPL职业选手何良，拥有一段令人失望的职业生涯，最终黯然退役。一直在其背后默默支持着他的弟弟何遇不忿哥哥职业生涯期间的遭遇，决心重走哥哥的职业路。观看过无数王者荣耀职业比赛拥有高端意识的他',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011831862/150',
+ 'cuthor': '蝴蝶蓝',
+ 'novalTile': '王者时刻',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '仙侠,神话修真',
+ 'content': '苍穹之下的千年苦修，只为有朝一日立身于苍穹之上！位于洪武天朝和妖族七杀部咽喉要地的天断峡谷中，忽有天降神异之物，裹挟着一众修兵，滚入了浩荡的历史洪流当中……宋征只是其中不那么起眼的一员。他读过圣贤书，',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010566688/150',
+ 'cuthor': '石三',
+ 'novalTile': '苍穹之上',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '都市,异术超能',
+ 'content': '财法侣地，修行其实是一项非常耗钱的奢侈运动。无意中得到传说中修道，炼丹，医药学家葛洪的传承，淳朴的山里人葛东旭开始努力赚钱。当大多数人还在读高中时，他为了炼丹修行已经开始一边读书一边赚钱。当大多数人读',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1004174819/150',
+ 'cuthor': '断桥残雪',
+ 'novalTile': '都市超级医圣',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '历史,两晋隋唐',
+ 'content': '穿越是一件很有意思的事儿，但是当房俊穿越到那位浑身冒着绿油油光芒的唐朝同名前辈身上，就感觉生活全都不好了……',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1004588586/150',
+ 'cuthor': '公子許',
+ 'novalTile': '天唐锦绣',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '都市,都市生活',
+ 'content': '冶金装备、矿山装备、电力装备、海工装备……一个泱泱大国，不能没有自己的重型装备工业。国家重大装备办处长冯啸辰穿越到了1980年，看他如何与同代人一道，用汗水和智慧，铸就大国重工',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1004151636/150',
+ 'cuthor': '齐橙',
+ 'novalTile': '大国重工',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '玄幻,东方玄幻',
+ 'content': '林凡来到异界，成为了一名光荣的普通弟子，原本身处在随时都能被人打成翔的处境中，可突然间，情况不对了。系统开启。叮：抽中永恒级BUFF：不死之身。这一刻，整个世界都不一样了。林凡：“你们能锤死我，算我输',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010828991/150',
+ 'cuthor': '新丰',
+ 'novalTile': '无敌真寂寞',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '仙侠,现代修真',
+ 'content': '冯君身为985的双学位，毕业就失业了，在都市中艰难打拼，偏偏还放不下架子，他的处境可想而知。直到有一天，他和手机被雷劈了，猛然发现，原来自己可以化身数据，进入app中。化身数据进入app中能做什么？能',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010737835/150',
+ 'cuthor': '陈风笑',
+ 'novalTile': '大数据修仙',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '都市,异术超能',
+ 'content': '异界回归的李大魔头，反封建迷信协会成员，兼职斩妖除魔，从心理到生理专治各种不服。作者是中央八局关注第四类人员，主角是第五类人员，侬晓得了伐！',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011447634/150',
+ 'cuthor': '华表',
+ 'novalTile': '都市剑说',
+ 'status': '连载中'}
+2018-12-06 16:06:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '游戏,游戏异界',
+ 'content': '深山宅男，一路种种田，养养鱼，做做梦，顺带悠闲成长的故事。咦？最后一不小心征服诸天万界，成为了大BOSS？莫非我还没睡醒？',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1009942824/150',
+ 'cuthor': '文抄公',
+ 'novalTile': '逍遥梦路',
+ 'status': '完本'}
+2018-12-06 16:09:51 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qidianwang)
+2018-12-06 16:09:51 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.4.1, Platform Linux-4.13.0-45-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-12-06 16:09:51 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'qidianwang', 'LOG_FILE': 'DEBUG', 'NEWSPIDER_MODULE': 'qidianwang.spiders', 'SPIDER_MODULES': ['qidianwang.spiders'], 'DOWNLOAD_DELAY': 1}
+2018-12-06 16:09:51 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.spiderstate.SpiderState']
+2018-12-06 16:09:51 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'qidianwang.middlewares.QidianwangDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-12-06 16:09:51 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-12-06 16:09:51 [scrapy.middleware] INFO: Enabled item pipelines:
+['qidianwang.pipelines.QidianwangPipeline']
+2018-12-06 16:09:51 [scrapy.core.engine] INFO: Spider opened
+2018-12-06 16:09:51 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-12-06 16:09:51 [qidian] INFO: Spider opened: qidian
+2018-12-06 16:09:51 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6042
+2018-12-06 16:09:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1> (referer: None)
+2018-12-06 16:09:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1> (referer: https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1)
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '仙侠,神话修真',
+ 'content': '凡人修仙，风云再起时空穿梭，轮回逆转金仙太乙，大罗道祖三千大道，法则至尊《凡人修仙传》仙界篇，一个韩立叱咤仙界的故事，一个凡人小子修仙的不灭传说。特说明下，没有看过前传的书友，并不影响本书的阅读体验，',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010734492/150',
+ 'cuthor': '忘语',
+ 'novalTile': '凡人修仙之仙界篇',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '玄幻,异世大陆',
+ 'content': '蒸汽与机械的浪潮中，谁能触及非凡？历史和黑暗的迷雾里，又是谁在耳语？我从诡秘中醒来，睁眼看见这个世界：枪械，大炮，巨舰，飞空艇，差分机；魔药，占卜，诅咒，倒吊人，封印物……光明依旧照耀，神秘从未远离，',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010868264/150',
+ 'cuthor': '爱潜水的乌贼',
+ 'novalTile': '诡秘之主',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '玄幻,东方玄幻',
+ 'content': '在破败中崛起，在寂灭中复苏。沧海成尘，雷电枯竭，那一缕幽雾又一次临近大地，世间的枷锁被打开了，一个全新的世界就此揭开神秘的一角……',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1004608738/150',
+ 'cuthor': '辰东',
+ 'novalTile': '圣墟',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '都市,都市生活',
+ 'content': '医学院学生凌然有一个小目标，要成为世界上最伟大的医生，结果不小心实现了。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011486666/150',
+ 'cuthor': '志鸟村',
+ 'novalTile': '大医凌然',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '都市,异术超能',
+ 'content': '某天，宋书航意外加入了一个仙侠中二病资深患者的交流群，里面的群友们都以‘道友’相称，群名片都是各种府主、洞主、真人、天师。连群主走失的宠物犬都称为大妖犬离家出走。整天聊的是炼丹、闯秘境、炼功经验啥的。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/3602691/150',
+ 'cuthor': '圣骑士的传说',
+ 'novalTile': '修真聊天群',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '历史,两宋元明',
+ 'content': '弘治十一年。这是一个美好的清晨。此时朱厚照初成年。此时王守仁和唐伯虎磨刀霍霍，预备科举。此时小冰河期已经来临，绵长的严寒肆虐着大地。此时在南和伯府里，地主家的傻儿子，南和伯的嫡传继承人方继藩……开始了',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011705052/150',
+ 'cuthor': '上山打老虎额',
+ 'novalTile': '明朝败家子',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '都市,都市生活',
+ 'content': '高中生吕树在一场车祸中改变人生，当灵气复苏时代来袭，他要做这时代的领跑者。物竞天择，胜者为王。……全订验证群号：696087569',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010191960/150',
+ 'cuthor': '会说话的肘子',
+ 'novalTile': '大王饶命',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '游戏,游戏异界',
+ 'content': '韩萧，《星海》骨灰级代练，被来自东（zuo）方(zhe)的神秘力量扔进穿越大军，携带玩家面板变成NPC，回到《星海》公测之前，毅然选择难度最高的机械系。战舰列队纵横星海，星辰机甲夭矫如龙，幽能炮毁天灭',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1009480992/150',
+ 'cuthor': '齐佩甲',
+ 'novalTile': '超神机械师',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '玄幻,东方玄幻',
+ 'content': '大墟的祖训说，天黑，别出门。大墟残老村的老弱病残们从江边捡到了一个婴儿，取名秦牧，含辛茹苦将他养大。这一天夜幕降临，黑暗笼罩大墟，秦牧走出了家门……做个春风中荡漾的反派吧！瞎子对他说。秦牧的反派之路，',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1009704712/150',
+ 'cuthor': '宅猪',
+ 'novalTile': '牧神记',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '科幻,超级科技',
+ 'content': '“系统，积分能兑钱吗？”“不能。”“干，那我要你何用！”“本系统能让你当上学爸，全人类爸爸的爸，你还要钱有什么用？”',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011449273/150',
+ 'cuthor': '晨星LL',
+ 'novalTile': '学霸的黑科技系统',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '悬疑灵异,恐怖惊悚',
+ 'content': '一家只在深夜开门营业的书屋，欢迎您的光临。————————《舵主群》：587980337（进群粉丝值验证）《读书群》：523978007（无需验证）《战斗群》：457654443（无需验证）',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011335417/150',
+ 'cuthor': '纯洁滴小龙',
+ 'novalTile': '深夜书屋',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '玄幻,东方玄幻',
+ 'content': '一树生的万朵花，天下道门是一家。法术千般变化，人心却亘古不变',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010399782/150',
+ 'cuthor': '高楼大厦',
+ 'novalTile': '太初',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '历史,架空历史',
+ 'content': '我们接受了祖先的遗产，这让中华辉煌了数千年，我们是如此的心安理得，从未想过要回归那个在刀耕火种中苦苦寻找出路的时代。反哺我们苦难的祖先，并从中找到故乡的真正意义，将是本书要讲的故事。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010136878/150',
+ 'cuthor': '孑与2',
+ 'novalTile': '汉乡',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '仙侠,幻想修仙',
+ 'content': '一个地球神级盗墓宗师，闯入修真界的故事……桃花源里，有歌声。山外青山，白骨山。五花马，千金裘，倚天剑。应我多情，啾啾鬼鸣，美人薄嗔。天地无垠，谁家旗鼓，碧落黄泉，万古高楼。为义气争雄！为乱世争霸！你好',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1005236478/150',
+ 'cuthor': '跃千愁',
+ 'novalTile': '道君',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '都市,异术超能',
+ 'content': '地窟入侵，武道崛起。小人物也有大情怀，为生存而战，为守护而战。且看小人物方平，一步步崛起，拯救（忽悠）全世界的故事！（一群群号555700424已满，二群群号931250725已满，三群群号95464',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1012237441/150',
+ 'cuthor': '老鹰吃小鸡',
+ 'novalTile': '全球高武',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '玄幻,异世大陆',
+ 'content': '【2017最火玄幻作品，海外点推双榜第一】张悬穿越异界，成了一名光荣的教师，脑海中多出了一个神秘的图书馆。只要他看过的东西，无论人还是物，都能自动形成书籍，记录下对方各种各样的缺点，于是，他牛大了！教',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1004179514/150',
+ 'cuthor': '横扫天涯',
+ 'novalTile': '天道图书馆',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '玄幻,东方玄幻',
+ 'content': '这是一个科学与武道并重的时代，大灾变之后，人类发现了超古代修炼文明，开启了一个大修炼时代，并开始了昆仑界的殖民之路！这是一个人类危机重重，同时也是一个热血沸腾的，强者辈出的时代！得到了超古代文明强者丹',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1003630241/150',
+ 'cuthor': '傅啸尘',
+ 'novalTile': '修炼狂潮',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '仙侠,修真文明',
+ 'content': '举头三尺无神明，掌心三寸是人间。这是耳根继《仙逆》《求魔》《我欲封天》《一念永恒》后，创作的第五部长篇小说《三寸人间》。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010327039/150',
+ 'cuthor': '耳根',
+ 'novalTile': '三寸人间',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '仙侠,古典仙侠',
+ 'content': '在这个世界，有狐仙、河神、水怪、大妖，也有求长生的修行者。修行者们，开法眼，可看妖魔鬼怪。炼一口飞剑，可千里杀敌。千里眼、顺风耳，更可探查四方。……秦府二公子‘秦云’，便是一位修行者……',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010468795/150',
+ 'cuthor': '我吃西红柿',
+ 'novalTile': '飞剑问道',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1>
+{'category': '玄幻,异世大陆',
+ 'content': '一觉醒来，世界大变。熟悉的高中传授的是魔法，告诉大家要成为一名出色的魔法师。居住的都市之外游荡着袭击人类的魔物妖兽，虎视眈眈。崇尚科学的世界变成了崇尚魔法，偏偏有着一样以学渣看待自己的老师，一样目光异',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/3489766/150',
+ 'cuthor': '乱',
+ 'novalTile': '全职法师',
+ 'status': '连载中'}
+2018-12-06 16:09:54 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2018-12-06 16:09:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436> (referer: https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1)
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '玄幻,异世大陆',
+ 'content': '刘浩穿越到了另一个世界中州大陆，这片大陆崇尚修道，刘浩能否得道升仙，升仙后能否用大法力穿越回家呢？大家拭目以待吧',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1251760/150',
+ 'cuthor': '永恒的悲伤之泪',
+ 'novalTile': '转世问道',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '武侠,武侠幻想',
+ 'content': '短篇小说系列之一魔剑，争取10章结束战斗！平时没什么时间写，如果大家喜欢可以收藏下，什么时候写了大家能看到就看了，无聊的时候供大家消遣，可不是什么专业作者，说白了就是个涂油漆的',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1251772/150',
+ 'cuthor': '疯狂猪仔',
+ 'novalTile': '短篇小说系列——魔剑',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '玄幻,东方玄幻',
+ 'content': '本书开头，也就是前十章可能有点那个什么的！慢热型，见谅！女娲怎么了？推倒再说，嫦娥咋了，乖乖暖床被！百花仙子怎地？晚上还不是温柔的酿百花欲酿......跟随猪脚一起推倒想要推倒的神话美女。‘有点’YY',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1251785/150',
+ 'cuthor': '吃书猫',
+ 'novalTile': '证魔道',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '都市,都市生活',
+ 'content': '谢老四相貌平平，年纪不确切。身高一米五六，体重90斤。大眼，薄唇，爱哭爱笑，但我们就是怕她。因为她有一种本领，无论何时何地，都可以把你顷刻间置于一种苦不堪言之地。就好像你正在光明大道上走着走着，突然，',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1251797/150',
+ 'cuthor': 'xiangmi',
+ 'novalTile': '最怕谢老四',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '都市,青春校园',
+ 'content': '唐佳枫、人称唐演，出身贫寒的他、到底会如何。他温柔可爱、古怪刁钻，有着非比寻常的命运。他是父母心中的乖宝贝儿，他是连名字都可以令人闻风丧胆的终极人物。他身怀绝技，他是班级老大，他是老师心中的坏学生？到',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252164/150',
+ 'cuthor': '涵涵02',
+ 'novalTile': '一位少年名垂千古',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '都市,异术超能',
+ 'content': '我们所在的世界之外，还存在着无数另外的世界，它们平行存在，永远没有交叉点。千万年前，所谓的神创造出了一个贯穿所有世界的垂直位面——十三界。这里不只只有人类的存在，兽人，精灵，鱼人，蛇人，甚至还有传说中',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252165/150',
+ 'cuthor': '十三诫',
+ 'novalTile': '十三界',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '都市,异术超能',
+ 'content': '两个少年的驱魔故事',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252170/150',
+ 'cuthor': '凉晾',
+ 'novalTile': '伏魔记之我有异能',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '仙侠,修真文明',
+ 'content': '一个痴迷修仙未果的胖子，一次偶然的穿越让他走上了修炼的道路。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252178/150',
+ 'cuthor': '小笼包',
+ 'novalTile': '异界仙途',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '玄幻,异世大陆',
+ 'content': '本书是对于斗术，法术，封术，的全新诠释。万术归一嘿嘿~激情浪漫的世界，波折起伏的情节，全新的剧情充满激情哦~小序：苍穹之极有一星。高远无比，明亮之极，名曰北辰。北辰之远非人力所及。然众人生畏。久之淡知',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252187/150',
+ 'cuthor': '微笑点',
+ 'novalTile': '寻北辰',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '玄幻,异世大陆',
+ 'content': '生死自古相对,然佛曰:生即是死,死即是生.本书讲述的就是人死后的新生世界,一个充满神奇的地方—冥星!这里有着远古的神秘的神兵法宝,有着令人眼花缭乱的道法武技,有着这个世界独特的生物灵宝……更有着因为神',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252195/150',
+ 'cuthor': '潇潇书生',
+ 'novalTile': '冥星道',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '奇幻,现代魔法',
+ 'content': '由一款FC游戏改编的，讲述了巴莲西亚大陆的故事，故事从远古的两位神，多玛与米拉两兄妹的争执而开始，二人分别在巴莲西亚大陆建立了两个国度，骑士之国利盖鲁和文化之国索菲亚。这一天，两国的皇室分别诞生了一位',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252247/150',
+ 'cuthor': '彼岸月华.QD',
+ 'novalTile': '圣火徽章',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '奇幻,剑与魔法',
+ 'content': '一段穿越故事，一段奇异历史，看街头痞子顾炎天成长成一代龙皇—炎皇.',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252262/150',
+ 'cuthor': '玄桥',
+ 'novalTile': '圣血炎皇',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '奇幻,现代魔法',
+ 'content': '一百年后的机械帝国，被奴役人类唯一的消遣，将100年前的人类传送到计算机和生物工程创造的魔法奇幻世界，展开防御性生存游戏。地点在女校原址，高二1班全体女生和路边的“怪叔叔”都被传送过去。倒计时牌高高的',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252323/150',
+ 'cuthor': '猪真好',
+ 'novalTile': '第十三女中的防御战',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '都市,异术超能',
+ 'content': '人生，就和网络上说的一样上面都是悲剧，但是重生了，就不是悲剧了要的就是爽的感觉。所以。在我的小说里面。没有悲剧。。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252389/150',
+ 'cuthor': '那一滴水',
+ 'novalTile': '遮星',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '玄幻,东方玄幻',
+ 'content': '传说中,在罗亚大陆有着四位执掌天使.他们守护着大陆,并执掌这个世界的一切力量.当爱与宿命重生的光辉普照这片土地.光明、希望、黑暗、邪恶、力量、轮回、生命和秩序将暗淡无光.',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252439/150',
+ 'cuthor': 'z拓殿',
+ 'novalTile': '守护之天使',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '都市,异术超能',
+ 'content': '箫航，一个普通的高中生，就读于XX市德信高校，许多的人都不知道这间高中里面有八成的人都是某些退役的黑道人物、国家高层、特工……的孩子或亲属，这一间看似普通得不能再普通的学校，后面隐藏着恐怖的力量，在一',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252459/150',
+ 'cuthor': '章鱼GG',
+ 'novalTile': '黑侠都市',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '游戏,虚拟网游',
+ 'content': '流淌着的鲜血，就像是一朵啼血的玫瑰，寂寞...妖异.....而..凄美',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252463/150',
+ 'cuthor': '冥殤',
+ 'novalTile': '月临幻世',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '仙侠,幻想修仙',
+ 'content': '正反2个宇宙，无数种族的交锋，一个为了诞生强者而开设的试炼空间，一个靠箭生存的僵尸，如何在宇宙中谱写自己的传奇。全新的等级制度，天冲，灵慧，为气，为力，中枢，为精，为英，命魂，地魂，天魂，三魂七魄凝练',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252466/150',
+ 'cuthor': '伤心后羿',
+ 'novalTile': '试炼空间之箭圣僵尸',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '玄幻,东方玄幻',
+ 'content': '我保证，这是一部漫长的，悲剧。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252480/150',
+ 'cuthor': '莫一白',
+ 'novalTile': '最强神诋',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=53436>
+{'category': '历史,架空历史',
+ 'content': '一梦醒来,居然成为靖康之难里的主角－－宋徽宗(赵佶).“靖康耻，犹未雪；臣子恨，何时灭”。如果带上个现代人思维的赵佶会不会将历史重演.－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1252502/150',
+ 'cuthor': '独西楼',
+ 'novalTile': '宋之殇',
+ 'status': '连载中'}
+2018-12-06 16:09:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.qidian.com/info/1010734492#Catalog> (referer: https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1)
+2018-12-06 16:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5> (referer: https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1)
+2018-12-06 16:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.qidian.com/info/1003630241#Catalog> (referer: https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1)
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '游戏,游戏异界',
+ 'content': '当方正睁开眼睛时，惊讶的发现自己重生到了一个龙与魔法，骑士与公主的幻想世界。不仅如此，甚至连方正之前所设计的游戏系统，也一并跟随他来到了这个世界。那么接下来，就是穿越万千位面，获得无穷力量，成为勇者，',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011448624/150',
+ 'cuthor': '西贝猫',
+ 'novalTile': '次元法典',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '科幻,时空穿梭',
+ 'content': '在这个磕着碰着都能穿越的年代，作为穿越者没有系统、没有老爷爷、没有随身空间、也不能召唤，怎么办？杜克表示：我自己就是金手指！这是一个遭雷劈的穿越者，在无数个世界抱自己大腿的故事……书友群：281553',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010532203/150',
+ 'cuthor': '凤嘲凰',
+ 'novalTile': '同时穿越了99个世界',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '二次元,原生幻想',
+ 'content': '诺兰大陆的混乱之城中，有着一家奇怪的餐厅。在这里，精灵要和矮人拼桌，兽人被严禁喧哗，巨龙只能围坐在餐厅前的小广场上，恶魔甚至需要自己带特制的凳子……但就是这么一家规矩奇葩的餐厅，门口却每天都排着长队。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010815544/150',
+ 'cuthor': '轻语江湖',
+ 'novalTile': '奶爸的异界餐厅',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '玄幻,异世大陆',
+ 'content': '新纪元来临，天地异变。地星本土动植物疯狂变异、返祖，异界物种沦落地星，最终新纪元人类诞生一种全新的职业御使。收服怪物，培养怪物，训练怪物，这就是御使。一个怀揣着梦想的少年懵懵憧憧的被一脚踢入这个黄金盛',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011512936/150',
+ 'cuthor': '酒池醉',
+ 'novalTile': '神宠进化',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '玄幻,高武世界',
+ 'content': '未来波澜壮阔的星际时代，人类终于攻克了空间传送技术，可是当人类传送到另一端的时候，却发现那里并不是过去未来，也不是星空下的任何一片土地……神秘的庇护所世界，无数强横的异生物，人类迎来了令人热血沸腾的飞',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1003692682/150',
+ 'cuthor': '十二翼黑暗炽天使',
+ 'novalTile': '超级神基因',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '历史,架空历史',
+ 'content': '不停地战斗，不停的杀敌，秦风是国家的悍将，军队的马前卒，永远冲锋在第一线，用赫赫战功书写着自己光荣的履历，但大变陡至，昔日的功臣，转眼之间却成了国家的罪人，人人得而诛之的叛徒，兄弟血洒疆场，部下反目成',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1003247636/150',
+ 'cuthor': '枪手1号',
+ 'novalTile': '马前卒',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '仙侠,幻想修仙',
+ 'content': '不堕轮回入大千，心传一道在人间。愿起一剑杀万劫，无情换作有情天!…………大道争锋全订阅VIP群：【235032815】（新群）粉丝自建订阅群：布须玄天·昆始陆（526275426）入群要求粉丝积分20',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/2226569/150',
+ 'cuthor': '误道者',
+ 'novalTile': '大道争锋',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '都市,异术超能',
+ 'content': '洛邱无意之中成为了一家‘俱乐部’的老板。但是这家俱乐部好奇怪。它不仅仅拥有一个工作了三百年的人偶女仆，而且还会贩卖各种古怪的东西。洛邱渐渐发现，他生活着的社会之中，拥有着多不胜数为欲望所驱使的家伙，而',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1003530168/150',
+ 'cuthor': '夕山白石',
+ 'novalTile': '特拉福买家俱乐部',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '二次元,衍生同人',
+ 'content': '魔术的才能是一流，但体能的方面是废材？召唤的使魔可以是成千上万，但自己是独守后方？对此，只想说一句话。“那都不是事！”这是得到奇迹，亦对奇迹珍爱有加的少年的故事。“只要有使魔（同伴），我便是无敌！”（',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1012650551/150',
+ 'cuthor': '如倾如诉',
+ 'novalTile': '奇迹的召唤师',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '玄幻,东方玄幻',
+ 'content': '世界上最珍贵的东西都是免费的，常人却总视而不见，除了空气，阳光，亲情这些最珍贵的东西之外，还有一种最珍贵的东西，就在你的身边，唾手可得，不知道你是否看见？本书读者群：167726456',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1009601645/150',
+ 'cuthor': '醉虎',
+ 'novalTile': '白银霸主',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '科幻,时空穿梭',
+ 'content': '每部电影都是一段旅程，玛丽莲梦露的性感风情，海外孤岛的无限孤寂，奥黛丽赫本的倾情一吻，努力活着的苦难历程。带你进入电影世界，感受不一样的人生。如果你有特别想要经历的、想要得到的、想要改变的，可以给大雨',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1012797863/150',
+ 'cuthor': '昨夜大雨',
+ 'novalTile': '电影世界私人订制',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '游戏,电子竞技',
+ 'content': '才华横溢的前KPL职业选手何良，拥有一段令人失望的职业生涯，最终黯然退役。一直在其背后默默支持着他的弟弟何遇不忿哥哥职业生涯期间的遭遇，决心重走哥哥的职业路。观看过无数王者荣耀职业比赛拥有高端意识的他',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011831862/150',
+ 'cuthor': '蝴蝶蓝',
+ 'novalTile': '王者时刻',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '仙侠,神话修真',
+ 'content': '苍穹之下的千年苦修，只为有朝一日立身于苍穹之上！位于洪武天朝和妖族七杀部咽喉要地的天断峡谷中，忽有天降神异之物，裹挟着一众修兵，滚入了浩荡的历史洪流当中……宋征只是其中不那么起眼的一员。他读过圣贤书，',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010566688/150',
+ 'cuthor': '石三',
+ 'novalTile': '苍穹之上',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '都市,异术超能',
+ 'content': '财法侣地，修行其实是一项非常耗钱的奢侈运动。无意中得到传说中修道，炼丹，医药学家葛洪的传承，淳朴的山里人葛东旭开始努力赚钱。当大多数人还在读高中时，他为了炼丹修行已经开始一边读书一边赚钱。当大多数人读',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1004174819/150',
+ 'cuthor': '断桥残雪',
+ 'novalTile': '都市超级医圣',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '历史,两晋隋唐',
+ 'content': '穿越是一件很有意思的事儿，但是当房俊穿越到那位浑身冒着绿油油光芒的唐朝同名前辈身上，就感觉生活全都不好了……',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1004588586/150',
+ 'cuthor': '公子許',
+ 'novalTile': '天唐锦绣',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '都市,都市生活',
+ 'content': '冶金装备、矿山装备、电力装备、海工装备……一个泱泱大国，不能没有自己的重型装备工业。国家重大装备办处长冯啸辰穿越到了1980年，看他如何与同代人一道，用汗水和智慧，铸就大国重工',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1004151636/150',
+ 'cuthor': '齐橙',
+ 'novalTile': '大国重工',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '玄幻,东方玄幻',
+ 'content': '林凡来到异界，成为了一名光荣的普通弟子，原本身处在随时都能被人打成翔的处境中，可突然间，情况不对了。系统开启。叮：抽中永恒级BUFF：不死之身。这一刻，整个世界都不一样了。林凡：“你们能锤死我，算我输',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010828991/150',
+ 'cuthor': '新丰',
+ 'novalTile': '无敌真寂寞',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '仙侠,现代修真',
+ 'content': '冯君身为985的双学位，毕业就失业了，在都市中艰难打拼，偏偏还放不下架子，他的处境可想而知。直到有一天，他和手机被雷劈了，猛然发现，原来自己可以化身数据，进入app中。化身数据进入app中能做什么？能',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010737835/150',
+ 'cuthor': '陈风笑',
+ 'novalTile': '大数据修仙',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '都市,异术超能',
+ 'content': '异界回归的李大魔头，反封建迷信协会成员，兼职斩妖除魔，从心理到生理专治各种不服。作者是中央八局关注第四类人员，主角是第五类人员，侬晓得了伐！',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011447634/150',
+ 'cuthor': '华表',
+ 'novalTile': '都市剑说',
+ 'status': '连载中'}
+2018-12-06 16:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=5>
+{'category': '游戏,游戏异界',
+ 'content': '深山宅男，一路种种田，养养鱼，做做梦，顺带悠闲成长的故事。咦？最后一不小心征服诸天万界，成为了大BOSS？莫非我还没睡醒？',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1009942824/150',
+ 'cuthor': '文抄公',
+ 'novalTile': '逍遥梦路',
+ 'status': '完本'}
+2018-12-06 16:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://book.qidian.com/info/1004179514#Catalog> (referer: https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1)
+2018-12-06 16:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4> (referer: https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1)
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '历史,秦汉三国',
+ 'content': '陈旭一场车祸穿越到秦朝，而此时秦始皇刚刚统一六国失去了人生的奋斗目标。在考虑抱项羽大腿还是抱刘邦的大腿之中纠结迷茫很久之后，他给秦始皇敬献了一个地球仪。跨过高山越过沙漠，跟随大秦铁骑的黑色龙旗，从神州',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011025383/150',
+ 'cuthor': '牧尘客',
+ 'novalTile': '帝国吃相',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '历史,架空历史',
+ 'content': '外科医生贾琮过劳而卒，魂穿荣府。谱一曲红楼幽梦，唱一世庶子风流。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010177519/150',
+ 'cuthor': '屋外风吹凉',
+ 'novalTile': '红楼之庶子风流',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '都市,都市生活',
+ 'content': '老牌程序员出身的李牧，被命运一脚踹回了2001年高考的当口，他欣喜的拍拍屁股，起身便踏上了一条注定牛X的道路。重活一回，李牧有他自己的追求，赚钱只是牛X的初级阶段，至于登上时代周刊、制霸IT产业、问鼎',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/3681640/150',
+ 'cuthor': '公子不歌',
+ 'novalTile': '重生完美时代',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '都市,都市生活',
+ 'content': '在大城市打工多年的敖沐阳回到养育他的家乡小渔村，归途中遇袭落海，揭开了一段草鱼跳龙门的传奇……\xa0\xa0'
+            '深洋千珍、浅海万鱼，神奇的海洋，绚丽的生命；\xa0\xa0渔家捕捞、山涧耕种，悠然的田园，简单的乡野；\xa0\xa0萌宠机',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011054696/150',
+ 'cuthor': '全金属弹壳',
+ 'novalTile': '黄金渔村',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '科幻,时空穿梭',
+ 'content': '一群巨龙搬着小板凳日夜追看《权力游戏》。精灵大德鲁伊们因为《忠犬八公的故事》而潸然泪下。人类与矮人在《炉石传说》酒馆中为一张传说卡牌而大大出手。甚至就连神明也亲自来到凡间催更小说《福尔摩斯探案集》的连',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1006853204/150',
+ 'cuthor': '姐姐的新娘',
+ 'novalTile': '文化入侵异世界',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '游戏,电子竞技',
+ 'content': '【2018最爽吃鸡文】刘子浪，人称浪子刘。当然你们也可以叫他钢琴手，帝国鹰眼，爆破鬼才，战神Vic，绝地狙神。一个在“诸神之战”FPS世界大赛上陨落的国产天才少年，原本不愿再碰FPS游戏的他却意外地接',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011125942/150',
+ 'cuthor': 'Iced子夜',
+ 'novalTile': '落地一把98K',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '科幻,时空穿梭',
+ 'content': '龙蛇世界中，他国术大成，拳压王无敌！大明江湖中，他横行无忌，天下第一！阳神之中，手捏生死，拳破虚空！白蛇之中，画一卷万妖之图！遮天世界，魔主天下，威慑禁区！完美之中，我为魔皇！西游之中，论道太上，掌压',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011040896/150',
+ 'cuthor': '裴屠狗',
+ 'novalTile': '诸天投影',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '都市,都市生活',
+ 'content': '从2018回到1993，记忆中，那一年的夏天很热。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1013026063/150',
+ 'cuthor': '王梓钧',
+ 'novalTile': '重生野性时代',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '都市,异术超能',
+ 'content': '本文讲述了一个长生不老的人应该如何在社会主义核心价值观的指导下，在现代人类社会中正确积极生活的故事。希望能够对其他长生者，特异功能人士，修仙者，外星人，非人类生物参与国家建设稳定和谐生活的经验起到抛砖',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011717110/150',
+ 'cuthor': '初恋璀璨如夏花',
+ 'novalTile': '我真的长生不老',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '历史,两宋元明',
+ 'content': '这是一个就业路上屡被蹂躏的古汉语专业研究生，回到了明朝中叶，进入了山村一家幼童身体后的故事。木讷父亲泼辣娘，一水的极品亲戚，农家小院是非不少。好在，咱有几千年的历史积淀，四书五经八股文，专业也对口，谁',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/3483546/150',
+ 'cuthor': '朱郎才尽',
+ 'novalTile': '寒门崛起',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '科幻,时空穿梭',
+ 'content': '诸界的末日降临，魔王的秩序收割着众生性命，在绝望的黑暗之中，有一人挣脱时空的束缚，回到世界崩毁之前，决心要改变自己的命运，但是，随着时间的推移，他发现末日并不是那么简单……（书友群：662816185',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010426071/150',
+ 'cuthor': '烟火成城',
+ 'novalTile': '诸界末日在线',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '科幻,未来世界',
+ 'content': '死而以行为谥。残义损善者，谓之纣。然，此恶谥之祖，实是文治武功，一代枭雄。比之无数上谥之庸才，又当如何？若纣为罪，罪当再临。当这第五王国再次腐朽之时，逆十字的旗帜自当再现。那旗下之恶才、罪徒……亦将再',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1011085659/150',
+ 'cuthor': '三天两觉',
+ 'novalTile': '纣临',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '科幻,时空穿梭',
+ 'content': '燃烧气运，可以穿梭诸天，楚毅睁开眼便发现自己躺在净身房里，一个老太监拿着一把刀子冲着自己胯下比划着……《电影世界大盗》600万字精品老书，信誉保障！等不及的可以看看老书哦。建了个群：904089116',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1012851022/150',
+ 'cuthor': '七只跳蚤',
+ 'novalTile': '诸天最强大佬',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '都市,异术超能',
+ 'content': '我叫叶青，幸运获得了一款叫【怪兽工厂】的应用。这帮力大无穷的怪兽，干起活来一个能顶一百个，还带各种技能。效率？加工速度+300%技能一开，你跟我比效率？精度？咳咳～把我那把传奇品质的游标卡尺拿来，让他',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1002959239/150',
+ 'cuthor': '匣中藏剑',
+ 'novalTile': '超级怪兽工厂',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '仙侠,神话修真',
+ 'content': '二十一世纪道家弟子张百仁，因为触动先天剑胎，逆转时空降临隋唐时空。论道钟离权，斗剑吕洞宾！拂袖压玄奘，一剑退达摩！统御之权，归于至圣，天命帝以司牧，帝承天而抚临。这一日，张百仁背负双手傲立于紫禁之巅，',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1008984041/150',
+ 'cuthor': '第九天命',
+ 'novalTile': '一品道门',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '都市,都市生活',
+ 'content': '被大宇宙的意志给踢回了1978年的陈耕，故事再次开始。',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010709923/150',
+ 'cuthor': '千年静守',
+ 'novalTile': '动力之王',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '体育,篮球运动',
+ 'content': '普通的人，巨星的梦，今日轮回，明日传奇！群号：13774889（老）239381647（新）',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1012053619/150',
+ 'cuthor': '兔来割草',
+ 'novalTile': '明日传奇',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '玄幻,东方玄幻',
+ 'content': '天道之行，力争上游。夏北站在英雄殿雕塑前，看着基座上的一行字。“我们的征途，永不止步！”',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010875768/150',
+ 'cuthor': '七十二编',
+ 'novalTile': '天行战记',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '都市,都市生活',
+ 'content': '十几年前，一个叫《爸爸在这儿》的节目几位父亲带着萌萌哒的小女孩走进了一个偏僻的小山村而一位山村小道士混入了其中。\xa0'
+            '十几年后，一个在道观长大却得到巫师传承的青年带着一条老黄狗下山入城。。\xa0\xa0跳大神，我也',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1010908372/150',
+ 'cuthor': '九灯和善',
+ 'novalTile': '超品巫师',
+ 'status': '连载中'}
+2018-12-06 16:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=4>
+{'category': '体育,足球运动',
+ 'content': '2003年夏季，巴西新星卡卡低调地踏进米兰城；葡萄牙小将克里斯蒂亚诺·罗纳尔多背着争议飞到曼彻斯特；默默无闻的梅西在拉玛西亚抬头仰视着刚加盟的超级巨星罗纳尔迪尼奥……在荷兰一家默默无闻的小球队里，有个',
+ 'coverImage': 'https://bookcover.yuewen.com/qdbimg/349573/1012494738/150',
+ 'cuthor': '陈爱庭',
+ 'novalTile': '超级锋暴',
+ 'status': '连载中'}
+2018-12-06 16:10:08 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qidianwang)
+2018-12-06 16:10:08 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.4.1, Platform Linux-4.13.0-45-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-12-06 16:10:08 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'qidianwang', 'LOG_FILE': 'DEBUG', 'NEWSPIDER_MODULE': 'qidianwang.spiders', 'DOWNLOAD_DELAY': 1, 'SPIDER_MODULES': ['qidianwang.spiders']}
+2018-12-06 16:10:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.spiderstate.SpiderState',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-12-06 16:10:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'qidianwang.middlewares.QidianwangDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-12-06 16:10:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-12-06 16:10:08 [scrapy.middleware] INFO: Enabled item pipelines:
+['qidianwang.pipelines.QidianwangPipeline']
+2018-12-06 16:10:08 [scrapy.core.engine] INFO: Spider opened
+2018-12-06 16:10:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-12-06 16:10:08 [qidian] INFO: Spider opened: qidian
+2018-12-06 16:10:08 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6043
+2018-12-06 16:10:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1> (referer: None)
+2018-12-06 16:10:10 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://www.qidian.com/all?orderId=&style=1&pageSize=20&siteid=1&pubflag=0&hiddenField=0&page=1> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2018-12-06 16:10:10 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-12-06 16:10:10 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 262,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 110893,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'dupefilter/filtered': 26,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 12, 6, 8, 10, 10, 403882),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 8,
+ 'memusage/max': 59908096,
+ 'memusage/startup': 59908096,
+ 'request_depth_max': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/disk': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/disk': 1,
+ 'start_time': datetime.datetime(2018, 12, 6, 8, 10, 8, 445035)}
+2018-12-06 16:10:10 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-12-07 10:17:00 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: qidianwang)
+2018-12-07 10:17:00 [scrapy.utils.log] INFO: Versions: lxml 4.2.5.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 23 2017, 16:37:01) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.4.1, Platform Linux-4.13.0-45-generic-x86_64-with-Ubuntu-16.04-xenial
+2018-12-07 10:17:00 [scrapy.crawler] INFO: Overridden settings: {'DOWNLOAD_DELAY': 1, 'SPIDER_MODULES': ['qidianwang.spiders'], 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'LOG_FILE': 'DEBUG', 'NEWSPIDER_MODULE': 'qidianwang.spiders', 'BOT_NAME': 'qidianwang', 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler'}
+2018-12-07 10:17:00 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole']
+2018-12-07 10:17:00 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy_redis.pipelines.RedisPipeline',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'qidianwang.middlewares.QidianwangDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-12-07 10:17:00 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-12-07 10:17:00 [scrapy.middleware] INFO: Enabled item pipelines:
+['qidianwang.pipelines.QidianwangPipeline']
+2018-12-07 10:17:00 [scrapy.core.engine] INFO: Spider opened
+2018-12-07 10:17:01 [twisted] CRITICAL: Unhandled error in Deferred:
+2018-12-07 10:17:01 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/redis/connection.py", line 493, in connect
+    sock = self._connect()
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/redis/client.py", line 754, in execute_command
+    connection.send_command(*args)
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/redis/connection.py", line 619, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/redis/connection.py", line 594, in send_packed_command
+    self.connect()
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/redis/connection.py", line 498, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/redis/connection.py", line 493, in connect
+    sock = self._connect()
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/redis/connection.py", line 550, in _connect
+    raise err
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/redis/connection.py", line 538, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/home/cui/.virtualenvs/h2_dajngo_drf_envs/lib/python3.5/site-packages/scrapy/crawler.py", line 82, in crawl
+    yield self.engine.open_spider(self.spider, start_requests)
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.

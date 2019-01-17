@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="default@localhost" uuid="fb01b4ef-a51c-4d26-a83a-d074006556ad">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="HSQLDB" exact-version="0.0" />
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>root</user-name>
+    </data-source>
+    <data-source name="test5@localhost" uuid="8811b9ad-fc6f-409c-b1dd-7891ecb847dd">
+      <database-info product="MySQL" version="5.7.23-0ubuntu0.16.04.1-log" jdbc-version="4.2" driver-name="MariaDB connector/J" driver-version="2.2.1" family="MYSQL" exact-version="5.7.23">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:@</introspection-schemas>
+    </data-source>
+  </component>
+</project>

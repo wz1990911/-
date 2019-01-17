@@ -1,0 +1,14 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+shijijiayua/__init__.py
+shijijiayua/items.py
+shijijiayua/middlewares.py
+shijijiayua/pipelines.py
+shijijiayua/process_item.py
+shijijiayua/settings.py
+shijijiayua/spiders/__init__.py
+shijijiayua/spiders/sjjy.py

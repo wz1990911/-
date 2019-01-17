@@ -1,0 +1,8 @@
+今日内容
+图片下载(ImagePipeline)
+scrapy shell
+数据持久化如何异步存储
+scrapy.spider类的介绍
+(使用css选择器提取数据)
+如何发送post请求
+crawlSpider(scrapy内部的通用爬虫

@@ -1,0 +1,92 @@
+首先先创建一个项目
+scrapy startproject 项目名称
+在项目的spiders文件下创建爬虫文件
+scrapy genspider 文件名　域名
+
+用pycharm打开文件
+1.首先我们先修改settings.py
+    (1)将遵守robot协议()修改修改为false
+        ROBOTSTXT_OBEY = False
+    (2)将下载延迟修改为0
+        DOWNLOAD_DELAY = 0
+    (3)开启请求头
+    DEFAULT_REQUEST_HEADERS = {
+        #   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        #   'Accept-Language': 'en',
+            'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
+       }
+    (4)开启管道
+           ITEM_PIPELINES = {
+                'zhanzhang.pipelines.ZhanzhangPipeline': 300,
+           }
+
+2.接下来我们就可以写爬虫文件了
+    首先检查一下start_urls后面的url对不对
+    allowed_domains可以指定多个
+    在爬虫文件中可以直接用 response.xpath 来匹配内容
+    由于我们取出来的数据是一个列表所以要用到.extract_first('')来取数据
+    之后我们要用yield吧数据返回到管道(在里面做数据的过滤和持久化)
+    下面的参数是将得到url通过响应传给其他函数
+    yield scrapy.Request(
+                url = items['fenleiurl'],
+                callback= self.list_data
+            )
+3.当我们的数据获取完后我们就需要将数据持久化
+    (1)可以将得到的数据直接存储到本地
+        首先将定义在items中的类给导进来
+        from chinaz.items import 类名
+        一般在初始化方法里面创建文件写入方式
+        self.file = open('chinaz.json','a+')
+        self.webFile = open('chinazweb.json','a+')
+        # 将不同的item对象，存放率进入不用的json文件中
+        if isinstance(item,ChinazWebItem):
+            self.webFile.write(json_str+'\n')
+            print('此item是网站信息ChinazWebItem')
+        elif isinstance(item,ChinazItem):
+            self.file.write(json_str+'\n')
+            print('此item是分类信息ChinazWebItem')
+         注意:每个函数后面必须加return item不然后面的函数就获取不到item数据了
+         这里还有两个可选方法
+            1 def process_item(self, item, spider):
+                所有的数据，都会经过这个方法并且只掉用一次
+            2 def close_spider(self,spider):
+                在爬虫结束的时候，调用改方法(执行一次)
+    (2)可以存到mongodb里面
+        导入 pymongo
+        __init__:在这个方法里面创建数据库连接
+        self.client = pymongo.MongoClient(host,port)
+        #获取数据库
+        self.db = self.client[db]
+        然后设值一个类方法
+        @classmethod
+        def from_crawler(cls, crawler):
+            是一个类方法，crawler 可以从crawler里面获取到爬虫的核心组件
+            (配置settings设置文件中获取相关参数)
+            host = crawler.settings['MONGO_HOST']
+            port = crawler.settings['MONGO_PORT']
+            db = crawler.settings['MONGO_DB']
+            return cls(host,port,db)
+        此时需要在settings文件里设置一下需要的参数
+         mongodb数据库相关配置
+         MONGO_HOST = '127.0.0.1'  ip
+         MONGO_PORT = 27017        端口号
+         MONGO_DB = 'chinaz1805'　　数据库名
+      (3)存到Mysql中这种方法和上面的方法差不多
+      首先在__init__创建链接方法
+      self.client = pymysql.Connect(host,user,pwd,db,charset=set)
+       self.cursor = self.client.cursor()
+       然后设置类方法
+       @classmethod
+        def from_crawler(cls, crawler):
+            host = crawler.settings['MYSQL_HOT']
+            user = crawler.settings['MYSQL_USER']
+            pwd = crawler.settings['MYSQL_PWD']
+            db = crawler.settings['MYSQL_DB']
+            set = crawler.settings['CHARSET']
+            return cls(host,user,pwd,db,set)
+        在settings文件里设置一下需要的参数
+            MYSQL_HOST = '127.0.0.1' ip
+            MYSQL_USER = 'root'      用户
+            MYSQL_PWD = 'root'　　　　密码
+            MYSQL_DB = 'chinaz1805'　数据库名
+            CHARSET = 'utf8'　　　　　字符集

@@ -1,0 +1,1000 @@
+{"publish": "\r\n                ", "title": "选择 NoSQL 数据库需要考虑的 10 个问题", "catotry": "IT技术", "content": "如何知道 NoSQL 解决方案是否适合您的下一个软件项目呢？首先问问你自己和你的团队这十个问题。"}
+{"publish": "\r\n                ", "title": "在 Linux 下截屏并编辑的最佳工具", "catotry": "IT技术", "content": "有几种获取屏幕截图并对其进行添加文字、箭头等编辑的方法，这里提及的的屏幕截图工具在 Ubuntu 和其它主流 Linux 发行版中都能够使用。 "}
+{"publish": "\r\n                ", "title": "如何在 Linux 中配置基于密钥认证的 SSH", "catotry": "IT技术", "content": "在基于密钥认证中，为了通过 SSH 通信，你需要生成 SSH 密钥对，并且为远程系统上传 SSH 公钥。 "}
+{"publish": "\r\n                ", "title": "Linux 防火墙：关于 iptables 和 firewalld 的那些事", "catotry": "IT技术", "content": "以下是如何使用 iptables 和 firewalld 工具来管理 Linux 防火墙规则。 "}
+{"publish": "\r\n                ", "title": "“用户组”在 Linux 上到底是怎么工作的？", "catotry": "IT技术", "content": "我意识到之前我并没有真正理解用户和组是怎么工作的，我信心满满的尝试了下面的内容并且验证到底发生了什么，事实证明现在我的理解才是对的。 "}
+{"publish": "\r\n                ", "title": "让你提高效率的 Linux 技巧", "catotry": "IT技术", "content": "想要在 Linux 命令行工作中提高效率，你需要使用一些技巧。 "}
+{"publish": "\r\n                ", "title": "Linux ACL 权限之进阶篇", "catotry": "IT技术", "content": "笔者在《Linux ACL 权限》一文中介绍了 Linux ACL 权限的基本用法，本文笔者将尝试探究 ACL 中的基本概念和实现原理，希望能够通过进一步的加深对 Linux 权限系统的理解。"}
+{"publish": "\r\n                ", "title": "Linux ACL 权限", "catotry": "IT技术", "content": "ACL的全称是 Access Control List (访问控制列表) ，一个针对文件/目录的访问控制列表。它在UGO权限管理的基础上为文件系统提供一个额外的、更灵活的权限管理机制。它被设计为UNIX文件权限管理的一个补充。ACL允许你给任何的用户或用户组设置任何文件/目录的访问权限。"}
+{"publish": "\r\n                ", "title": "大型网站限流算法的实现和改造", "catotry": "IT技术", "content": "石玉军的个人博客是一个97年的Java全栈工程师所创建的，你可以在这里跟随博主的学习脚步，学习Java方向的知识。一步一步的走向大神。"}
+{"publish": "\r\n                ", "title": "Redis 避不开的五种数据结构", "catotry": "IT技术", "content": "Redis 中有 5 种数据结构，分别是字符串（String）、哈希（Hash）、列表（List）、集合（Set）和有序集合（Sorted Set），因为使用 Redis 场景的开发中肯定是无法避开这些基础结构的，所以熟练掌握它们也就成了一项必不可少的能力。"}
+{"publish": "\r\n                ", "title": "我从编程面试中学到的", "catotry": "IT技术", "content": "聊聊白板编程面试 "}
+{"publish": "\r\n                ", "title": "增强 Vim 编辑器，提高编辑效率", "catotry": "IT技术", "content": "这 20 多个有用的命令可以增强你使用 Vim 的体验。 "}
+{"publish": "\r\n                ", "title": "Redis 的 KEYS 命令引起 RDS 数据库雪崩，宕机 2 次，造成几百万损失", "catotry": "IT技术", "content": "最近互联网线上事故发生比较频繁，9月19日网上爆料出顺丰近期发生了一起线上删库事件，在这里就不介绍了。"}
+{"publish": "\r\n                ", "title": "有效管理进程的 8 个 Linux 命令", "catotry": "IT技术", "content": "通过这些关键的命令来全程管理你的应用。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "当你「ping 一下」的时候，你知道它背后的逻辑吗？", "catotry": "IT技术", "content": "我们在遇到网络不通的情况，大家都知道去 ping 一下，看一下网络状况。那你知道「ping」命令后背的逻辑是什么吗？知道它是如何实现的吗？"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "哪门编程语言更赚钱？看看 Stack Overflow 的最新调查", "catotry": "IT技术", "content": "Stack Overflow 2018 年最新的薪资计算器已正式推出。最新的计算器除了增加新的国家和地区之外，还更新了数字数据。更新后的薪资计算器新增了 8 个国家和地区的数据，以及更能反映开发者收入的最新数据。"}
+{"publish": "\r\n                ", "title": "差异文件（diff）和补丁文件（patch）简介", "catotry": "IT技术", "content": "这篇文章介绍差异文件（diff）和补丁文件（patch），以及它们如何在开源项目中使用的例子。 "}
+{"publish": "\r\n                ", "title": "深入学习 Redis（4）：哨兵", "catotry": "IT技术", "content": "本文将要介绍的哨兵，它基于 Redis 主从复制，主要作用便是解决主节点故障恢复的自动化问题，进一步提高系统的高可用性。"}
+{"publish": "\r\n                ", "title": "介绍 Linux 中的管道和命名管道", "catotry": "IT技术", "content": "要在命令间移动数据？使用管道可使此过程便捷。 "}
+{"publish": "\r\n                ", "title": "深入理解 ext4 等 Linux 文件系统", "catotry": "IT技术", "content": "了解 ext4 的历史，包括其与 ext3 和之前的其它文件系统之间的区别。 "}
+{"publish": "\r\n                ", "title": "目标跟踪算法分类", "catotry": "IT技术", "content": "本文对目标跟踪算法进行了分类。"}
+{"publish": "\r\n                ", "title": "面向系统管理员的 Bash 指南", "catotry": "IT技术", "content": "使 Bash 工作的更好的技巧。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "从 Linux 源码看 socket 的 close", "catotry": "IT技术", "content": "笔者一直觉得如果能知道从应用到框架再到操作系统的每一处代码，是一件Exciting的事情。"}
+{"publish": "\r\n                ", "title": "MySQL多版本并发控制机制(MVCC)-源码浅析", "catotry": "IT技术", "content": "MySQL多版本并发控制机制(MVCC)-源码浅析 前言 作为一个数据库爱好者，自己动手写过简单的SQL解析器以及存储引擎，但感觉还是不够过瘾。"}
+{"publish": "\r\n                ", "title": "Redis 架构演变与 Redis-cluster 群集读写方案", "catotry": "IT技术", "content": "Redis-cluster 是近年来 Redis 架构不断改进中的相对较好的 Redis 高可用方案。本文涉及到近年来 Redis 多实例架构的演变过程，包括普通主从架构（Master、slave 可进行写读分离）、哨兵模式下的主从架构、Redis-cluster 高可用架构（Redis 官方默认 cluster 下不进行读写分离）的简介。"}
+{"publish": "\r\n                ", "title": "4 款酷炫的终端应用", "catotry": "IT技术", "content": "许多 Linux 用户认为在终端中工作太复杂、无聊，并试图逃避它。但这里有个改善方法 —— 四款终端下很棒的开源程序。它们既有趣又易于使用，甚至可以在你需要在命令行中工作时照亮你的生活。 "}
+{"publish": "\r\n                ", "title": "回归树的原理及其 Python 实现", "catotry": "IT技术", "content": "我们用人话而不是大段的数学公式，来讲讲回归树是怎么一回事。"}
+{"publish": "\r\n                ", "title": "2 年面试 900 多位工程师后，我总结了这些经验", "catotry": "职场", "content": "两年面试超过 900 位工程师，用数据说话，总结公司面试方式及建议，对工程师也有借鉴作用。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Linux 内核 Git 历史记录中，最大最奇怪的提交信息是这样的", "catotry": "IT技术", "content": "我们通常认为 git merges 有两个父节点。Git 还支持章鱼式的合并，这意味着可以有超过两个父节点的合并。这对于我们那些从事小型项目开发的人来说，这似乎很奇怪：与三四个父节点合并会不会令人感到困惑？"}
+{"publish": "\r\n                ", "title": "三款 Linux 下的 Git 图形客户端", "catotry": "IT技术", "content": "了解这三个 Git 图形客户端工具如何增强你的开发流程。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Linux 下 cut 命令的 4 个基础实用的示例", "catotry": "IT技术", "content": "在本文中，我将解释 linux 下 cut 命令的 4 个本质且实用的例子，有时这些例子将帮你节省很多时间。 "}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "推荐系统概述", "catotry": "IT技术", "content": "许多人把推荐系统视为一种神秘的存在，他们觉得推荐系统似乎知道我们的想法是什么。比如：视频网站向我们推荐电影，还有电商网站向我们推荐该买什么样的商品。推荐系统从早期发展到现在，已经得到了很大的改进和完善，以不断地提高用户体验。尽管推荐系统中许多都是非常复杂的系统，但其背后的基本思想依然十分简单。"}
+{"publish": "\r\n                ", "title": "MySQL 事务隔离级别", "catotry": "IT技术", "content": "本文会根据实际工作中碰到的例子，梳理清楚数据库事务的隔离级别。内容很简单，如果你能静下心来看完，一定会对你理解隔离级别有很大的帮助。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "数据科学家的命令行技巧", "catotry": "IT技术", "content": "有意掌握命令行应该在每个开发人员的技能链上，特别是数据科学家。学习shell中的来龙去脉无可否认地会让你更高效。"}
+{"publish": "\r\n                ", "title": "一个安卓程序媛的人生经验", "catotry": "职场", "content": "本文基本上反应了她的心酸血泪史。"}
+{"publish": "\r\n                ", "title": "程序员，热爱你的 bug", "catotry": "开发", "content": "一个 Python 开发者，分享了两个他在 Dropbox 工作时遇到的难忘的 bug。"}
+{"publish": "\r\n                ", "title": "10 个你不知道的 PostgreSQL 功能：创建统计信息", "catotry": "IT技术", "content": "如果你曾使用 Postgres 做过一些性能优化，你或许已经使用过 EXPLAIN 。EXPLAIN 向你展示了 PostgreSQL planner 为提供的语句生成的执行计划。它说明了语句涉及到的表将会使用顺序扫描、索引扫描等方式进行扫描，在使用多表的情况下将会使用连接算法。但是， Postgres 是如何产生这些规划的？"}
+{"publish": "\r\n                ", "title": "数据科学领域，你该选 Python 还是 R ？", "catotry": "IT技术", "content": "根据需求，为了那些希望知道在数据科学方面选择 Python 还是 R 编程语言的人，我发布了这篇指导文章。你可能在数据科学方面是个新手，或者你需要在一个项目中选出一个语言，这篇文章可能会帮助到你。"}
+{"publish": "\r\n                ", "title": "Linux 的内存分页管理", "catotry": "IT技术", "content": "内存是计算机的主存储器。内存为进程开辟出进程空间，让进程在其中保存数据。我将从内存的物理特性出发，深入到内存管理的细节，特别是了解虚拟内存和内存分页的概念。"}
+{"publish": "\r\n                ", "title": "什么情况下不应该使用 Windows Linux 子系统", "catotry": "IT技术", "content": "相比于先前的文章着眼于勾勒WSL的好处，在此我会站在相反的角度讲述五个不应运行WSL的原因。"}
+{"publish": "\r\n                ", "title": "网络应用优化——时延与带宽", "catotry": "IT技术", "content": "本文网络应用优化中最重要的两个目标：时延与带宽。通过定义并区分两者的关系，并引申出网络服务优化的几种基本方法。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "数据压缩算法：LZ77 算法的分析与实现", "catotry": "IT技术", "content": "LZ77是一种基于字典的算法，它将长字符串编码成短小的标记，用小标记代替字典中的短语，从而达到压缩的目的。也就是说，它通过用小的标记来代替数据中多次重复出现的长串方法来压缩数据。其处理的符号不一定是文本字符，可以是任意大小的符号。"}
+{"publish": "\r\n                ", "title": "在 Linux 上如何得到一个段错误的核心转储", "catotry": "IT技术", "content": "在看完这篇博客后，你应该知道如何从“哦，我的程序出现 segmentation fault，但我不知道正在发生什么”到“我知道它出现段错误时的堆栈、行号了！ ”。 "}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "Linus 定义 Linux", "catotry": "IT技术", "content": "LINUX是一个免费类unix内核，适用于386-AT计算机，附带完整源代码。主要让黑客、计算机科学学生使用，学习和享受。"}
+{"publish": "\r\n                ", "title": "如何成为 StackOverflow 上合格的提问者与回答者", "catotry": "其他", "content": "本文就要告诉你如何节约提问者与回答者的时间，解决问题，创造最大价值。"}
+{"publish": "\r\n                ", "title": "关于 Feed 流的几个热门问题", "catotry": "IT技术", "content": "本篇聊一下 Feed 流技术，由于这个话题在业界有丰富的实践经验，所以我特意选了个小的切入点，从相对微观的角度说几个具体的问题，避免一些无意义的重复。希望提炼实践中的具体问题来做讨论，使事情变得更有实际意义。"}
+{"publish": "\r\n                ", "title": "GitHub 的 MySQL 高可用性实践分享", "catotry": "IT技术", "content": "GitHub 使用 MySQL 作为所有非 git 仓库数据的主要存储, 它的可用性对 GitHub 的访问操作至关重要。本文将介绍 GitHub 的 MySQL 高可用性和主服务发现解决方案。"}
+{"publish": "\r\n                ", "title": "谈谈微信支付曝出的漏洞", "catotry": "IT技术", "content": "昨天（2018-07-04）微信支付的SDK曝出重大漏洞（XXE漏洞），通过该漏洞，攻击者可以获取服务器中目录结构、文件内容，如代码、各种私钥等。获取这些信息以后，攻击者便可以为所欲为，其中就包括众多媒体所宣传的“0元也能买买买”。"}
+{"publish": "\r\n                ", "title": "深入学习 Redis（3）：主从复制", "catotry": "IT技术", "content": "这篇文章中，将详细介绍Redis主从复制的方方面面，包括：如何使用主从复制、主从复制的原理（重点是全量复制和部分复制、以及心跳机制）、实际应用中需要注意的问题（如数据不一致问题、复制超时问题、复制缓冲区溢出问题）、主从复制相关的配置（重点是repl-timeout、client-output-buffer-limit slave）等。"}
+{"publish": "\r\n                ", "title": "Linux 文件系统详解", "catotry": "IT技术", "content": "这篇教程将帮你快速了解 Linux 文件系统。 "}
+{"publish": "\r\n                ", "title": "这两年在大数据行业中的工作总结", "catotry": "职场", "content": "今天的主题，主要是从大数据开发的角度，到大数据治理的必要性，再到图形化建模的畅想，最后在数据质量的把关，然后到大数据可视化的应用，博主总结两年的见闻，和我学习的成果，也不知理解有无偏差吧，希望大家能给出建议。"}
+{"publish": "\r\n                ", "title": "我作为开发者犯过的两次愚蠢的错误", "catotry": "职场", "content": "上周我和同事们简单地聊了聊我们工作中搞砸的那些事儿。如今早已不再犯那些错了，所以想起过去就觉得很好笑。但是笑归笑，其实当时犯的这些错让我们受益颇深。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "通过可写文件获取 Linux root 权限的 5 种方法", "catotry": "IT技术", "content": "Linux系统中，全部都是以文件形式存在的，包括目录、设备都是有权限的，共有读、写、可执行三种。管理员为文件设置好权限后，应该要考虑哪些Linux用户会被允许和限制上述的三个权限。"}
+{"publish": "\r\n                ", "title": "程序员神器 StackOverflow 10 岁了，它长大后想成为什么？", "catotry": "IT技术", "content": "今年 9 月，程序员必备神器之一的 Stack Overflow 正式成立 10 周年了。截至目前为止，SO 用户量高达 930 万，也许你经常在 SO 上找解决方案。但你可能还不真正了解 SO。来看看 SO 创始人 Jeff Atwood 是怎么说的。"}
+{"publish": "\r\n                ", "title": "在 Linux 上用 DNS 实现简单的负载均衡", "catotry": "IT技术", "content": "DNS 轮询将多个服务器映射到同一个主机名，并没有为这里展示的魔法做更多的工作。 "}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "在 Linux 命令行中使用 tcpdump 抓包", "catotry": "IT技术", "content": "tcpdump 是一款灵活、功能强大的抓包工具，能有效地帮助排查网络故障问题。 "}
+{"publish": "\r\n                ", "title": "5 个适合系统管理员使用的告警可视化工具", "catotry": "IT技术", "content": "这些开源的工具能够通过输出帮助用户了解系统的运行状况，并对可能发生的潜在问题作出告警。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "软件工程师生存指南：面试准备、工作经验和实用工具", "catotry": "职场", "content": "软件工程师是令人羡慕的职业。但是如何才能拿到这份工作？又如何才能做好这份工作呢？拥有相关经验的Valeri Alexiev提供了相关建议和工具。其中包括了如何准备面试、如何以软件工程师的身份工作以及如何持续改进方面的经验之谈。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Python 数据科学入门", "catotry": "Python", "content": "不需要昂贵的工具即可领略数据科学的力量，从这些开源工具起步即可。 "}
+{"publish": "\r\n                ", "title": "awk 入门教程", "catotry": "IT技术", "content": "对于日志、CSV 那样的每行格式相同的文本文件，awk 可能是最方便的工具。"}
+{"publish": "\r\n                ", "title": "反对薪酬保密，一程序员公开了硅谷秘密", "catotry": "职场", "content": "讨论报酬水平是职场的大忌。因为这样可能会被公司炒鱿鱼。但是硅谷的软件工程师 Jackie Luo 提出，为了报酬的公平性需要提高透明度，因为只有员工才能提供公司所需的技能和经验，公司不能一手遮天。而透明性的提高需要所有员工的积极参与。她的呼吁得到了很多技术员工的响应，这篇文章就是她发现的硅谷员工的薪酬秘密。"}
+{"publish": "\r\n                ", "title": "Ubuntu 上更改 MySQL 数据库数据存储目录", "catotry": "IT技术", "content": "之前写过一篇博客“MySQL更改数据库数据存储目录”，当时的测试环境是RHEL和CentOS，谁想最近在Ubuntu下面更改MySQL数据库数据存储目录时遇到了之前未遇到的问题，之前的经验用不上了（或者说之前的总结不是太全面），修改完MySQL数据库数据存储目录后重启MySQL，发现MySQL服务无法启动。"}
+{"publish": "\r\n                ", "title": "SQL优化指南", "catotry": "IT技术", "content": "从order by、group by、子查询和limit分页等方面介绍SQL优化方式。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "使用 Graylog 和 Prometheus 监视 Kubernetes 集群", "catotry": "IT技术", "content": "在本文中，我将使用 Graylog （用于日志）和 Prometheus （用于指标）去打造一个 Kubernetes 集群的监视解决方案。 "}
+{"publish": "\r\n                ", "title": "MySQL 更改数据库数据存储目录", "catotry": "IT技术", "content": "MySQL 数据库默认的数据库文件位于 /var/lib/mysql 下，有时候由于存储规划等原因，需要更改 MySQL 数据库的数据存储目录。下文总结整理了实践过程的操作步骤。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "人人都能读懂的编译器原理", "catotry": "IT技术", "content": "理解编译器内部原理，可以让你更高效利用它。按照编译的工作顺序，逐步深入编程语言和编译器是怎样工作的。本文有大量的链接、样例代码和图表帮助你理解编译器。"}
+{"publish": "\r\n                ", "title": "工作 8 个月后，一名工程师竟然被机器解雇了", "catotry": "业界", "content": "作者认真地工作却被“强大”的机器系统强制解雇的真实经历，并表示，事情发生的从始至终都没有人能够阻止它。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "机器学习如何发现你喜欢的音乐", "catotry": "IT技术", "content": "讲解 Spotify 三种音乐推荐模型。带你了解，音乐个性化推荐背后的科学原理。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "是什么让初级工程师走投无路？", "catotry": "职场", "content": "很多初级开发人员从来没有得到过一份像样的工作，因为公司认为由高级工程师带初级工程师学习，成本太高，作者认为健康的软件开发生态需要初级工程师来维持。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "听说你立志要做数据分析，不如先听听老司机的建议？", "catotry": "其他", "content": "方向很重要，而人生很短暂。往哪里走，怎么走，再怎么也得花点时间思考一下，不是吗？"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "2018 年最好的 Linux 发行版", "catotry": "IT技术", "content": "Jack Wallen 分享他挑选的 2018 年最好的 Linux 发行版。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "命令行乐趣：嘲讽输错 Bash 命令的用户", "catotry": "IT技术", "content": "你可以通过配置 sudo 命令去嘲讽输入错误密码的用户。但是现在，当用户在 shell 输错命令时，就能嘲讽他了（滥用？）。"}
+{"publish": "\r\n                ", "title": "在 Linux 上复制和重命名文件", "catotry": "IT技术", "content": "cp 和 mv 之外，在 Linux 上有更多的复制和重命名文件的命令。试试这些命令或许会惊艳到你，并能节省一些时间。 "}
+{"publish": "\r\n                ", "title": "从 Linux 源码看 socket 的阻塞和非阻塞", "catotry": "IT技术", "content": "大部分高性能网络框架采用的是非阻塞模式。笔者这次就从linux源码的角度来阐述socket阻塞(block)和非阻塞(non_block)的区别。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "如何高效学习", "catotry": "职场", "content": "很多人推崇碎片化学习，但是有一些东西碎片化学习效率是很低的，比如数学。那么你该如何高效学习呢？"}
+{"publish": "\r\n                ", "title": "一文带你了解 Vim 的起源", "catotry": "IT技术", "content": "Vim 有着「编辑器之神」的称号，在程序员圈子有很多忠实的粉丝。但可能很多人并不了解 Vim 的来源，本文带你溯源。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "15 分钟参透比特币和区块链", "catotry": "IT技术", "content": "比特币又火了。为什么要说又呢？因为比特币在 2013 年已经火过一次了。这次与 2013 年相同的是，比特币的价格一路飙升，让人咂舌。与 2013 年不同的是，这次人们不仅仅关注比特币的价格，也开始关注比特币背后的技术——区块链。"}
+{"publish": "\r\n                ", "title": "8 个基本的 Docker 容器管理命令", "catotry": "IT技术", "content": "利用这 8 个命令可以学习 Docker 容器的基本管理方式。这是一个为 Docker 初学者准备的，带有示范命令输出的指南。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "创建订单实现幂等的一点思考", "catotry": "IT技术", "content": "大部分文章都会说，同一个操作，进行多次操作后，结果是一样的，就可以说这个操作是支持幂等的。感觉不太准确，比如一个http get操作，可能每次的结果都不一样，但是其实是幂等的。"}
+{"publish": "\r\n                ", "title": "如何对分布式 NewSQL 数据库 TiDB 进行性能调优", "catotry": "IT技术", "content": "分布式系统中调优比单节点服务器调优复杂得多，它的瓶颈可能出现在任何地方，单个节点上的系统资源，子组件，或者节点间的协作，甚至网络带宽这些都可能成为瓶颈。性能调优就是发现并解决这些瓶颈的实践，直到系统达到最佳性能水平。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "命令行小技巧：读取文件的不同方式", "catotry": "IT技术", "content": "如果你在系统中打开一个终端完成一些工作，你就有可能需要读取一两个文件。 "}
+{"publish": "\r\n                ", "title": "如何在 Linux 中找到并删除重复文件", "catotry": "IT技术", "content": "如果你们像我一样，在类 Unix 操作系统中，大量多版本的相同文件放在不同的备份目录，你可以使用下面的工具找到并删除重复文件。 "}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "计算机专业太难不适合女生学？来看 N 多小姐姐的回应", "catotry": "职场", "content": "高考结束了，填志愿选专业的时候也要来了。最近我们微博收到一位女生发私信求助，是否该选计算机专业。"}
+{"publish": "\r\n                ", "title": "详解 Linux 文档属性、拥有者、群组、权限、差异", "catotry": "IT技术", "content": "我们都知道Linux是一个支持多用户、多任务的系统，这也是它最优秀的特性，即可能同时有很多人都在系统上进行工作，所以千万不要强制关机，同时，为了保护每个人的隐私和工作环境，针对某一个文档(文件、目录)，Linux系统定义了三种身份，分别是拥有者(owner)、群组(group)、其他人(others)，每一种身份又对应三种权限，分别是可读(readable)、可写(writable)、可执行(excutable)。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "我似乎理解了编程的意义", "catotry": "职场", "content": "编程的意义是什么，我又为什么要编程呢？这是一个不时会浮现在我脑海中的问题，它来得并不频繁，但每次却都伴随着对自己职业生涯或人生目标的质疑而产生，令我感到些许困惑和不安。"}
+{"publish": "\r\n                ", "title": "分布式之消息队列复习精讲", "catotry": "IT技术", "content": "要说明一下，本文不是《消息队列从入门到精通》这种课程，因此只是提供一个复习思路，而不是去教你们怎么调用消息队列的API。建议对消息队列不了解的人，去找点消息队列的博客看看，再看本文，收获更大。"}
+{"publish": "\r\n                ", "title": "分布式之延时任务方案解析", "catotry": "IT技术", "content": "在开发中，往往会遇到一些关于延时任务的需求。"}
+{"publish": "\r\n                ", "title": "分布式之缓存击穿", "catotry": "IT技术", "content": "如果黑客每次故意查询一个在缓存内必然不存在的数据，导致每次请求都要去存储层去查询，这样缓存就失去了意义。如果在大流量下数据库可能挂掉。这就是缓存击穿。"}
+{"publish": "\r\n                ", "title": "Linux 系统上交换空间的介绍", "catotry": "IT技术", "content": "学习如何修改你的系统上的交换空间的容量，以及你到底需要多大的交换空间。 "}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "IT程序员的抉择：我要离开帝都了", "catotry": "职场", "content": "反正选择在哪个地方发展坏处都不少。但是这么多年在北京奋斗，我感觉除了看上北京的工作机会，就再也没有让我留恋的东西了。"}
+{"publish": "\r\n                ", "title": "Redis基础、高级特性与性能调优", "catotry": "IT技术", "content": "本文将从Redis的基本特性入手，通过讲述Redis的数据结构和主要命令对Redis的基本能力进行直观介绍。"}
+{"publish": "\r\n                ", "title": "终于有人把云计算、大数据和人工智能讲明白了", "catotry": "IT技术", "content": "这三者相辅相成不可分割，如果是非技术的人员来讲可能比较难理解说这三个之间的相互关系，所以有必要解释一下。"}
+{"publish": "\r\n                ", "title": "PacVim：一个学习 vim 命令的命令行游戏", "catotry": "IT技术", "content": "PacVim 的灵感来源于经典游戏 PacMan，它以一种好玩有趣的方式为你提供了大量的 Vim 命令练习。 "}
+{"publish": "\r\n                ", "title": "如何在 Linux 中使用 find", "catotry": "IT技术", "content": "使用正确的参数，find 命令是在你的系统上找到数据的强大而灵活的方式。 "}
+{"publish": "\r\n                ", "title": "Vim-plug：极简 Vim 插件管理器", "catotry": "IT技术", "content": "Vim 插件管理器就可以派上用场。插件管理器将安装插件的文件保存在单独的目录中，因此管理所有插件变得非常容易。 "}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "通过信鸽来解释 HTTPS", "catotry": "IT技术", "content": "密码学可能是一个难以理解的主题。它充满了数学证明。除非你真的需要开发密码系统，否则，如果你只想从宏观的角度了解密码学，你并不需要理解这些复杂的内容。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "直白介绍卷积神经网络（CNN）", "catotry": "IT技术", "content": "卷积神经网络（也称作 ConvNets 或 CNN）是神经网络的一种，它在图像识别和分类等领域已被证明非常有效。 卷积神经网络除了为机器人和自动驾驶汽车的视觉助力之外，还可以成功识别人脸，物体和交通标志。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "10 个 Linux 中方便的 Bash 别名", "catotry": "IT技术", "content": "对 Bash 长命令使用压缩的版本来更有效率。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "分布式之数据库和缓存双写一致性方案解析", "catotry": "IT技术", "content": "在更新缓存方面，对于更新完数据库，是更新缓存呢，还是删除缓存。又或者是先删除缓存，再更新数据库，其实大家存在很大的争议。目前没有一篇全面的博客，对这几种方案进行解析。于是博主战战兢兢，顶着被大家喷的风险，写了这篇文章。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "大龄码农的新西兰移民之路", "catotry": "在国外", "content": "如今已顺利入职，新西兰绿卡正在申请过程中，终于有时间将最近一年的经历整理成文，也供有此想法的同学们参考。"}
+{"publish": "\r\n                ", "title": "给初学者看的 shuf 命令教程", "catotry": "IT技术", "content": "使用 shuf 命令，我们可以随机打乱给定输入文件的行。 "}
+{"publish": "\r\n                ", "title": "JAVA 程序员需要用到 10 个测试框架和库", "catotry": "工具与资源", "content": "作为 Java 程序员，我们在截然不同的领域工作，从编写 Java 核心代码到 JSP 页面，REST API，甚至有时为了构建自动化而去编写 Groovy 脚本，这就要求我们必需了解不同的自动化测试工具。"}
+{"publish": "\r\n                ", "title": "计算机语言的巨变", "catotry": "IT技术", "content": "在这篇文章中，我来讲述一下为什么我不再碰 C++ 的故事。这是关于计算机语言设计经济学专题文章的起始点。这篇文章会讨论为什么一些真心不好的决策会被做出来，然后进入语言的基础设计之中，以及我们该如何修正这些问题。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "给初学者的 type 命令教程", "catotry": "IT技术", "content": "type 命令用于查找 Linux 命令的信息。顾名思义，你可以使用 type 命令轻松找出给定的命令是否是别名、shell 内置命令、文件、函数或关键字"}
+{"publish": "\r\n                ", "title": "常用排序算法总结（2）", "catotry": "IT技术", "content": "上一篇总结了常用的比较排序算法，主要有冒泡排序，选择排序，插入排序，归并排序，堆排序，快速排序等。"}
+{"publish": "\r\n                ", "title": "2018 年 Java 程序员必读的十本书", "catotry": "书籍与教程", "content": "书单里的书介绍了 Java 9、Spring 5、Kotlin、软件架构、微服务、云以及 Java 8 的一些特性。这里的书都很棒，都挺适合在上下班路上读。"}
+{"publish": "\r\n                ", "title": "10 个常用的软件架构模式", "catotry": "IT技术", "content": "你是否曾经思考过如何设计大型的企业级系统？在决定启动软件开发之前，首要的是选择恰当的架构来指引系统的功能及质量属性设计。因此在将软件架构应用于设计之前，必需要了解常用的架构模式。"}
+{"publish": "\r\n                ", "title": "RabbitMQ 发布订阅实战：实现延时重试队列", "catotry": "开发", "content": "本文带领大家逐步实现一个带有失败重试功能的发布订阅组件，使用该组件后可以非常简单的实现消息的发布订阅，在进行业务开发的时候，业务开发人员可以将主要精力放在业务逻辑实现上，而不需要花费时间去理解RabbitMQ的一些复杂概念。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "九年程序人生", "catotry": "职场", "content": "时间一晃而过，大学毕业转眼间已经工作9年了，总结一下自己这些年来感受。"}
+{"publish": "\r\n                ", "title": "Linux 权限控制的基本原理", "catotry": "IT技术", "content": "这里，我们主要介绍 Linux 系统中，权限控制的基本原理。"}
+{"publish": "\r\n                ", "title": "为什么码农要了解业务？", "catotry": "职场", "content": " 最近一位分析界的老前辈对我很无奈地摇摇头，“这帮程序员，不食人间烟火哪！”我也深有感触，全世界的码农都一个样。"}
+{"publish": "\r\n                ", "title": "Git 分支操作介绍", "catotry": "IT技术", "content": "在这个 Git 入门系列的第三篇中，我们来学习一下如何添加和删除 Git 分支。 "}
+{"publish": "\r\n                ", "title": "在 Git 中怎样克隆、修改、添加和删除文件？", "catotry": "IT技术", "content": "在本文中，我们将学习一些关于 Git 的其他内容，即如何克隆（下载）、修改、添加和删除 Git 仓库中的文件。 "}
+{"publish": "\r\n                ", "title": "手把手指导您使用 Git", "catotry": "IT技术", "content": "如果您从未使用过 Git，甚至可能从未听说过它。莫慌张，只需要一步步地跟着这篇入门教程，很快您就会在 GitHub 上拥有一个全新的 Git 仓库。 "}
+{"publish": "\r\n                ", "title": "2017 年，我发布了 6 个副项目", "catotry": "职场", "content": "回望这一年，我成功发布了尽可能多的副项目，同时有一份超过了全职工作的工作、和家人度过了高质量的时光（我有两个孩子和一位非常有耐心的妻子）、作为兼职教授教书、还兼职提供咨询服务。这些对我来说似乎有点疯狂。"}
+{"publish": "\r\n                ", "title": "深入学习 Redis（2）：持久化", "catotry": "IT技术", "content": "本文将先说明上述几种技术分别解决了Redis高可用的什么问题；然后详细介绍Redis的持久化技术，主要是RDB和AOF两种持久化方案；在介绍RDB和AOF方案时，不仅介绍其作用及操作方法，同时介绍持久化实现的一些原理细节及需要注意的问题。最后，介绍在实际使用中，持久化方案的选择，以及经常遇到的问题等。"}
+{"publish": "\r\n                ", "title": "Linux vs. Unix：有什么不同？", "catotry": "IT技术", "content": "深入了解这两个有许多共同的传统和相同的目标的操作系统之间的不同。 "}
+{"publish": "\r\n                ", "title": "比起 Windows，怎样解读 Linux 的文件系统与目录结构？", "catotry": "IT技术", "content": "本文先对Windows和 Linux 上面文件系统原理、组织概念进行区分，并给出例子、列举两者的优缺点以具体说明，最后较为详细地介绍了 Linux 系统的目录结构。"}
+{"publish": "\r\n                ", "title": "如何实现一个基本的微信文章分类器", "catotry": "IT技术", "content": "微信公众号发布的文章和一般门户网站的新闻文本类型有所不同，通常不能用现有的文本分类器直接对这些文章进行分类，不过文本分类的原理是相通的，本文以微信公众号文章为对象，介绍朴素贝叶斯分类器的实现过程。"}
+{"publish": "\r\n                ", "title": "每个 Linux 新手都应该知道的 10 个命令", "catotry": "IT技术", "content": "通过这 10 个基础命令开始掌握 Linux 命令行。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "MySQL 在并发场景下的问题及解决思路", "catotry": "IT技术", "content": "对于数据库系统来说在多用户并发条件下提高并发性的同时又要保证数据的一致性一直是数据库系统追求的目标，既要满足大量并发访问的需求又必须保证在此条件下数据的安全，为了满足这一目标大多数数据库通过锁和事务机制来实现，MySQL数据库也不例外。尽管如此我们仍然会在业务开发过程中遇到各种各样的疑难问题，本文将以案例的方式演示常见的并发问题并分析解决思路。"}
+{"publish": "\r\n                ", "title": "如何编写 C++ 游戏引擎", "catotry": "C/C++", "content": "文章介绍编写游戏引擎过程中不常被谈论的，但是很值得一谈的建议！"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "倾听程序员的心声真的很重要", "catotry": "职场", "content": "说到开发产品，没有人比程序员更了解产品。程序员知道产品的优点、缺陷、用途和潜在用途。说起这些，程序员了如指掌，如数家珍。"}
+{"publish": "\r\n                ", "title": "分支限界法", "catotry": "IT技术", "content": "分支限界法常以广度优先或以最小耗费（最大效益）优先的方式搜索问题的解空间树。在分支限界法中，每一个活结点只有一次机会成为扩展结点。活结点一旦成为扩展结点，就一次性产生其所有儿子结点。"}
+{"publish": "\r\n                ", "title": "gdb 如何调用函数？", "catotry": "C/C++", "content": "我发现我可以从 gdb 上调用 C 函数。这看起来很酷，因为在过去我认为 gdb 最多只是一个只读调试工具。 "}
+{"publish": "\r\n                ", "title": "假装很忙的三个命令行工具", "catotry": "IT技术", "content": "有时候你很忙。而有时候你只是需要看起来很忙，就像电影中的黑客一样。有一些开源工具就是干这个的。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Linux 目录结构：/lib 分析", "catotry": "IT技术", "content": "本文中，让我们来看看 /lib 目录都有些什么。 "}
+{"publish": "\r\n                ", "title": "Redis源码阅读：sds字符串实现", "catotry": "IT技术", "content": "从开始工作就开始使用Redis，也有一段时间了，但都只是停留在使用阶段，没有往更深的角度探索，每次想读源码都止步在阅读书籍上，因为看完书很快又忘了，这次逼自己先读代码。因为个人觉得写作需要阅读文字来增强灵感，那么写代码的，就阅读更多代码来增强灵感吧。"}
+{"publish": "\r\n                ", "title": "计算机如何感知大数据——聚类算法", "catotry": "IT技术", "content": "看看下面这张图片。这是一个不同形状大小的昆虫的集合。花点时间按照相似程度将它们分成几组。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "DNS 解析器性能比较：CloudFlare vs Google vs Quad9", "catotry": "IT技术", "content": "现在进行一个更加有趣的测试：Google 的 8.8.8.8，Quad9 的 9.9.9.9 和 CloudFlare 的 1.1.1.1  ，以及OpenDNS 的 208.67.222.222 和一些其他供应商进行比较。"}
+{"publish": "\r\n                ", "title": "站会不只是站着！那该如何开展？", "catotry": "职场", "content": "站会看似简单，但要真的开好，达到站会本来的目的并不简单。这篇文章可以给你一些关于站会的指导。"}
+{"publish": "\r\n                ", "title": "为初学者准备的 ln 命令教程（5 个示例）", "catotry": "IT技术", "content": "当我们在命令行上工作时，您可能需要在文件之间创建链接。 "}
+{"publish": "\r\n                ", "commentnum": "6  条评论", "title": "IT 职场新人碰到的几个常见误区", "catotry": "职场", "content": "笔者自己工作 10+ 年了，大概 5 年前从技术转管理后，多少还是发现一些职场新人职业发展的问题。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "如何在 Linux 上安装应用程序", "catotry": "IT技术", "content": "学习在你的 Linux 计算机上摆弄那些软件。 "}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "如何做人性化的代码审查？", "catotry": "IT技术", "content": "代码审查不光是一个技术过程，也是一个社交过程。做好代码审查，有助于建立积极和谐的工作环境和人际关系。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "分布式之 Redis 复习精讲", "catotry": "IT技术", "content": "博主的《分布式之消息队列复习精讲》得到了大家的好评，内心诚惶诚恐，想着再出一篇关于复习精讲的文章。但是还是要说明一下，复习精讲的文章偏面试准备，真正在开发过程中，还是脚踏实地，一步一个脚印，不要投机取巧。"}
+{"publish": "\r\n                ", "title": "如何编译 Linux 内核", "catotry": "IT技术", "content": "Jack 将带你在 Ubuntu 16.04 服务器上走过内核编译之旅。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "我必须得告诉大家的MySQL优化原理", "catotry": "IT技术", "content": "说起MySQL的查询优化，相信大家收藏了一堆奇技淫巧：不能使用SELECT *、不使用NULL字段、合理创建索引、为字段选择合适的数据类型….. 你是否真的理解这些优化技巧？"}
+{"publish": "\r\n                ", "title": "常用排序算法总结（1）", "catotry": "IT技术", "content": "我们通常所说的排序算法往往指的是内部排序算法，即数据记录在内存中进行排序。"}
+{"publish": "\r\n                ", "commentnum": "6  条评论", "title": "深入学习 Redis（1）：Redis 内存模型", "catotry": "IT技术", "content": "这篇文章主要介绍Redis的内存模型（以3.0为例），包括Redis占用内存的情况及如何查询、不同的对象类型在内存中的编码方式、内存分配器(jemalloc)、简单动态字符串(SDS)、RedisObject等；然后在此基础上介绍几个Redis内存模型的应用。"}
+{"publish": "\r\n                ", "title": "GitHub 工程师：我眼中的理想上司是这样子的", "catotry": "职场", "content": "Github 高级工程师分享了她认为的理想上司应该是什么样。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "刚开始学编程？这几款小工具能让你事半功倍", "catotry": "IT技术", "content": "工欲善其事，必先利其器。"}
+{"publish": "\r\n                ", "title": "图像主题色提取算法", "catotry": "IT技术", "content": "许多从自然场景中拍摄的图像，其色彩分布上会给人一种和谐、一致的感觉；反过来，在许多界面设计应用中，我们也希望选择的颜色可以达到这样的效果，但对一般人来说却并不那么容易，这属于色彩心理学的范畴。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "给初学者的 fc 示例教程", "catotry": "IT技术", "content": "fc 是个 shell 内置命令，用于在交互式 shell 里列出、编辑和执行最近输入的命令。 "}
+{"publish": "\r\n                ", "title": "Pet：一个简单的命令行片段管理器", "catotry": "IT技术", "content": "我们不可能记住所有的命令，对吧？是的。除了经常使用的命令之外，我们几乎不可能记住一些很少使用的长命令。这就是为什么需要一些外部工具来帮助我们在需要时找到命令。 "}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "走近北京后厂村程序员的真实生活：“拿命换钱”", "catotry": "职场", "content": "北京的西北角是个特别的区域，这里汇集了众多互联网及IT企业，实力雄厚的上市公司将自家logo悬挂在大厦的顶端，而刚起步的创业公司也会选择在这里租下一亩三分地。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "彼之蜜糖，吾之砒霜 —— 聊聊软件开发中的最佳实践", "catotry": "IT技术", "content": "描述一个事物，唯有一个名词定义它的概念，唯有一个动词揭露它的行为，唯有一个形容词表现它的特征。要做的，就是用心去寻找那个名词、那个动词、那个形容词……”"}
+{"publish": "\r\n                ", "title": "如何识别人的技术能力和水平？", "catotry": "职场", "content": "技术招聘除了考察人的协作精神和工作态度，一大目标便是判断人的技术能力和实际水平。在这件事情上多做观察、思考是很有意义的。"}
+{"publish": "\r\n                ", "title": "基于海量词库的单词拼写检查、推荐到底是咋做的？", "catotry": "IT技术", "content": "本文就来介绍一个能够完成单词拼写检查、推荐任务的算法。"}
+{"publish": "\r\n                ", "title": "在 Linux 下 9 个有用的 touch 命令示例", "catotry": "IT技术", "content": "touch 命令用于创建空文件，也可以更改 Unix 和 Linux 系统上现有文件时间戳。这里所说的更改时间戳意味着更新文件和目录的访问以及修改时间。 "}
+{"publish": "\r\n                ", "title": "谁说国外的程序员过得好？法国政府搞的软件项目，坑出新境界", "catotry": "职场", "content": "很多软件项目开发时间大大超出了规划的时间，投入大量资金和人力，都没有实在的结果。如果你讨厌你的编程工作，请认真阅读这篇 2008 年的文章吧。法国科技公司为政府做的项目，预期两三年，做了十二年还在做；6 百万行 C++ 代码，经理比工程师多，人员素质极低。"}
+{"publish": "\r\n                ", "title": "程序员找工作面试会遇到哪些坑", "catotry": "职场", "content": "今天这篇文章，我们就来聊一聊校招找工作时会遇到哪些坑。需要注意的是，这些坑不一定是用人单位让我们踩的，也有可能是我们自己给自己挖的坑。而最大的坑就是：我们什么都没做，不闻不问，让机会悄悄溜走。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "线上账务系统余额并发更新问题记录", "catotry": "IT技术", "content": "某电商平台，某天线上用户报bug说账户余额信息与交易流水对不上。可以认为是数据库并发更新问题，由此定位出具体原因，更进一步了解mysql，并给出解决方案。"}
+{"publish": "\r\n                ", "title": "GBDT 回归的原理与 Python 实现", "catotry": "IT技术", "content": "有问题，上知乎。知乎是中文互联网知名知识分享平台，以「知识连接一切」为愿景，致力于构建一个人人都可以便捷接入的知识分享网络，让人们便捷地与世界分享知识、经验和见解，发现更大的世界。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "从技术转管理，我做了什么来拯救自己？", "catotry": "职场", "content": "我是一名新手项目经理，转项目管理岗1年半。在做管理之前，我是一名开发。也就是说，我是最常见的技术转管理了。"}
+{"publish": "\r\n                ", "commentnum": "9  条评论", "title": "一名 IT 经理是怎么把一个项目带崩的", "catotry": "职场", "content": "我是一名项目经理，在过去的四个月里，我把一个项目带崩了（上线后频出问题，用户无法使用）。在最近的几天，我每天都在反思……"}
+{"publish": "\r\n                ", "title": "Vim 代码片段插件 Ultisnips 使用教程", "catotry": "IT技术", "content": "Ultisnips 插件安装分两部分，一个是 ultisnips 插件本身，另外一个是代码片段仓库。"}
+{"publish": "\r\n                ", "title": "受 SQLite 多年青睐，C 语言到底好在哪儿？", "catotry": "IT技术", "content": "SQLite 近日发表了一篇博文，解释了为什么多年来 SQLite 一直坚持用 C 语言来实现。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Linux 系统中 sudo 命令的 10 个技巧", "catotry": "IT技术", "content": "sudo 表示 “superuser do”。 它允许已验证的用户以其他用户的身份来运行命令。其他用户可以是普通用户或者超级用户。然而，大部分时候我们用它来以提升的权限来运行命令。 "}
+{"publish": "\r\n                ", "title": "如何在 Linux Shell 编程中定义和使用函数", "catotry": "IT技术", "content": "函数是一段可复用的代码。我们通常把重复的代码放进函数中并且在不同的地方去调用它。库是函数的集合。我们可以在库中定义经常使用的函数，这样其它脚本便可以不再重复代码而使用这些函数。 "}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "我曾误删了公司的数据库，但还是活下来了", "catotry": "IT技术", "content": "开发人员总以为自己误删了数据是天大的事情。的确如此，但是“罪不至死”。本文作者 Zachary Kuhn 分享了自己的亲身遭遇，并认为犯了错误不重要，重要的是要有所得。"}
+{"publish": "\r\n                ", "title": "对比 Ubuntu 18.04 和 Fedora 28", "catotry": "IT技术", "content": "Ubuntu 和 Fedora 是两个主流的 Linux 发行版。两者都各自有一些华而不实的特性，因而新接触 Linux 的人很难抉择。我的建议是同时尝试二者，这样你在试用后可以发现哪个发行版提供的工具更适合你。 "}
+{"publish": "\r\n                ", "title": "死磕一周算法，我让服务性能提高50%", "catotry": "IT技术", "content": "我们的检索服务中用到了最小编辑距离算法，这个算法本身是平方量级的时间复杂度。但是我无意中发现了另外一个更牛的算法：列划分算法，使得这个本就很牛的算法性能直接提高一倍 ！"}
+{"publish": "\r\n                ", "title": "Reddit 如何面试工程师？", "catotry": "职场", "content": "Reddit 给来应聘者写的官方指南，描述了整个面试的流程、该如何准备。"}
+{"publish": "\r\n                ", "title": "Linux 27 周年，这 27 件相关的有趣事实你可能不知道", "catotry": "IT技术", "content": "许多人认为10月5日是 Linux 系统的周年纪念日，因为这是 Linux 在1991年首次对外公布的时间。不过，你可能不知道的是，早在1991年8月25日，当年还是大学生的 Linus Torvalds 就向 comp.os.minix 新闻组的人透露了由于“业余爱好”他正在研究操作系统的消息。因此，该时间也被许多爱好者视为 Linux 的真正诞生日期。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "可怕的万圣节 Linux 命令", "catotry": "IT技术", "content": "什么命令可能会显示鬼、巫婆和僵尸的图像？哪个会鼓励“不给糖果就捣蛋”的精神？ "}
+{"publish": "\r\n                ", "title": "2018 年最受欢迎的 VS Code 扩展插件合集", "catotry": "工具与资源", "content": "VS Code 是一个出色的代码编辑器，但真正使它强大的是它可用的扩展。 在这篇文章中，我分享了一些我最喜欢的 VS Code 扩展，同时使用 VS Code 开发 Web 应用程序。"}
+{"publish": "\r\n                ", "title": "彩票的数学知识", "catotry": "IT技术", "content": "彩票怎样才能中奖？"}
+{"publish": "\r\n                ", "commentnum": "IT技术", "title": "工程师如何在工作中提升自己?", "catotry": "All", "content": "古人云：“活到老，学到老。”互联网算是最辛苦的行业之一，“加班”对工程师来说已是“家常便饭”，同时互联网技术又日新月异，很多工程师都疲于应付，叫苦不堪。以至于长期以来流传一个很广的误解：35岁是程序员工作的终点。"}
+{"publish": "\r\n                ", "title": "Linux cgroups 命令简介", "catotry": "IT技术", "content": "cgroups (Control Groups) 是 Linux 内核提供的一种机制，这种机制可以根据需求把一系列系统任务及其子任务整合(或分隔)到按资源划分等级的不同组内，从而为系统资源管理提供一个统一的框架。"}
+{"publish": "\r\n                ", "title": "精通 Linux 的 “kill” 命令", "catotry": "IT技术", "content": "无论你使用哪种操作系统，你一定会遇到某个行为失常的应用，它把自己锁死并拒绝关闭。在Linux(还有Mac)，你可以用一个”kill”命令强制终结它。在这个教程中，我们将展示给你多种方式使用”kill”命令终结应用。"}
+{"publish": "\r\n                ", "title": "设计微服务的最佳实践", "catotry": "IT技术", "content": "要了解微服务是什么，你必须了解如何将单体应用程序，拆解为独立打包和部署的微型应用程序。本文章将帮助你清晰化的理解，开发者如何根据需求使用微服务来构建他们的应用程序。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "献给命令行重度用户的一组实用 BASH 脚本", "catotry": "IT技术", "content": "今天，我偶然发现了一组适用于命令行重度用户的实用 BASH 脚本，这些脚本被称为 Bash-Snippets，它们对于那些整天都与终端打交道的人来说可能会很有帮助。 "}
+{"publish": "\r\n                ", "title": "最终一轮面试被 Google 刷掉，这是一种什么样的体验？", "catotry": "职场", "content": "谷歌是在今年一月份给我发出面试邀请的。整个招聘流程持续了大约一个月。如果顺利，应聘这个岗位要经历五轮面试。"}
+{"publish": "\r\n                ", "title": "Git 12 岁了，为你送上 12 个 Git 的使用技巧！", "catotry": "IT技术", "content": " 为了纪念Git的12岁生日，这篇文章提供12个诀窍与技巧来让你的Git经验更加有用和强大，从一些你可能会忽视的基础开始到一些真正的强大技巧!"}
+{"publish": "\r\n                ", "title": "泪流满面的 11 个 Git 面试题", "catotry": "IT技术", "content": "在今年的 Stack Overflow 开发者调查报告中，超过 70% 的开发者使用 Git，使其成为世界上使用人数最多的版本控制系统。Git 通常用于开源和商业软件开发，对个人、团队和企业都颇有益处。"}
+{"publish": "\r\n                ", "title": "用信鸽来解释 HTTPS", "catotry": "IT技术", "content": "密码学是一门难以理解的学科，因为它充满了数学定理。但是除非你要实际开发出一套加密算法系统，否则你是没必要强制理解那些深奥的数学定理的。如果你阅读本文的目的是想设计下一套 HTTPS 协议，那我只能抱歉的说本文的知识还远远不够；如果不是的话，那么就煮杯咖啡，轻松愉悦的阅读本文吧。"}
+{"publish": "\r\n                ", "title": "软件的未来是无码", "catotry": "IT技术", "content": "现今，公司大多喜欢Quick Base, Mendix, 和 Zudy 这种创新性产品（工具），他们的运作的方式都是类似的，试图将代码转换为可视化界面。就像从汇编代码转换到FORTRAN一样，底层代码还是存在的，但它可以更简单地来表示。这些低代码/无代码平台开始瓦解企业中软件运行的方式。"}
+{"publish": "\r\n                ", "title": "SQL 入门", "catotry": "IT技术", "content": "使用 SQL 构建一个关系数据库比你想的更容易。 "}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "软件复杂性正在杀死我们", "catotry": "业界", "content": "代码量少了不代表软件的复杂度降低了，而是编程语言的表达力更强了。太多开发人员痴迷于框架，过度追求软件灵活性、可组合性等等，而忘记自己是不是真的需要这些。"}
+{"publish": "\r\n                ", "title": "Linux 中的“大内存页”（hugepage）是个什么？", "catotry": "IT技术", "content": "学习 Linux 中的大内存页（hugepage）。理解什么是“大内存页”，如何进行配置，如何查看当前状态以及如何禁用它。 "}
+{"publish": "\r\n                ", "title": "du 及 df 命令的使用（附带示例）", "catotry": "IT技术", "content": "du 和 df 命令都是 Linux 系统的重要工具，来显示 Linux 文件系统的磁盘使用情况。 "}
+{"publish": "\r\n                ", "title": "从业 24 年独立开发者：大多数同行都只看 5 年以内", "catotry": "职场", "content": "在24年的独立游戏研发生涯中，Spiderweb Software创始人Jeff Vogel学到了很多东西。在3月20日举行的GDC独立游戏峰会上，他分享了一些自己的心得，有些观点让人十分意外。"}
+{"publish": "\r\n                ", "title": "Linux 新用户？来试试这 8 款重要的软件", "catotry": "IT技术", "content": "即便您不是计算机的新手，刚接触 Linux 时，通常都会面临选择使用应用软件的问题。在数百万 Linux 应用程序中，做起选择来并不轻松。本文中，您将能发现八个重要的 Linux 应用，帮助您快速选择应用程序。 "}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "工程师思维，做不出好产品？", "catotry": "职场", "content": "「你的想法太工程师了，不适用在「一般」用户上，怎么可能用一般用户的角度去思考产品呢？」"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "在 Linux 中自动配置 IPv6 地址", "catotry": "IT技术", "content": "在本文中，我们将学习如何为 ULA 自动配置 IP 地址。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Linux 启动过程分析", "catotry": "IT技术", "content": "理解运转良好的系统对于处理不可避免的故障是最好的准备。 "}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "程序员如何规划职业路线？", "catotry": "职场", "content": "没有哪一套方法是适用于所有人的，这一套软件工程师职业发展纲要，也不过是在你踽踽前行的路上，迷茫时可用来参考借鉴。你的核心竞争力，永远是你的自身实力。切记！"}
+{"publish": "\r\n                ", "title": "Redis 集群部署及踩过的坑", "catotry": "IT技术", "content": "作者整理了 Redis 集群部署心得及踩过的坑。"}
+{"publish": "\r\n                ", "title": "我从 1000 份代码审查中学到了什么", "catotry": "IT技术", "content": "我看到有些建议不断重复出现，所以我决定整理一个清单，与诸位分享。这是我的 3（额外 +1）个最常见的代码审查建议。"}
+{"publish": "\r\n                ", "title": "AI 从业者都会用到的 10 个深度学习方法", "catotry": "IT技术", "content": "如今，在机器学习的出现的地方我们都能看到深度学习的身影。在这里，我想分享 AI 工程师用于解决机器学习问题的  10 个强大深度学习方法。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "邪恶的编程咒语", "catotry": "开发", "content": "编程语言中一些怪异的规则。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "给 rm 命令添加个「垃圾桶」", "catotry": "IT技术", "content": "将文件移动到“垃圾桶”是一个好主意，当你无意中运行 rm 命令时，可以拯救你 "}
+{"publish": "\r\n                ", "title": "Linux 跟踪器之选", "catotry": "IT技术", "content": "有大量的 Linux 跟踪器可供你选择。由于它们中的每个都有一个官方的（或者非官方的）的吉祥物，我们有足够多的选择给孩子们展示。 "}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "利用 DB 实现分布式锁的思路", "catotry": "IT技术", "content": "以前参加过一个库存系统，由于其业务复杂性，搞了很多个应用来支撑。这样的话一份库存数据就有可能同时有多个应用来修改库存数据。比如说，有定时任务域xx.cron，和SystemA域和SystemB域这几个JAVA应用，可能同时修改同一份库存数据。如果不做协调的话，就会有脏数据出现。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "开源作者遭受小白的 9 种伤害", "catotry": "业界", "content": "在帮助小白解决了很多开源使用的问题后，我总结了小白的不科学的提问方式，以遭受9种伤害夸张的手法一一道来。"}
+{"publish": "\r\n                ", "title": "励志！海外开发者讲述用脚做游戏的研发经历", "catotry": "IT技术", "content": "对于游戏开发者而言，失去双手对于职业和生活可能是灾难性的打击。然而，业内却有一小部分人每天都要面临这样的问题，位于奥斯丁的开发者Rusty Moyher就是其中之一。"}
+{"publish": "\r\n                ", "title": "索引表和 ES 的一点点思考", "catotry": "IT技术", "content": "在电商项目中，物理库存系统是个极其重要的系统，订单支付后，就会开始来占用物理库存。一般情况下，库存系统都是要分库的，因为主要的操作是写操作，例如占用/释放/取消等写操作。"}
+{"publish": "\r\n                ", "title": "Linux 主目录中的隐藏文件是干什么用的？", "catotry": "IT技术", "content": "在 Linux 系统中，你可能会在主目录中存储了大量文件和文件夹。但在这些文件之外，你知道你的主目录还附带了很多隐藏的文件和文件夹吗？ "}
+{"publish": "\r\n                ", "title": "为什么浏览器的用户代理字符串以 Mozilla 开头", "catotry": "IT技术", "content": "最早流行的浏览器是 NCSA Mosaic，它称自己为 NCSA_Mosaic/2.0 (Windows 3.1)；后来一个新浏览器出现了，它的名字叫 Mozilla，是 Mosaic Killer 的缩写，Mosaic 并不觉得这好笑，因此该浏览器改名为 Netscape，它称自己为 Mozilla/1.0 (Win3.1)。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "100 倍价值的工程师", "catotry": "职场", "content": "几个月前一个新工程师加入了我们的团队。和往常一样，我花了些时间和他相处，来更好地了解他是哪种类型的人、他的驱动力是什么。我们经常讨论过去的经历，但更重要的是：未来的目标。结果发现，他有个有趣的目标……"}
+{"publish": "\r\n                ", "title": "6 个开源的家庭自动化工具", "catotry": "IT技术", "content": "用这些开源软件解决方案构建一个更智能的家庭。 "}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "我只想安静地写代码，领导却跟我谈大局、讲奉献", "catotry": "职场", "content": "程序员闷头写代码、自我孤立，说到底都是领导的错"}
+{"publish": "\r\n                ", "title": "剖析内存中的程序之秘", "catotry": "C/C++", "content": "内存管理是操作系统的核心任务；它对程序员和系统管理员来说也是至关重要的。这第一篇文章描述了在内存中程序如何分布。"}
+{"publish": "\r\n                ", "title": "使用 sar 和 kSar 来发现 Linux 性能瓶颈", "catotry": "IT技术", "content": "sar 命令的输出能够用于识别服务器瓶颈。但是，分析 sar 命令提供的信息可能比较困难，所以要使用 kSar 工具。kSar 工具可以将 sar 命令的输出绘制成基于时间周期的、易于理解的图表。 "}
+{"publish": "\r\n                ", "title": "20 个 OpenSSH 最佳安全实践", "catotry": "IT技术", "content": "时不时会出现关于 OpenSSH 零日漏洞的传言。本文将描述如何设置你的 Linux 或类 Unix 系统以提高 sshd 的安全性。 "}
+{"publish": "\r\n                ", "title": "如何在 Linux/Unix 中不重启 Vim 而重新加载 .vimrc 文件", "catotry": "IT技术", "content": "我通常使用 :vs ~/.vimrc 来加载 ~/.vimrc 配置。而当编辑 .vimrc 时，我需要不重启 Vim 会话而重新加载它。 "}
+{"publish": "\r\n                ", "title": "什么是 LLVM？Swift, Rust, Clang 等语言背后的支持", "catotry": "IT技术", "content": "LLVM 使创建新语言变得更加容易，同时也可以增强现有语言的开发。它提供了一些工具，用于自动执行语言创建任务中最不讨人喜欢的部分：创建一个编译器，将输出的代码移植到多个平台和架构，编写代码来处理常见的语言隐喻，比如异常。它的自由授权意味着它可以自由地作为软件组件重用或作为服务部署。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "每个系统管理员都要知道的 30 个 Linux 系统监控工具", "catotry": "IT技术", "content": "您需要监控 Linux 服务器的性能吗？试试用这些内置命令和附加工具吧！大多数 Linux 发行版都附带了大量的监控工具。这些工具提供了获取系统活动的相关指标。您可以使用这些工具来查找性能问题的可能原因。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "微软精心打造的Vista系统，为什么死得这么快？", "catotry": "All", "content": "编者按：从后来的很多反馈看来，Vista都是一个超前于时代的操作系统。但这个操作系统在当年却遭遇了前所未有的失利——究竟为什么Vista会失败、死亡？当时的项目团队主管之一BenFathi在Medium发表了文章WhatReallyHappened…"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "开源巨献：2017 年 Google 开源了这些超赞的项目", "catotry": "IT技术", "content": "开源巨献：2017 年 Google 开源了这些超赞的项目"}
+{"publish": "\r\n                ", "title": "在 Linux 中如何编写基本的 udev 规则", "catotry": "IT技术", "content": "理解 udev 背后的基本概念，学习如何写简单的规则。 "}
+{"publish": "\r\n                ", "title": "为初学者准备的 Linux rmdir 命令案例教程", "catotry": "IT技术", "content": "在 Linux 命令行上删除文件和目录，我们已经讨论过 rm 命令 的使用。然而，这里有另一个相关的命令行工具，专门针对目录的删除。这是所指的工具就是 rmdir，本教程中，我们将根据一些简单的实例来讨论它。 "}
+{"publish": "\r\n                ", "title": "为 Linux 初学者讲解 wc 命令", "catotry": "IT技术", "content": "在命令行工作时，有时您可能想要知道一个文件中的单词数量、字节数、甚至换行数量。 "}
+{"publish": "\r\n                ", "commentnum": "7  条评论", "title": "为什么程序员找不到工作：4 个恐怖故事", "catotry": "职场", "content": "应聘者因为用了面试官不熟悉的框架而被拒；"}
+{"publish": "\r\n                ", "commentnum": "16  条评论", "title": "优化 MySQL： 3 个简单的小调整", "catotry": "IT技术", "content": "我并不期望成为一个专家级的 DBA，但是，在我优化 MySQL 时，我推崇 80/20 原则，明确说就是通过简单的调整一些配置，你可以压榨出高达 80% 的性能提升。尤其是在服务器资源越来越便宜的当下。 "}
+{"publish": "\r\n                ", "title": "Nginx 教程（3）：SSL 设置", "catotry": "IT技术", "content": "本文讲解如何配置服务器使用 HTTPS。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "使用 Vi/Vim 编辑器：基础篇", "catotry": "IT技术", "content": "VI 编辑器是一个基于命令行的、功能强大的文本编辑器，最早为 Unix 系统开发，后来也被移植到许多的 Unix 和 Linux 发行版上。 "}
+{"publish": "\r\n                ", "title": "操作系统何时运行？", "catotry": "IT技术", "content": "请各位思考以下问题：在你阅读本文的这段时间内，计算机中的操作系统在运行吗？又或者仅仅是 Web 浏览器在运行？又或者它们也许均处于空闲状态，等待着你的指示？ "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "当 CPU 空闲时它都在做什么？", "catotry": "IT技术", "content": "操作系统行为的基本原理是，在任何一个给定的时刻，在一个 CPU 上有且只有一个任务是活动的。但是，如果 CPU 无事可做的时候，又会是什么样的呢？"}
+{"publish": "\r\n                ", "title": "网络应用优化——时延与带宽", "catotry": "IT技术", "content": "本文网络应用优化中最重要的两个目标：时延与带宽。通过定义并区分两者的关系，并引申出网络服务优化的几种基本方法。"}
+{"publish": "\r\n                ", "title": "程序员神器 StackOverflow 10 岁了，它长大后想成为什么？", "catotry": "IT技术", "content": "今年 9 月，程序员必备神器之一的 Stack Overflow 正式成立 10 周年了。截至目前为止，SO 用户量高达 930 万，也许你经常在 SO 上找解决方案。但你可能还不真正了解 SO。来看看 SO 创始人 Jeff Atwood 是怎么说的。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "在 Linux 命令行中使用 tcpdump 抓包", "catotry": "IT技术", "content": "tcpdump 是一款灵活、功能强大的抓包工具，能有效地帮助排查网络故障问题。 "}
+{"publish": "\r\n                ", "title": "5 个适合系统管理员使用的告警可视化工具", "catotry": "IT技术", "content": "这些开源的工具能够通过输出帮助用户了解系统的运行状况，并对可能发生的潜在问题作出告警。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "软件工程师生存指南：面试准备、工作经验和实用工具", "catotry": "职场", "content": "软件工程师是令人羡慕的职业。但是如何才能拿到这份工作？又如何才能做好这份工作呢？拥有相关经验的Valeri Alexiev提供了相关建议和工具。其中包括了如何准备面试、如何以软件工程师的身份工作以及如何持续改进方面的经验之谈。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Python 数据科学入门", "catotry": "Python", "content": "不需要昂贵的工具即可领略数据科学的力量，从这些开源工具起步即可。 "}
+{"publish": "\r\n                ", "title": "awk 入门教程", "catotry": "IT技术", "content": "对于日志、CSV 那样的每行格式相同的文本文件，awk 可能是最方便的工具。"}
+{"publish": "\r\n                ", "title": "反对薪酬保密，一程序员公开了硅谷秘密", "catotry": "职场", "content": "讨论报酬水平是职场的大忌。因为这样可能会被公司炒鱿鱼。但是硅谷的软件工程师 Jackie Luo 提出，为了报酬的公平性需要提高透明度，因为只有员工才能提供公司所需的技能和经验，公司不能一手遮天。而透明性的提高需要所有员工的积极参与。她的呼吁得到了很多技术员工的响应，这篇文章就是她发现的硅谷员工的薪酬秘密。"}
+{"publish": "\r\n                ", "title": "Ubuntu 上更改 MySQL 数据库数据存储目录", "catotry": "IT技术", "content": "之前写过一篇博客“MySQL更改数据库数据存储目录”，当时的测试环境是RHEL和CentOS，谁想最近在Ubuntu下面更改MySQL数据库数据存储目录时遇到了之前未遇到的问题，之前的经验用不上了（或者说之前的总结不是太全面），修改完MySQL数据库数据存储目录后重启MySQL，发现MySQL服务无法启动。"}
+{"publish": "\r\n                ", "title": "SQL优化指南", "catotry": "IT技术", "content": "从order by、group by、子查询和limit分页等方面介绍SQL优化方式。"}
+{"publish": "\r\n                ", "title": "MySQL 更改数据库数据存储目录", "catotry": "IT技术", "content": "MySQL 数据库默认的数据库文件位于 /var/lib/mysql 下，有时候由于存储规划等原因，需要更改 MySQL 数据库的数据存储目录。下文总结整理了实践过程的操作步骤。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "人人都能读懂的编译器原理", "catotry": "IT技术", "content": "理解编译器内部原理，可以让你更高效利用它。按照编译的工作顺序，逐步深入编程语言和编译器是怎样工作的。本文有大量的链接、样例代码和图表帮助你理解编译器。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "2018 年最好的 Linux 发行版", "catotry": "IT技术", "content": "Jack Wallen 分享他挑选的 2018 年最好的 Linux 发行版。 "}
+{"publish": "\r\n                ", "title": "一文带你了解 Vim 的起源", "catotry": "IT技术", "content": "Vim 有着「编辑器之神」的称号，在程序员圈子有很多忠实的粉丝。但可能很多人并不了解 Vim 的来源，本文带你溯源。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "命令行小技巧：读取文件的不同方式", "catotry": "IT技术", "content": "如果你在系统中打开一个终端完成一些工作，你就有可能需要读取一两个文件。 "}
+{"publish": "\r\n                ", "title": "如何在 Linux 中找到并删除重复文件", "catotry": "IT技术", "content": "如果你们像我一样，在类 Unix 操作系统中，大量多版本的相同文件放在不同的备份目录，你可以使用下面的工具找到并删除重复文件。 "}
+{"publish": "\r\n                ", "title": "Linux 系统上交换空间的介绍", "catotry": "IT技术", "content": "学习如何修改你的系统上的交换空间的容量，以及你到底需要多大的交换空间。 "}
+{"publish": "\r\n                ", "title": "Redis基础、高级特性与性能调优", "catotry": "IT技术", "content": "本文将从Redis的基本特性入手，通过讲述Redis的数据结构和主要命令对Redis的基本能力进行直观介绍。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "通过信鸽来解释 HTTPS", "catotry": "IT技术", "content": "密码学可能是一个难以理解的主题。它充满了数学证明。除非你真的需要开发密码系统，否则，如果你只想从宏观的角度了解密码学，你并不需要理解这些复杂的内容。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "10 个 Linux 中方便的 Bash 别名", "catotry": "IT技术", "content": "对 Bash 长命令使用压缩的版本来更有效率。 "}
+{"publish": "\r\n                ", "title": "分析了 7500w+ GitHub 代码仓库 哪门语言热度最高？", "catotry": "IT技术", "content": "近日，有开发者在 reddit 发布了一个帖子，内容是通过对 GitHub 用户的数据进行分析得到的编程语言排序榜。作者认为，通过计算 GitHub 上有多少人使用每种语言来对所有的编程语言进行排序会很有趣。 "}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "与 C 语言长别离", "catotry": "C/C++", "content": "我意识到了一个让我震惊的事实 —— 我有着 35 年的 C 语言经验。每周我都要写很多 C 代码，但是我已经记不清楚上一次我 创建一个新的 C 语言项目 是在什么时候了。 "}
+{"publish": "\r\n                ", "commentnum": "24  条评论", "title": "一个技术大牛对程序员招聘的吐槽和建议", "catotry": "其他", "content": "作为软件人，找工作有时候似乎挺苦逼的。说真的，让我去掉前面这句中“似乎”二字吧。就是苦逼！很多人都曾抱怨处在招聘的一方很糟糕，我们没有任何可靠的方式来甄别会写代码并且写得好的人。但其实应聘方也很苦逼！招聘方遇到的困境，也恰恰是造成痛苦流程的原因。"}
+{"publish": "\r\n                ", "title": "八种在 Linux 上生成随机密码的方法", "catotry": "IT技术", "content": "学习使用 8 种 Linux 原生命令或第三方实用程序来生成随机密码。 "}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "Python 是各年龄段开发者最爱的语言", "catotry": "开发", "content": "在 HackerRank 的 2018 开发者技能调查中，JavaScript 或许是最受雇主欢迎的编程语言，但根据 HackerRank 的爱恨指数数据，Python 赢得了全年龄段开发者的芳心。"}
+{"publish": "\r\n                ", "commentnum": "6  条评论", "title": "2018 年，程序员要具备哪些核心竞争力？", "catotry": "职场", "content": "近日国外开发者平台 HankerRank 发布了 2018 年开发者技能调查报告，本文摘录程序员求职时必备技能相关的调查结果。"}
+{"publish": "\r\n                ", "title": "通过实例学习 tcpdump 命令", "catotry": "IT技术", "content": "tcpdump 是一个很常用的网络包分析工具，可以用来显示通过网络传输到本系统的 TCP/IP 以及其他网络的数据包。tcpdump 使用 libpcap 库来抓取网络报，这个库在几乎在所有的 Linux/Unix 中都有。 "}
+{"publish": "\r\n                ", "title": "把docker镜像当作桌面系统来用", "catotry": "IT技术", "content": " 近些年来，Docker由于提供了一套非常方便地创建并运行应用容器的方法，而在全球掀起了一股容器化的热潮。容器通过将软件及其所需要的运行环境一同打包带走，从而将人们从依赖的苦海中拯救出来。"}
+{"publish": "\r\n                ", "title": "独立游戏开发者：我做对了所有事、但还是赔掉了房子", "catotry": "IT技术", "content": "GameLook报道/随着游戏行业的竞争加剧，成功的概率变得越来越低。前不久，海外开发者Constantin Bacioiu在博客中表示，辞职做全职独立游戏研发之后，他赔掉了刚买的房子，因为游戏发布一个月的销量还不到200套，离最低目标都还差很远。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "利用副项目找 IT 工作，需要满足这 3 个原则", "catotry": "职场", "content": "和要找的工作相关；有深度；不断维护改进。然后放在简历上显眼的位置。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "绝不要用的 Linux 命令 ！", "catotry": "IT技术", "content": "蜘蛛侠有这样的一句信条，“权力越大，责任越大。” 对于 Linux 系统管理员们来说，这也是一种应当采用的明智态度。"}
+{"publish": "\r\n                ", "title": "比特币入门教程", "catotry": "IT技术", "content": "一串数字，背后没有任何资产支持，也没有任何人负责，你把它当作钱付给对方，怎么会有人愿意接受？"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "区块链入门教程", "catotry": "IT技术", "content": "区块链是眼下的大热门，新闻媒体大量报道，宣称它将创造未来。可是，简单易懂的入门文章却很少。区块链到底是什么，有何特别之处，很少有解释。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "12 条用于 Linux 的 MySQL/MariaDB 安全最佳实践", "catotry": "IT技术", "content": "在本指南中，我们将会讲解对开发者有帮助的 MySQL/MariaDB 的 Linux 最佳安全实践。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "关于负载均衡的一切：总结与思考", "catotry": "IT技术", "content": "在计算机的世界，这就是大家耳熟能详的负载均衡（load balancing），所谓负载均衡，就是说如果一组计算机节点（或者一组进程）提供相同的（同质的）服务，那么对服务的请求就应该均匀的分摊到这些节点上。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "日志的艺术（The art of logging）", "catotry": "IT技术", "content": "程序员学习每一门语言都是从打印“hello world”开始的，日志也是新手程序员学习、调试程序的一大利器。当项目上线之后，也会有各种各样的日志，比如记录用户的行为、服务器的状态、异常情况等等。打印日志似乎是一件很简单、不值得一提的事情。但是，当看到线上项目居然有这样的日志的时候，不禁想问问我们真的会打印日志吗？"}
+{"publish": "\r\n                ", "title": "10 个例子教你学会 ncat (nc) 命令", "catotry": "IT技术", "content": "ncat 或者说 nc 是一款功能类似 cat 的工具，但是是用于网络的。它是一款拥有多种功能的 CLI 工具，可以用来在网络上读、写以及重定向数据。 "}
+{"publish": "\r\n                ", "title": "最早做游戏设计与开发的女程序员", "catotry": "其他", "content": "第一批电子游戏程序员之一是一位年轻女性，那时她刚从高中毕业。四十年前，消费电子产品巨头 RAC 发布了 Studio II。"}
+{"publish": "\r\n                ", "title": "布隆过滤器:Google Guava类库源码分析及基于Redis Bitmaps的重构", "catotry": "开发", "content": "本文就Guava类库中实现布隆过滤器的源码作详细分析，最后出于灵活性和解耦等因素的考虑，我们想要把布隆过滤器从JVM中拿出来，于是利用了Redis自带的Bitmaps作为底层的bit数组进行重构，另外随着插入的元素越来越多，当实际数量远远大于创建时设置的预计数量时，布隆过滤器的误判率会越来越高，因此在重构的过程中增加了自动扩容的特性，最后通过测试验证其正确性。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "学数字设计的软件工程师该了解的时钟知识", "catotry": "开发", "content": "如果你有软件工程师背景，想找一份数字设计工程师的工作，那么你需要做的第一件事就是尽可能早的学习时钟概念。对很多从软件工程师转来的初级硬件设计工程师来说，时钟概念都是一件恼人的事情。"}
+{"publish": "\r\n                ", "title": "如何统计 Linux 中文件和文件夹/目录的数量", "catotry": "IT技术", "content": "今天我们再次带来一系列可以多方面帮助到你的复杂的命令。 通过操作命令，可以帮助您计数当前目录中的文件和目录、递归计数，统计特定用户创建的文件列表等。 "}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "Linux 与 Unix 之差异", "catotry": "IT技术", "content": "在计算机时代，相当一部分的人错误地认为 Unix 和 Linux 操作系统是一样的。然而，事实恰好相反。让我们仔细看看。 "}
+{"publish": "\r\n                ", "title": "为初学者准备的 MariaDB 管理命令", "catotry": "IT技术", "content": "现在我们再来看看一些有用的 MariaDB 管理命令。这些都是使用 MariaDB 最基础的命令，而且它们对 MySQL 也同样适合，因为 Mariadb 就是 MySQL 的一个分支而已。 "}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "如何开始做一个开源项目？他的亲身经历值得参考", "catotry": "IT技术", "content": "作者以自己的经历鼓励大家从事开源活动：在 Nodejs 源码里改了两个字符，解决了内存泄漏，信心大增；没找到合适的图片 lazy load 的库，自己动手做，竟被印度电商巨头的网站用上了，信心倍增。"}
+{"publish": "\r\n                ", "title": "软件开发工作的第一现场", "catotry": "其他", "content": "技术领导者重音在“领导”，而不在“技术”。尤其在Tech@Core的今天，技术就是业务。优秀的技术领导者更不能把自己变成一个救火队员，只是被动的响应，尽管救火队员常常因为很容易被人看到而获得一些关注和赞扬，但在中国的文化里，我们都知道还有更高一层的境界。"}
+{"publish": "\r\n                ", "title": "这种 Unicode 符号，让百万人中招下了假应用……", "catotry": "IT技术", "content": "2017 年 BBC 报道了一个假冒 WhatsApp 的新闻。假应用似乎与官方应用同属一个开发者名下。在 Google Play 发现前，假应用下载超过 100 万次。"}
+{"publish": "\r\n                ", "commentnum": "13  条评论", "title": "一个 IT 青年北漂四年的感悟", "catotry": "职场", "content": "一直以来在内心中仿佛有两个人：一个人说你要实现理想，呆在中国最繁华的城市，感受大都市的生活，实现个人价值；另一个说还是回老家吧，过得安逸点，没什么压力，老婆孩子热炕头挺好的。其实这无所谓对错，只是个人的选择不同而已。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "2018 开发者技能调查：这些编程语言受欢迎", "catotry": "开发", "content": "近日国外开发者平台 HankerRank 发布了 2018 年开发者技能调查报告，本文摘录部分和编程语言相关的调查结果。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "聊聊分布式事务，再说说解决方案", "catotry": "IT技术", "content": "分布式事务是企业集成中的一个技术难点，也是每一个分布式系统架构中都会涉及到的一个东西，特别是在微服务架构中，几乎可以说是无法避免，本文就分布式事务来简单聊一下。"}
+{"publish": "\r\n                ", "title": "Linux 下各文件夹的结构说明及用途介绍", "catotry": "IT技术", "content": "linux下各文件夹的结构说明及用途介绍。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "十个不错的 Linux 网络监视工具", "catotry": "IT技术", "content": "在这篇文章中，我们将讨论从 Linux 终端中运行的 10 个网络监视工具。它对不使用 GUI 而希望通过 SSH 来保持对网络管理的用户来说是非常理想的。"}
+{"publish": "\r\n                ", "title": "采访 Node.js 之父 Ryan Dahl", "catotry": "访谈", "content": "Ryan Dahl 目前是 Google Brain 的一个软件工程师，他是 Node.js 之父。现在他从事深度学习研究项目，工作重点是彩色化和超分辨率等图像转换工作。"}
+{"publish": "\r\n                ", "title": "用系统日志了解你的 Linux 系统", "catotry": "IT技术", "content": "后台运行的程序（通常被称为守护进程或者服务进程）处理了你 Linux 系统中的大部分任务。当这些守护进程工作时，它们将任务的详细信息记录进日志文件中，作为它们做过什么的“历史”信息。 "}
+{"publish": "\r\n                ", "commentnum": "11  条评论", "title": "做 ML 有关的工作，需要哪些技能？", "catotry": "IT技术", "content": "有位网友在 Quora 上提了这个问题，本文摘编了 2 位 Quora 网友的回答。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "说了这么久的“Linux 桌面年”，为什么还没来？", "catotry": "IT技术", "content": "你一定会听过这样的预言：“这将是Linux走向桌面的一年。”事实上，这样的预言我们不止听过一次，2012 年，2008 年，甚至是更早是时间，几乎每一年我们都听到过这样的“预言”。那么，说了这么久的“ Linux 桌面年”，它到底来了吗？"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "PostgreSQL 查询成本模型", "catotry": "IT技术", "content": "PostgreSQL是一个自由的对象-关系数据库服务器(数据库管理系统)，被业界誉为“最先进的开源数据库”，本文作者以代码实例说明了如何计算和评估PostgreSQL查询成本。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "可视化解释压缩算法的工作原理", "catotry": "IT技术", "content": "压缩技术在生活中到处可见，硬盘上存储数据、发送电视信号、网页传输、流媒体……现代计算几乎没有一个重要领域不使用压缩技术。"}
+{"publish": "\r\n                ", "title": "3 个可以替代 Emacs 和 Vim 的文本编辑器", "catotry": "IT技术", "content": "Vim 和 Emacs 对于 Linux 桌面上进行文本编辑显然是重量级的，但是它们并非唯一之选。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "浅谈重构中踩过的坑", "catotry": "IT技术", "content": "最近重构了公司一个将近10年的核心功能模块，踩了不少坑。在做这个重构的时候好几次都觉得做不下去，好几次压力都非常大，心想着我该不会做着做着就退出编程届了吧。"}
+{"publish": "\r\n                ", "title": "Linux 移动或重命名文件/目录－mv 的10个实用例子", "catotry": "IT技术", "content": "当你想要将文件从一个位置移动到另一个地方并且不想复制它，那么mv 命令是完成这个任务的首选。 "}
+{"publish": "\r\n                ", "title": "汇编语言入门教程", "catotry": "IT技术", "content": "汇编语言不容易学习，就连简明扼要的介绍都很难找到。下面我尝试写一篇最好懂的汇编语言教程，解释 CPU 如何执行代码。"}
+{"publish": "\r\n                ", "title": "如何在 Linux/Unix/Windows 中发现隐藏的进程和端口", "catotry": "IT技术", "content": "绝大多数的 Rootkit 工具或者恶意软件借助内核来实现进程隐藏，这些进程只在内核内部可见。你可以使用 unhide 或者诸如 rkhunter 等工具，扫描 rootkit 程序 、后门程序以及一些可能存在的本地漏洞。 "}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "当你在 Linux 上启动一个进程时会发生什么？", "catotry": "IT技术", "content": "本文是关于 fork 和 exec 是如何在 Unix 上工作的。你或许已经知道，也有人还不知道。几年前当我了解到这些时，我惊叹不已。 "}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "10 个用于 AI 开发的框架和库", "catotry": "IT技术", "content": "本文将介绍那些用于 AI 开发的高质量库，并谈谈它们的优缺点，以及特性。"}
+{"publish": "\r\n                ", "commentnum": "14  条评论", "title": "AI 玩跳一跳的正确姿势，跳一跳 Auto-Jump 算法详解", "catotry": "IT技术", "content": "最近，微信小游戏跳一跳可以说是火遍了全国，从小孩子到大孩子仿佛每一个人都在刷跳一跳，作为无（zhi）所（hui）不（ban）能（zhuan）的AI程序员，我们在想，能不能用人工智能（AI）和计算机视觉（CV）的方法来玩一玩这个游戏？"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "为小白准备的重要 Docker 命令说明", "catotry": "IT技术", "content": "在本教程中，我们会学习管理 docker 容器的其他命令。 "}
+{"publish": "\r\n                ", "title": "揭秘 Quora 的 Web 服务器架构", "catotry": "IT技术", "content": "Quora 曾经在 2012 年 8 月使用了一种新的并行架构去渲染页面。相比以前， 3-10 倍的速度来渲染页面。如今，我们又对原来的架构设计做了一些改进，从而进一步提高了速度并节省了成本。Quora 工程师在本文和大家一起分享他们是如何改造的。"}
+{"publish": "\r\n                ", "title": "回顾 2017 年发布的 10 个新数据库系统", "catotry": "IT技术", "content": "数据库世界并不是每周都有让人不可思议的新闻，但在一年的时间里，我还是惊讶地发现，我们看到了很多新事物，以及该领域坚持不懈地发展。"}
+{"publish": "\r\n                ", "title": "Pick：一款 Linux 上的命令行模糊搜索工具", "catotry": "工具与资源", "content": "它允许用户通过 ncurses(3X) 界面来从一系列选项中进行选择，而且还支持模糊搜索的功能。当你想要选择某个名字中包含非英文字符的目录或文件时，这款工具就很有用了。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Linux 的 fmt 命令用法与案例", "catotry": "IT技术", "content": "有时你会发现需要格式化某个文本文件中的内容。比如，该文本文件每行一个单词，而任务是把所有的单词都放在同一行。当然，你可以手工来做，但没人喜欢手工做这么耗时的工作。而且，这只是一个例子-事实上的任务可能千奇百怪。 "}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "请停止结对编程", "catotry": "开发", "content": "这是一个风和日丽的星期五下午，Ben 和 Martin 本应该在 咖啡馆喝一杯下午茶，一起聊聊周末的计划，然而 PM 的一个微信通知打乱了这一切。原来产品出现了一个bug需要紧急修复，下班之前必须要搞定。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "在 Linux 的终端上伪造一个好莱坞黑客的屏幕", "catotry": "IT技术", "content": "这是一个简单的小工具，可以把你的 Linux 终端变为好莱坞风格的黑客入侵的实时画面。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "区块链初学者指南", "catotry": "IT技术", "content": "区块链到底是什么呢？其实是两个东西：一个是区块一个是链。说玄虚一点，就是一链子的区块。"}
+{"publish": "\r\n                ", "title": "加密货币的本质", "catotry": "IT技术", "content": "2017 年比特币暴涨，其他币也像雨后春笋一样冒出来，已经有1000多种了。"}
+{"publish": "\r\n                ", "title": "操作系统级虚拟化概述", "catotry": "IT技术", "content": "本文简要介绍了操作系统级虚拟化的概念，并简要阐述了实现操作系统虚拟化所用到的技术Namespace及cgroups的原理及使用方法。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "漫画：80 端口争夺战", "catotry": "趣文小说", "content": "嗨，大家好，今天我们来聊聊 80 端口之战。著名的技术漫画站 turnoff.us 有这样的一副漫画，生动的描绘了固守 80 端口的 Apache 和新生代的 Nginx 之间的战争。 "}
+{"publish": "\r\n                ", "commentnum": "11  条评论", "title": "他们是优秀的前端，所以这些后端工作也交给他们…", "catotry": "职场", "content": "我多次听经理或招聘人员说，优秀工程师是可以与其他优秀工程师交换的。他们可能会说，“首席工程师为这个项目选择了 F# 语言，如果外面没有太多的 F# 开发者，那么有几年经验的优秀开发者应该也还不错。”"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "分布式、服务化的 ERP 系统架构设计", "catotry": "IT技术", "content": "ERP系统并发量不高，主要是业务复杂，各种业务耦合度远高于那些互联网应用，不好做拆分，数据查询逻辑要远比互联网系统复杂，一个列表页查询出来的数据，往往需要关联4、5张表才能得到结果。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "如何判断 Linux 服务器是否被入侵？", "catotry": "IT技术", "content": "大多数被攻破的服务器都是被类似自动攻击程序这样的程序或者类似“脚本小子”这样的廉价攻击者，以及蠢蛋罪犯所入侵的。这类攻击者会在访问服务器的同时滥用服务器资源，并且不怎么会采取措施来隐藏他们正在做的事情。 "}
+{"publish": "\r\n                ", "title": "如何自动唤醒和关闭 Linux", "catotry": "IT技术", "content": "不要成为一个电能浪费者。如果你的电脑不需要开机就请把它们关机。出于方便和计算机宅的考虑，你可以通过配置你的 Linux 计算机实现自动唤醒和关闭。 "}
+{"publish": "\r\n                ", "title": "免费知识哪里来？Arxiv 使用指南", "catotry": "其他", "content": "如果你非常确定自己想要找什么​，​比如知道论文的名字（算法的名字）或者作者的名字，直接去Google Scholar上搜索是最快的。然而如果你并不是很确定自己想要什么，只是想要看看某个领域的最新发展，知道大家都在干什么，然而​却发现​Google Scholar给你的结果多半不靠谱，请读下去。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "我见过的那些愚蠢的安全漏洞", "catotry": "IT技术", "content": "知名安全技术博主 Tony Hunt 吐槽了一些正规公司、正规网站的安全漏洞：HTTP + cookie 里明文存放用户名密码；输入用户名与生日就能重设密码；密保问题；邮箱绑定个人信息等等。"}
+{"publish": "\r\n                ", "title": "如何在 Linux 系统中通过用户组来管理用户", "catotry": "IT技术", "content": "本教程可以了解如何通过用户组和访问控制表（ACL）来管理用户。 "}
+{"publish": "\r\n                ", "title": "Nginx 教程（2）：性能", "catotry": "IT技术", "content": "本文介绍改善 Nginx 速度的方法和技巧，我们会在这里谈及 gzip 压缩，缓存，buffer 和超时。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "Nginx 教程 （1）：基本概念", "catotry": "IT技术", "content": "我们会告诉你 Nginx 是如何工作的，其背后的概念有哪些，以及如何优化它以提升应用程序的性能。还会告诉你如何安装，如何启动、运行。"}
+{"publish": "\r\n                ", "title": "堆和堆的应用：堆排序和优先队列", "catotry": "IT技术", "content": "堆(Heap))是一种重要的数据结构，是实现优先队列(Priority Queues) 首选的数据结构。由于堆有很多种变体，包括二项式堆、斐波那契堆等，但是这里只考虑最常见的就是二叉堆（以下简称堆）。"}
+{"publish": "\r\n                ", "title": "三款简单而优秀的 Linux 网络监视工具", "catotry": "IT技术", "content": "通过 iftop、 nethogs 和 vnstat 详细了解你的网络连接状态。 "}
+{"publish": "\r\n                ", "title": "MySQL 5.7 MGR 集群搭建", "catotry": "IT技术", "content": "最近看了一下 MySQL 5.7 的 MGR 集群挺不错的，有单主和多主模式，于是乎搭建测试了一下效果还不错，我指的不错是搭建和维护方面都比较简单。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "MySQL 性能调优技巧", "catotry": "IT技术", "content": "针对购物旺季网站流量会对数据库造成的压力，作者给出了MySQL性能调优的一些技巧，这些技巧极具参考价值，通过这些调优，可以有效避免因为流量过大造成服务器宕机，从而给企业造成经济损失。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "浅谈软件项目规模估计——怎么估？", "catotry": "开发", "content": "软件项目规模估计过程中会遇到哪些问题？对应的解决方案又是哪些？"}
+{"publish": "\r\n                ", "commentnum": "9  条评论", "title": "如果你还不了解机器学习的简史，请看这篇文章", "catotry": "IT技术", "content": "全面介绍机器学习的发展史，从感知机、神经网络、决策树、SVM、Adaboost到随机森林、Deep Learning"}
+{"publish": "\r\n                ", "commentnum": "22  条评论", "title": "我们逃离北上广，美国人逃离硅谷", "catotry": "职场", "content": "硅谷长期以来一直被看作是科技与创新的理想场所，硅谷也汇聚了各个领域的高、精、尖人才和企业家。但随着共享知识时代的发展，世界各地科技领域都有了不同程度的发展，硅谷的唯一地位也有所改变"}
+{"publish": "\r\n                ", "title": "接到一个需求，想在页面上加一个链接", "catotry": "开发", "content": "需求：我希望在页面上的这个位置放一个链接。"}
+{"publish": "\r\n                ", "title": "多线程编程基础知识", "catotry": "C/C++", "content": "对复杂的应用程序来说，线程的应用给应用程序提供了高效、快速、安全的数据处理能力。本实例讲述了线程处理中经常遇到的问题，希望对读者朋友有一定的帮助，起到抛砖引玉的作用。"}
+{"publish": "\r\n                ", "title": "机器学习之Logistic回归算法", "catotry": "IT技术", "content": "本文介绍机器学习中的Logistic回归算法，我们使用这个算法来给数据进行分类。Logistic回归算法同样是需要通过样本空间学习的监督学习算法，并且适用于数值型和标称型数据。"}
+{"publish": "\r\n                ", "commentnum": "17  条评论", "title": "修复每个 bug 后都要问这 3 个问题", "catotry": "开发", "content": "你是否曾经修复了一个 bug ，随后又发现了一个跟刚修复 bug 有关的 bug ，又或是修复 bug 的方式引起了另一个 bug ？当我修改 bug 时，我会问自己三个问题，以确保我已经仔细考虑了它的意义。每次你认为发现并修改了一个 bug 时，可以使用这些问题来提高生产力和代码质量。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "大道至简，职场上做人做事做管理", "catotry": "职场", "content": "大道至简，越是根源和基本的问题，道理实际上越简单。关于如何做人、做事、做管理的书很多，我看得不多，但是我觉得这些书更多是侧重技术和实现细节上的，而很少从人的思想和观念去讲。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "搭建Keepalived + Nginx + Tomcat的高可用负载均衡架构", "catotry": "IT技术", "content": "随着业务的不断扩大，系统的访问量逐渐的上升，单机部署的模式已无法承载现有的业务量，需要进行服务集群化部署，本文主要介绍服务端Tomcat多实例部署，以及如何保证web服务的高可用方案。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "2017 最优秀的十大 Linux 服务器发行版", "catotry": "IT技术", "content": "Linux 是自由和开源的，与其他操作系统相比，这也是使用 Linux 系统整体上成本较低的部分原因。尽管 Linux 操作系统在桌面上的表现不尽如人意，但作为运行在全球数据中心的服务器、大型计算机和超级计算机上的操作系统，它的表现令其他很多对手不能望其项背。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Linux 上的科学图像处理", "catotry": "IT技术", "content": "在显示你的数据和工作方面我发现了几个科学软件，但是我不会涉及太多方面。因此在这篇文章中，我将谈到一款叫 ImageJ 的热门图像处理软件。特别的，我会介绍 Fiji，这是一款绑定了一系列用于科学图像处理插件的 ImageJ 软件。"}
+{"publish": "\r\n                ", "title": "读懂 MySQL 执行计划", "catotry": "IT技术", "content": "在之前的面试过程中,问到执行计划,有很多童鞋不知道是什么?甚至将执行计划与执行时间认为是同一个概念。今天我们就一起来了解一下执行计划到底是什么。"}
+{"publish": "\r\n                ", "title": "11 个鲜为人知的 Linux 命令（1）", "catotry": "IT技术", "content": "Linux命令行吸引了大多数Linux爱好者。一个正常的Linux用户一般掌握大约50-60个命令来处理每日的任务。Linux命令和它们的转换对于Linux用户、Shell脚本程序员和管理员来说是最有价值的宝藏。有些Linux命令很少人知道 … "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "如何在不会导致服务器宕机的情况下，用 PHP 读取大文件", "catotry": "IT技术", "content": "虽然这不是我们经常遇到的问题，但在处理大文件时很容易搞砸。在异步应用程序中，当我们不注意小心使用内存的话，很容易导致整个服务器宕机。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "Google Brain 推荐算法，给了 Youtube 新生", "catotry": "其他", "content": "YouTube 整合 Google Brain 推荐算法，视频播放量提升 20 倍。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "QA 请勿忘初心", "catotry": "IT技术", "content": "大部分人关注点都离不开自动化测试，面试的 QA 也说想到 ThoughtWorks 来学习高深的自动化测试，仿佛自动化测试代表了整个 QA 界，我反对盲目的自动化测试，确切的说反对盲目的 UI 自动化测试。很多 QA 在自动化测试海洋里迷失了自己。"}
+{"publish": "\r\n                ", "commentnum": "12  条评论", "title": "解雇了天才员工，这是我们做过最正确的决定", "catotry": "职场", "content": "这个故事关于我们一名天才团队成员的陨落，他对我们的产品架构有深入理解，有预测未来需求的不可思议的能力，有大量专业领域知识积累。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "面试软件工程师，这些准备工作你做了吗？", "catotry": "职场", "content": "作为一名软件工程师，能否通过技术面试对于自己的职业发展至关重要，但是求职者往往很难知道具体怎样去为面试做准备。因为不同的软件公司采用不同的方式对工程师进行评估，而在这种压力很大、同时又很重要的场合，毫无防备的前去面试似乎是最糟糕的一种状态。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "Go 的这十年！Go 语言之父等人回顾", "catotry": "IT技术", "content": "Go 语言的主要缔造者 Rob Pike、Robert Griesemer 与 Ken Thompson，他们三人撰文回顾 Go 的发展史与一些重要人物，并曝光促成 Go 诞生的相关邮件的片段"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "30 个实例详解 TOP 命令", "catotry": "IT技术", "content": "Linux中的top命令显示系统上正在运行的进程。它是系统管理员最重要的工具之一。被广泛用于监视服务器的负载。在本篇中，我们会探索top命令的细节。"}
+{"publish": "\r\n                ", "commentnum": "职场", "title": "我如何在 17 天里得到 70 份面试", "catotry": "开发", "content": "搜索目标雇主，自动海投简历，看看这位工程师是如何拿 offer 的。"}
+{"publish": "\r\n                ", "title": "什么是僵尸进程，如何找到并杀掉僵尸进程？", "catotry": "IT技术", "content": "如果你经常使用 Linux，你应该遇到这个术语“僵尸进程”。 那么什么是僵尸进程？ 它们是怎么产生的？ 它们是否对系统有害？ 我要怎样杀掉这些进程？ 下面将会回答这些问题。 "}
+{"publish": "\r\n                ", "title": "成熟开发者的“元品质”", "catotry": "职场", "content": "除了那些通用的开发者品质，是不是可能还存在一些品质，可以让我们的开发者快速地成熟起来？除了要对新技术和趋势保持敏感，对工具和语言保持兴趣并熟练掌握，趁着年轻一年又一年挥洒不尽的精力和时间之外，还有没有一些品质存在，是年轻的开发者可借以成熟的路径，或者可供参考的方向？"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "10 个鲜为人知的 Linux 命令（5）", "catotry": "IT技术", "content": "在前四篇 鲜为人知的Linux命令 系列文章受到高度赞赏之后，我们将为广大读者呈上此系列的最后一篇文章，虽然是最后一篇，但是其重要性毫不逊于前几篇。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "IT 工程师的自我管理", "catotry": "职场", "content": "管理项目或公司和管理生活有很多共通之处。有些人天生做的很好，但是像我这种普通人则不然。庆幸的是，我们依然能找到一些可行的方法和工具来做的像他们一样，在这篇文章中，我会尝试把公司项目管理的各种方法应用到个人生活中，我划分了不同的小节（收集反馈、决策、时间和任务管理、情绪管理）来阐述这些问题和解决方案，在每个小节的结尾，也会附上我使用过或者推荐的一些工具。"}
+{"publish": "\r\n                ", "title": "7 个使用 bcc/BPF 的性能分析神器", "catotry": "IT技术", "content": "在 Linux 中出现的一种新技术能够为系统管理员和开发者提供大量用于性能分析和故障排除的新工具和仪表盘。它被称为增强的伯克利数据包过滤器（eBPF，或 BPF），虽然这些改进并不是由伯克利开发的，而且它们不仅仅是处理数据包，更多的是过滤。我将讨论在 Fedora 和 Red Hat Linux 发行版中使用 BPF 的一种方法，并在 Fedora 26 上演示。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "不懂技术的管理者，给你们扫盲软件开发的基本常识", "catotry": "开发", "content": "如果你有不会写代码却要管理程序员的领导或上级，那本文就是要给他们扫盲软件开发的基本常识。比如：为何软件开发工期难以估计、为何开发速度那么慢、为何程序员要“浪费”时间写测试以及做代码审查（Code Review）？"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "如何轻松记住 Linux 命令", "catotry": "IT技术", "content": "Linux 新手往往对命令行心存畏惧。部分原因是因为需要记忆大量的命令，毕竟掌握命令是高效使用命令行的前提。不幸的是，学习这些命令并无捷径，然而在你开始学习命令之初，有些工具还是可以帮到你的。 "}
+{"publish": "\r\n                ", "title": "Quora 是如何做持续部署的？工程师如是说", "catotry": "IT技术", "content": "Quora 是国外知名的问答网站，曾经在 12 小时内发布了 46 次新版本。不过这对于 Quora 工程师来说，只是普通的一天。他们执行非常快的持续部署周期，代码变动提交后就直接推送到线上。 他们是如何做到的呢？"}
+{"publish": "\r\n                ", "commentnum": "6  条评论", "title": "客户想要的 vs 客户实际预算：漫画解读软件开发模式 ​​​​", "catotry": "趣文小说", "content": "解析一张长漫画，带你了解软件开发模式的变迁史。不多说了，快上车来看~"}
+{"publish": "\r\n                ", "title": "MySQL SQL 优化之覆盖索引", "catotry": "IT技术", "content": "利用索引提升SQL的查询效率是我们经常使用的一个技巧，但是有些时候MySQL给出的执行计划却完全出乎我们的意料，我们预想MySQL会通过索引扫描完成查询，但是MySQL给出的执行计划却是通过全表扫描完成查询的，其中的某些场景我们可以利用覆盖索引进行优化。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "2017 年最受欢迎的 11 个编程挑战网站", "catotry": "IT技术", "content": "如果你想不断地提高自己的编程技能，那么不断尝试去解决那些编程中的难题，这是一个非常不错的途径。作者在本篇文章中列举出了10个编程挑战网站，你想尝试一下吗？"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "开发者死后，他的开源项目会有人继续维护吗？", "catotry": "IT技术", "content": "你可能从来没有听说已故的 Jim Weirich 或他开发的软件。但是你几乎肯定会使用过在他研究基础上开发出的各种应用程序。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "10 个鲜为人知的 Linux 命令（4）", "catotry": "IT技术", "content": "继续我们的”鲜为人知”系列，本系列的第四篇会让你了解一些有趣又动态的命令。"}
+{"publish": "\r\n                ", "title": "分布式事务的一种实现方式--状态流转", "catotry": "IT技术", "content": "关于分布式事务，参考了网上提到的一些办法，比如利用消息队列实现分布式事务，补偿事务，TCC，最大努力送达，等等。这里给出自己的一些理解和实现。可以称之为状态流转的实现。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "硬盘又坏了？硬盘数据恢复的神器有这些", "catotry": "IT技术", "content": "在一切工作进行之前，请先判断硬盘是否有损坏，以及缺损类型，而往往硬盘出现问题主要集中下以下两个方面：物理（驱动器故障或者组件故障）；逻辑（文件系统出错或是数据损坏）。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "如何处理前任程序员留下的代码", "catotry": "开发", "content": "身为一个软件工程师，我们不可避免的会遇到这样一些问题：不得不修改别人的代码，或者在别人的代码中添加新的功能。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "自动化来势汹汹，未来的程序员该何去何从？", "catotry": "职场", "content": "不管你是属于哪一类的程序员，从事技术行业意味着终生都要继续教育。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "成为 Linux 终端高手的七种武器", "catotry": "IT技术", "content": "Linux 终端不仅是一个键入命令的地方。如若你能熟谙这些基础技巧，那么你会在绝大多数 Linux 发行版的默认使用的 Bash shell中游刃有余。"}
+{"publish": "\r\n                ", "title": "谈谈 MySQL 隐式类型转换", "catotry": "IT技术", "content": "今天我们继续回到 MySQL 系列文章中，谈一谈 MySQL 中隐式类型转换。"}
+{"publish": "\r\n                ", "commentnum": "11  条评论", "title": "为什么我讨厌开放式办公？", "catotry": "职场", "content": "在我最近这份工作中，最好的作品都是在家完成的。我会尽可能避免在办公室工作。在家里，我拥有两张桌子和工作环境的完全控制权。无论是分心还是休息，都是我自己的选择，而不取决于外部因素。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "图解机器学习", "catotry": "IT技术", "content": "每当提到机器学习，大家总是被其中的各种各样的算法和方法搞晕，觉得无从下手。确实，机器学习的各种套路确实不少，但是如果掌握了正确的路径和方法，其实还是有迹可循的。"}
+{"publish": "\r\n                ", "title": "10 个鲜为人知的 Linux 命令（3）", "catotry": "IT技术", "content": "我们继续10个鲜为人知Linux命令系列的第三部分。或许你已经知道了这些命令，那你无疑是一个有经验而喜欢探索的Linux用户。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "写会 MySQL 索引", "catotry": "IT技术", "content": "索引是为来加速对表中数据行中的检索而创建的一种分散的数据结果，时针对表而建立的，它是由数据页面以外的索引页面组成，每个索引页中的行都含有逻辑指针，以便加速检索物理数据"}
+{"publish": "\r\n                ", "title": "MySQL 引擎特性：InnoDB崩溃恢复", "catotry": "IT技术", "content": "数据库系统与文件系统最大的区别在于数据库能保证操作的原子性，一个操作要么不做要么都做，即使在数据库宕机的情况下，也不会出现操作一半的情况，这个就需要数据库的日志和一套完善的崩溃恢复机制来保证。本文仔细剖析了InnoDB的崩溃恢复流程，代码基于5.6分支。"}
+{"publish": "\r\n                ", "title": "Linux 容器 vs 虚拟机 —— 谁更胜一筹", "catotry": "IT技术", "content": "自从Linux上的容器变得流行以来，了解Linux容器和虚拟机之间的区别变得更加棘手。本文将向您提供详细信息，以了解Linux容器和虚拟机之间的差异。 "}
+{"publish": "\r\n                ", "title": "我问每个面试官的两个问题，把工程流程用到软件面试", "catotry": "职场", "content": "我最近一直在进行软件工程师面试。面试开始时，我都会问面试官两个问题，但至今没有得到令我满意的回答……"}
+{"publish": "\r\n                ", "title": "5 款最酷的 Linux 终端模拟器", "catotry": "IT技术", "content": "虽然，我们可以继续使用老旧的 GNOME 终端、Konsole，以及好笑而孱弱的旧式 xterm。 不过，让我们带着尝试某种新东西的心境，回过头来看看 5 款酷炫并且实用的 Linux 终端。 "}
+{"publish": "\r\n                ", "title": "MySQL 引擎特性：InnoDB Buffer Pool", "catotry": "IT技术", "content": "本文主要分析MySQL Buffer Pool的相关技术以及实现原理，源码基于阿里云RDS MySQL 5.6分支，其中部分特性已经开源到AliSQL。"}
+{"publish": "\r\n                ", "title": "如何应对开源软件的版权牟利者？ 开源律师说这样做！", "catotry": "IT技术", "content": "Linux 社区的许多开发人员对 GPL 许可证牟利者 Patrick McHardy 的行为表示担忧，美国资深开源律师对一些常见问题进行解答，并对如何应对版权牟利行为提出了建议。 "}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "几乎毁掉谷歌吃豆人涂鸦游戏的 bug", "catotry": "IT技术", "content": "2010 年 5 月 21 日吃豆人游戏 30 周年，Google 首页在上午 9 点上线了一个可交互的涂鸦游戏。几个小时内，这个游戏就让全世界都为之疯狂。不过涂鸦团队开始陆续收到一个诡异 Bug 的报告。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "Facebook 是如何做大规模代码部署的", "catotry": "IT技术", "content": "Facebook 高速发展期是从 2007 年到 2016 年，他们一天部署 3 次代码，cherry-pick 集齐成千上万个 commit。现在用类似持续交付的方法，每个 commit 能自动部署到生产环境。"}
+{"publish": "\r\n                ", "title": "MySQL 引擎特性：InnoDB IO 子系统", "catotry": "IT技术", "content": "InnoDB做为一款成熟的跨平台数据库引擎，其实现了一套高效易用的IO接口，包括同步异步IO，IO合并等。本文简单介绍一下其内部实现，主要的代码集中在os0file.cc这个文件中。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "浅谈微服务基建的逻辑", "catotry": "IT技术", "content": "这篇文章主要目的是面向初接触微服务的朋友简单介绍微服务基础建设所需要的各个模块以及缘由。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "Linux 中命令链接操作符的十个最佳实例", "catotry": "IT技术", "content": "Linux中的链接命令，有些像你在shell中写短小的shell脚本，并直接在终端中执行。"}
+{"publish": "\r\n                ", "title": "从银行转账失败到分布式事务：总结与思考", "catotry": "IT技术", "content": "思考这个问题的初衷，是有一次给朋友转账，结果我的钱被扣了，朋友没收到钱。而我之前一直认为银行转账一定是由事务保证强一致性的，于是学习、总结了一下分布式事务的各种理论、方法。"}
+{"publish": "\r\n                ", "title": "用 Linux、Python 和树莓派酿制啤酒", "catotry": "IT技术", "content": "容量提升到 10 加仑之后，我偶然看到了 StrangeBrew Elsinore ，我意识到我真正需要的是将整个酿酒过程转换成全电子化的，用树莓派来运行它。 "}
+{"publish": "\r\n                ", "title": "MySQL 引擎特性：InnoDB 同步机制", "catotry": "IT技术", "content": "现代操作系统以及硬件基本都支持并发程序，而在并发程序设计中，各个进程或者线程需要对公共变量的访问加以制约，此外，不同的进程或者线程需要协同工作以完成特征的任务，这就需要一套完善的同步机制，在Linux内核中有相应的技术实现，包括原子操作，信号量，互斥锁，自旋锁，读写锁等。InnoDB考虑到效率和监控两方面的原因，实现了一套独有的同步机制，提供给其他模块调用。"}
+{"publish": "\r\n                ", "title": "如何遏制 PostgreSQL WAL 的疯狂增长", "catotry": "IT技术", "content": "PostgreSQL在写入频繁的场景中，可能会产生大量的WAL日志，而且WAL日志量远远超过实际更新的数据量。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "为什么 SQL 正在击败 NoSQL，数据的未来是什么？", "catotry": "IT技术", "content": "经过多年的沉寂之后，今天的SQL正在复出。缘由如何？ 这对数据社区有什么影响？看看本文的分析。以下为译文。"}
+{"publish": "\r\n                ", "title": "数据库 schema 迁移数据最佳实践", "catotry": "IT技术", "content": "工程团队常面临一项共同挑战：重新设计数据模型以支持清晰准确的抽象和更复杂的功能。这意味着，在生产环境中，需要迁移数以百万计的活跃数据对象，并且重构上千行代码。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "BFPRT 算法（TOP-K问题）", "catotry": "IT技术", "content": "在一堆数中求其前k大或前k小的问题，简称TOP-K问题。"}
+{"publish": "\r\n                ", "title": "有了数据，需要一些思路。应该从哪开始做数据分析？", "catotry": "IT技术", "content": "进行数据分析，最难的往往是第一步。 有了数据之后，我们需要一些思路。那应该从哪里开始？"}
+{"publish": "\r\n                ", "title": "微服务进展缓慢的 5 个难点", "catotry": "IT技术", "content": "这些年微服务大红大紫，但是真正能够拿出来做为可实践案例的少之又少。大部分的微服务案例只能看到微服务架构的“演进结果”，但是看不到其“演进过程”。这就像每个人可以看到一个架构的高峰，却看不到攀登高峰的路径。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "2017 机器学习调查报告：Python 最火，R 极具潜力", "catotry": "IT技术", "content": "数据平台 Kaggle 近日发布了 2017 机器学习及数据科学调查报告，这也是 Kaggle 首次进行全行业调查。"}
+{"publish": "\r\n                ", "title": "刚收到了Facebook的Offer，我是这样为面试做准备的", "catotry": "职场", "content": "我刚刚在硅谷的科技公司完成了 7 次现场面试，我收到了来自 Facebook 的软件工程师的职位 Offer。下面分享一下我是怎么为面试做准备的，以及我在这个过程中学到的东西。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "越做越复杂的软件工程项目", "catotry": "IT技术", "content": "什么都不缺就缺程序员的人招了程序员来做改变世界的 app，即使极度克制“不乱加功能”，也还是越做越复杂。看上去很理所当然的功能实际做下去就会发现事情没那么简单。"}
+{"publish": "\r\n                ", "commentnum": "8  条评论", "title": "Hello, World！我的房车编程生活，已经 150 天了", "catotry": "职场", "content": "我的房车编程生活今天已经到了第 150 天。自今年 5 月离开柏林以来，我访问了 6 个国家，行程超过了 1.2 万公里，收集了 18 万瓦时太阳能，并沿途遇到了许多有趣的人。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "技术面试中的精英主义", "catotry": "职场", "content": "技术面试有很多比较深入的 CS 问题，对每个面试官来说，他们也都有自己最喜欢提的问题。但是对于招聘及面试，相比于以上那些问题，更重要的是要针对这个岗位需要什么样的人，而不是一味为难求职者，就算想问一些比较难的 CS 问题，也要有提出的理由。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "如何让网站不下线而从 Redis 2 迁移到 Redis 3", "catotry": "IT技术", "content": "我们最近着手升级 Redis 服务器，此升级旨在使用 Redis 3.2 提供的原生集群功能。这篇博客希望解释为什么我们要使用集群、我们遇到的问题以及我们的解决方案。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "ls 命令的 20 个实用范例", "catotry": "IT技术", "content": "Linux中一个基本命令是ls。没有这个命令，我们会在浏览目录条目时会遇到困难。这个命令必须被每个学习Linux的人知道。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "数据库新动向 Oracle 与微软割据局面产生", "catotry": "IT技术", "content": "数据库是一个历久弥新的领域，每年有很多新的黑马产生，但是整体局面却又看不出大的变化。究其原因可能是老牌厂商占据了主要市场，新伙伴的加入只能稍改部分局面，却无法撼动大的格局。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "我从编程写软件学到的 7 件事", "catotry": "职场", "content": "我正在一点一点从工程师转型为管理者。别弄错了，虽然我在转管理，但我每天仍然写代码。我在本文总结了多年的编程经验，并且希望能转化应用到管理领域上。 "}
+{"publish": "\r\n                ", "title": "10 个鲜为人知的 Linux 命令（2）", "catotry": "IT技术", "content": "继续上篇文章11个鲜为人知的实用Linux命令，在本文中，我们将关注其他几个不为人知的Linux命令，有些在管理桌面和服务器方面被证明是非常有用的。"}
+{"publish": "\r\n                ", "title": "如何在 Linux 下统计高速网络中的流量", "catotry": "IT技术", "content": "在Linux中有很多的流量监控工具，它们可以监控、分类网络流量，以花哨的图形用户界面提供实时流量分析报告。"}
+{"publish": "\r\n                ", "commentnum": "12  条评论", "title": "谈谈程序员的离职和跳槽", "catotry": "职场", "content": "有一位员工提出离职，在思索了几天后，我整理了思路，有了这篇文章。"}
+{"publish": "\r\n                ", "title": "详解 MySQL 基准测试和 sysbench 工具", "catotry": "IT技术", "content": "作为一名后台开发，对数据库进行基准测试，以掌握数据库的性能情况是非常必要的。本文介绍了MySQL基准测试的基本概念，以及使用sysbench对MySQL进行基准测试的详细方法。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "提升网站访问速度的 SQL 查询优化技巧", "catotry": "IT技术", "content": "在这篇文章中，我将介绍如何识别导致性能出现问题的查询，如何找出它们的问题所在，以及快速修复这些问题和其他加快查询速度的方法。我会把门户网站 deliciousbrains.com 出现的拖慢查询速度的情况作为实际的案例。"}
+{"publish": "\r\n                ", "title": "八款值得尝试的精美的 Linux 发行版（2017 版）", "catotry": "IT技术", "content": "一些令 Linux 用户印象最深刻且精美的 Linux 发行版"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "为什么我最喜欢的编程语言是 Go", "catotry": "开发", "content": "我力图尊重每个人的喜好，因此我通常会避开相关争论：哪种编程语言、文本编辑器或操作系统才是最好的。然而，我最近很多次被问到为什么我喜欢并且大量使用 Go，所以写下这篇文章。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Git 的 4 个阶段的撤销更改", "catotry": "IT技术", "content": "Git是一个分布式版本控制软件，最初由林纳斯·托瓦兹创作，于2005年以GPL发布。本文假设只使用主分支master的情况下如何进行回退操作。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "为什么招不到最好的程序员？SO 创始人有些建议", "catotry": "职场", "content": "「永远只招最优秀的人。无论公司规模多大，永远不要在你的招聘标准上妥协。」"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "Adobe 软件的最佳 Linux 替代品", "catotry": "IT技术", "content": "你是一名正在寻找 Adobe 的替代品的 Linux 用户吗？那你不是一个人。 "}
+{"publish": "\r\n                ", "title": "2017 全栈开发人员修炼指南", "catotry": "IT技术", "content": "本篇文章中，我不会谈论哪种网站或者编程训练营有最好的网络开发程序。而是给从未学习过编程的你，提供一个明确的指引，包括如何成为全栈网络开发人员最必不可少的技能以及如何找到工作。"}
+{"publish": "\r\n                ", "commentnum": "12  条评论", "title": "你有学习者综合征吗？Web 开发是重灾区", "catotry": "职场", "content": "学而不用，不停学习，却没有真正实际应用知识来做东西。如果过去的一年里，学习的语言或框架超过 3 个，那你可能已经感染学习者综合征了。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "写代码容易，编程并不容易", "catotry": "IT技术", "content": "当我的编程生涯开始的时候，我认为“编程很简单……怎么会需要去学校学习呢？”但经过学习和实践，我了解到编程很难。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "netstat 的 10 个基本用法", "catotry": "IT技术", "content": "Netstat 是一款命令行工具，可用于列出系统上所有的网络套接字连接情况，包括 tcp,udp 以及 unix 套接字，另外它还能列出处于监听状态（即等待接入请求）的套接字。"}
+{"publish": "\r\n                ", "title": "di：比 df 更有用的磁盘信息工具", "catotry": "IT技术", "content": "尽管df是一个受欢迎的命令，但仍然不能提供一些高级的功能，如一个用户实际的磁盘可用空间，以及各种有用的显示格式等。还有另一个命令行实用工具可用，不仅提供了这些高级功能也提供了df的所有特性。在本文中,我们将讨论磁盘信息工具 — di"}
+{"publish": "\r\n                ", "title": "你懂 Linux 吗？关于 Linux 你可能不是非常了解的七件事", "catotry": "IT技术", "content": "使用 Linux 最酷的事情之一就是随着时间的推移，你可以不断获得新的知识。每天，你都可能会遇到一个新的实用工具，或者只是一个不太熟悉的奇技淫巧，但是却非常有用。"}
+{"publish": "\r\n                ", "title": "比尔·盖茨评审产品时说 F**k 最少的一次", "catotry": "开发", "content": "在我 BillG 评审的会议上，我的汇报层都到场了，他们还带着一堆我怀疑是表兄表妹姑婶的人。还有一个我团队里的人，他负责准确记录 Bill 整场爆了几次粗口。Bill 说 Fxxx 的次数越少，review 结果越好。"}
+{"publish": "\r\n                ", "title": "没有报酬，有多少开源项目维护者能坚持？", "catotry": "IT技术", "content": "作者是 Mozilla 的工程师。文章讨论了开源项目的两种角色 starters（发起人）与 maintainers（维护者）。没有报酬的情况下，有多少开源项目的维护者能持之以恒？"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "Linux 中 grep 命令的 12 个实践例子", "catotry": "IT技术", "content": "你是否遇到过需要在文件中查找一个特定的字符串或者样式，但是不知道从哪儿开始？那么,就请grep来帮你吧。"}
+{"publish": "\r\n                ", "commentnum": "6  条评论", "title": "如何让 Vim 成为我们的神器", "catotry": "IT技术", "content": "Vim 是一个上古神器，本篇文章主要持续总结使用 Vim 的过程中不得不了解的一些指令和注意事项，以及持续分享一个前端工作者不得不安装的一些插件，而关于 Vim 的简介，主题的选择，以及为何使用 vim-plug 来管理插件等内容，有兴趣的同学下来可以自己了解和对比下。"}
+{"publish": "\r\n                ", "commentnum": "工具与资源", "title": "23 个热门深度学习库的排名", "catotry": "IT技术", "content": "基于 Github 和 Stack Overflow 上的活跃度以及 Google 搜索结果，The Data Incubator 最近制作了一个 23 个热门深度学习库的排名。"}
+{"publish": "\r\n                ", "title": "使用 ProxySQL 改进 MySQL SSL 的连接性能", "catotry": "IT技术", "content": "在这篇博文里，我们准备来看一下 ProxySQL 是如何提高 MySQL 的 SSL 连接性能的。"}
+{"publish": "\r\n                ", "commentnum": "31  条评论", "title": "每周 70+ 小时，吴恩达的招人要求之一", "catotry": "职场", "content": "吴恩达离开百度后新创了自己的公司。近日吴恩达在 Twitter 发推招兵买马，有人发现其官网的招软件工程师要求中有这样的措词：「我们希望你能很好适应我们的团队文化…… 我们中许多人每周工作和学习 70 个小时以上」，然后这消息炸开锅了……"}
+{"publish": "\r\n                ", "title": "历史上第一位从事游戏开发与设计的女程序员", "catotry": "业界", "content": "一直以来，女性软件开发人员数量稀少，尤其是在早期人们的刻板印象中，她们的工作能力、学历高低很容易其备受质疑的方面。实际上，家庭环境、学校教育、婚姻生活很大程度上影响了女性软件开发工作者的人生道路。对于她们而言，并非所有的人都能被历史所铭记，也并非所有的人都能在软件开发的道路上一帆风顺，但在这个被男性主宰的领域，她们所做的一切直到如今都依然令人动容。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "机器学习实践指南", "catotry": "IT技术", "content": "在今天的文档中，我会列出 7 个步骤（和 50 多个资源）帮助你开启这个令人兴奋的计算机科学领域的大门，并逐渐成为一个机器学习高手。 "}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "如何在工作之余找精力做副项目？", "catotry": "职场", "content": "常看到那些在兼职创业的人。他们花一整天的时间做专职工作，然后赶回家中投入到另一个项目中。他们的创业雄心被挤压到夜晚那仅剩的一点点时间里，往往通过减少睡眠来做更多的工作。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "微博爬虫“免登录”技巧详解及 Java 实现", "catotry": "开发", "content": "目前，对于微博的爬虫，大部分是基于模拟微博账号登录的方式实现的，这种方式如果真的运营起来，实际上是一件非常头疼痛苦的事，你可能每天都过得提心吊胆，生怕新浪爸爸把你的那些账号给封了，而且现在随着实名制的落地，获得账号的渠道估计也会变得越来越少。"}
+{"publish": "\r\n                ", "title": "初创企业开源许可证管理九大法则", "catotry": "IT技术", "content": "开源软件虽然可以免费使用，但就如同饲养一条幼犬一样（开始虽然花钱不多，后边越养越费钱）。在采用开源之前，确保能够了解其隐藏的成本和陷阱。 "}
+{"publish": "\r\n                ", "commentnum": "开发", "title": "自上而下，逐步揭开 PHP 解析大整数的面纱", "catotry": "PHP", "content": "浮点数精度丢失是一个长久的问题，PHP中精度丢失并不是PHP的bug，是计算机表示范围导致的问题。"}
+{"publish": "\r\n                ", "title": "Linux shell 中的那些小把戏", "catotry": "IT技术", "content": "我日常使用Linux shell(Bash)，但是我经常忘记一些有用的命令或者shell技巧。是的，我能记住一些命令，但是肯定不会只在特定的任务上使用一次，所以我就开始在我的Dropbox账号里用文本文件写下这些Linux shell的小技巧，现在我决定共享它给你。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "不要浪费时间写完美的代码", "catotry": "开发", "content": "系统可以持续运行 5 年、10 年甚至 20 年或者更多年。但是，特定的代码行的生命，即使是经过设计，通常要短得多：当你通过各种方式来迭代寻求解决方案时，它会有几个月、几天甚至几分钟的生命。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "人工智能创业，你需要知道的 6 大核心问题", "catotry": "创业", "content": "跟大家聊聊人工智能领域的创业和创新，包括如何选择赛道、团队的搭配、以及如何应对巨头的挑战。从投资人的视角，给大家总结了人工智能创业的6大核心问题。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Linux 大爆炸：一个内核，无数发行版", "catotry": "IT技术", "content": "即使你是一个 Linux 新人，你可能也已经知道它不是一个单一的、整体的操作系统，而是一群项目。这个星座中不同的“星”组成了“发行版”。每个都提供了自己的 Linux 模式。 "}
+{"publish": "\r\n                ", "title": "都100%代码覆盖了，还会有什么问题？", "catotry": "IT技术", "content": "100% 的代码覆盖率不等于 100% 的测试。"}
+{"publish": "\r\n                ", "title": "MySQL Binlog 事件介绍篇", "catotry": "IT技术", "content": "上一篇文件MySql Binlog初识，对Binlog的参数，格式以及个别事件做了详细介绍，但是Binlog事件数量比较多，上篇文章中没有对所有事件进行介绍；本文将对Binlog的事件进行简单说明，必要的时候通过SQL触发相关的事件，以下基于Mysql5.5，5.0以前的版本不考虑。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "React 许可证的五宗罪", "catotry": "IT技术", "content": "Facebook 公司的 BSD+专利许可证失败的原因不是因为许可证本身，而是因为它忽略了开源软件更深层次的本质。 "}
+{"publish": "\r\n                ", "title": "若你要开源自己的代码，此文带你了解开源协议", "catotry": "IT技术", "content": "许多开发者对开源许可证了解很少，不清楚有哪些许可证，应该怎么选择。本文介绍开源许可证的基本知识"}
+{"publish": "\r\n                ", "title": "从 UNIX 到 GitHub：十个关于自由和开源软件历史的重要事件", "catotry": "IT技术", "content": "本文记录了自由和开源历史上的一些重要时刻，也称得上是 FOSS 历史上的大事件。从 UNIX 的全盛时期，到 GNU 和 Linux 的诞生，再到 GitHub 将开源“民主化”，以及在它们之间的一切。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "Linux 内核学习经验总结", "catotry": "IT技术", "content": "学习内核，每个人都有自己的学习方法，仁者见仁智者见智。以下是我在学习过程中总结出来的东西，对自身来说，我认为比较有效率，拿出来跟大家交流一下。​"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "为什么 Python 增长如此之快？", "catotry": "开发", "content": "根据 Stack Overflow 最近公布的报告，基于 SO 上不同问题帖的访问量统计，Python 可以说是增长最快的主流编程语言。Python 也是高收入国家访客最爱浏览的标签。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "区块链原理最清晰最直观的解释", "catotry": "IT技术", "content": "区块链是怎么回事？做一个应用带你了解"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "GitHub 的 MySQL 基础架构自动化测试", "catotry": "IT技术", "content": "我们建有基础架构来自动化测试这些操作，在这篇文章中，我们将分享几个例子，来说明我们是如何通过持续测试打造我们的基础架构的。这是让我们一梦到天亮的根本保障。 "}
+{"publish": "\r\n                ", "title": "Linux 26 周年，来一场怀旧之旅", "catotry": "IT技术", "content": "通过安装 SLS 1.05 展示了 Linux 内核在这 26 年间走过了多远。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "MySql Binlog 初识", "catotry": "IT技术", "content": "在一般稍微重要一点的实际应用场景中，都至少需要打开二进制日志，因为这是MySQL很多存储引擎进行增量备份的基础，也是MySQL实现复制的基本条件。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "如何读懂火焰图？", "catotry": "IT技术", "content": "火焰图（flame graph）是性能分析的利器。本文介绍它的基本用法。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "RESTful API 设计最佳实践", "catotry": "IT技术", "content": "项目资源的URL应该如何设计？用名词复数还是用名词单数？一个资源需要多少个URL？用哪种HTTP方法来创建一个新的资源？可选参数应该放在哪里？那些不涉及资源操作的URL呢？实现分页和版本控制的最好方法是什么？因为有太多的疑问，设计RESTful API变得很棘手。在这篇文章中，我们来看一下RESTful API设计，并给出一个最佳实践方案。"}
+{"publish": "\r\n                ", "title": "每个程序员都该知道的五大定律", "catotry": "IT技术", "content": "定律-或称法则，可以指导我们并让我们在同伴的错误中学习。这篇文章中，我将介绍我每次设计或实现软件时出现在我脑海的五大定律。其中有些和开发有关，有些和系统组织有关。它们可以帮助你成为合格的软件工程师。"}
+{"publish": "\r\n                ", "title": "常用 GDB 命令中文速览", "catotry": "IT技术", "content": "本文整理自《Debugging with GDB: the GNU Source-Level Debugger》 "}
+{"publish": "\r\n                ", "title": "MySQL 索引设计概要", "catotry": "IT技术", "content": "本文会介绍 数据库索引设计与优化 中设计索引的一些方法，让各位读者能够快速的在现有的工程中设计出合适的索引。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "惊叹！这个盲人程序员是这样写代码的", "catotry": "开发", "content": "我认为你第一次看到我的工作间肯定这样想 —— “总感觉少些什么”。没有显示器和鼠标，却有个人敲打着键盘，不知注视着哪里。这就是我，我同事可以证明我没问题。我是位于坦佩雷（芬兰西南部一座城市）的 Vincit 写字楼中的一名软件开发者。我双目失明。"}
+{"publish": "\r\n                ", "title": "如何在一个 U 盘上安装多个 Linux 发行版", "catotry": "IT技术", "content": "本教程介绍如何在一个 U 盘上安装多个 Linux 发行版。这样，你可以在单个 U 盘上享受多个现场版Linux 发行版了。 "}
+{"publish": "\r\n                ", "title": "漫谈传统的 Linux 初始化系统的运行级别", "catotry": "IT技术", "content": "了解运行级别是如何配置的，如何改变系统运行级别以及修改对应状态下运行的服务。 "}
+{"publish": "\r\n                ", "title": "HttpClient 获取 Cookie 的一次踩坑实录", "catotry": "开发", "content": "在使用 HttpClient 进行抓取一些网页的时候，经常会保留从服务器端发回的 Cookie 信息，以便发起其他需要这些 Cookie 的请求。但是也有一些网站返回的 cookie 并不一定完全符合规范…"}
+{"publish": "\r\n                ", "title": "数据异构的武器-BINLOG+MQ", "catotry": "IT技术", "content": "分库分表中有一个最为常见的场景，为了提升数据库的查询能力，我们都会对数据库做分库分表操作。比如订单库，开始的时候我们是按照订单ID维度去分库分表，那么后来的业务需求想按照商家维度去查询，比如我想查询某一个商家下的所有订单，就非常麻烦。这个时候通过数据异构就能很好的解决此问题。"}
+{"publish": "\r\n                ", "title": "合并请求的 10 个常见问题及建议", "catotry": "开发", "content": "我参加过很多 GitHub 托管的项目，不管是个人的、开源的还是合约的。有时候用免费的 GitHub，其他时候用 GitHub 企业版。但有一件事是一样的：提交合并请求（Pull Request）很容易的，但审查好 PR 真的很难。"}
+{"publish": "\r\n                ", "commentnum": "12  条评论", "title": "程序员如何成为编程高手，并以此创业", "catotry": "职场", "content": "每个IT企业，尤其是初创企业，非常苦恼：找不到好的程序员。现在大学、软件学院及各种培训机构，每年培养几十万的程序员，毕业的每个人都有同样困恼：找不到好的工作。问题出在哪里呢？"}
+{"publish": "\r\n                ", "title": "为提高用户体验，Yelp 是如何无损压缩图片的", "catotry": "IT技术", "content": "Yelp 有一亿张用户上传的图片，经过一系列手段进行压缩后，平均缩小了30%，节省了存储空间与带宽，这为公司省钱，让客户端加载图片更快，用户体验更好。"}
+{"publish": "\r\n                ", "commentnum": "开发", "title": "C# 最佳工具集合： IDE 、分析、自动化工具等", "catotry": "工具与资源", "content": "C#是企业中广泛使用的编程语言，特别是那些依赖微软的程序语言。如果您使用C#构建应用程序，则最有可能使用Visual Studio，并且已经寻找了一些扩展来对您的开发进行管理。但是，这个工具列表可能会改变您编写C#代码的方式。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "为什么要招老程序员？这 5 个理由或许说服你", "catotry": "职场", "content": "Josh Marinacci 是一名经历很丰富的老程序员了，他从经验、判断力、知识面的广度和深度等几个方面，阐述了为什么需要雇佣老程序员。"}
+{"publish": "\r\n                ", "title": "无我编程的 10 条戒律", "catotry": "职场", "content": "无我编程旨在把代码评审中的人为因素最小化，应当在一个友好、合议方式进行，个人感情放一边，从而提高代码质量。"}
+{"publish": "\r\n                ", "title": "如何做到“恰好一次”地传递数十亿条消息", "catotry": "其他", "content": "在分布式领域中存在着三种类型的消息投递语义，分别是：最多一次（at-most-once）、至少一次（at-least-once）和恰好一次（exactly-once）。本文作者介绍了一个利用Kafka和RocksDB来构建的“恰好一次”消息去重系统的实现原理。"}
+{"publish": "\r\n                ", "title": "如何最有效的编写SQL", "catotry": "IT技术", "content": "解决数据库级（SQL）工作上的问题，应该采用的是SET方法（整体的）而不是过程式的方法。下面来看看作者为什么这么说。 "}
+{"publish": "\r\n                ", "title": "C++17 相比于 C++14 的所有重大变化", "catotry": "开发", "content": "本文档列举了自C++14发布以来，到C++17 DIS（N4660）发布为止，应用于C++工作草案（working draft）的所有重大变化。"}
+{"publish": "\r\n                ", "title": "LevelDB 实现分析", "catotry": "IT技术", "content": "LevelDB 是由 Google 开发的 key-value 非关系型数据库存储系统，是基于 LSM(Log-Structured-Merge Tree) 的典型实现，LSM 的原理是：当读写数据库时，首先纪录读写操作到 Op log 文件中，然后再操作内存数据库，当达到 checkpoint 时，则写入磁盘，同时删除相应的 Op log 文件，后续重新生成新的内存文件和 Op log 文件。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "累到想删库，程序员职业倦怠的真实现状", "catotry": "职场", "content": "即使编程是你在这世上最喜欢的活动之一，每个整天写代码的人都会经历这样的事情，突然感觉“我想做别的事情，而不是坐在这写代码”。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "走近比特币：一个故事看懂“区块链”", "catotry": "IT技术", "content": "本文是对区块链原理极为通俗的解释，适合刚接触比特币的小白们阅读。"}
+{"publish": "\r\n                ", "commentnum": "趣文小说", "title": "漫画算法：什么是 B 树？", "catotry": "IT技术", "content": "B树/B-树，让你深入了解文件系统、数据库索引的数据结构。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "王垠：如何掌握所有的程序语言", "catotry": "开发", "content": "很多编程初学者至今还在给我写信请教，问我该学习什么程序语言，怎么学习。由于我知道标题问题的答案，所以总感觉这个问题是如此“低级”，一直没来得及回复 :P 可是逐渐的，我发现原来不只是小白们有这个问题，就连美国大公司的很多资深工程师，其实也没搞明白。"}
+{"publish": "\r\n                ", "commentnum": "7  条评论", "title": "程序员偷偷自动化，每周才工作几小时却拿全薪，这样道德么？", "catotry": "职场", "content": "就在上周，程序员们在 StackExchange 上有激烈的讨论，如果偷偷把自己的工作自动化，是不是不道德？"}
+{"publish": "\r\n                ", "commentnum": "开发", "title": "用 C 语言写一个简单的 Unix Shell（1）", "catotry": "C/C++", "content": "作者用 C 语言实现了一个简易的 unix shell，通过本文可加深对 shell 和 Unix 系统原理的理解。 "}
+{"publish": "\r\n                ", "title": "性能优化知多少", "catotry": "IT技术", "content": "最近一段时间，系统新版本要发布，在beta客户测试期间，暴露了很多问题，除了一些业务和异常问题外，其他都集中在性能上。有幸接触到这些性能调优的机会，当然要学习总结了。"}
+{"publish": "\r\n                ", "commentnum": "6  条评论", "title": "漫画算法：什么是跳跃表？", "catotry": "趣文小说", "content": "一种神奇的数据结构"}
+{"publish": "\r\n                ", "title": "减轻服务器负载的建议和技巧", "catotry": "IT技术", "content": "去年发现我们的字体服务出人意料的高负载，尤其是晚上没什么流量的时候。幸运的是，我们发现了这一问题的根本原因，并大幅提升了字体服务的性能和系统整体的稳定性。以下内容是我们的优化过程。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "程序员生涯第一生存法则", "catotry": "职场", "content": "程序员的职业生涯，第一生存法则是什么？"}
+{"publish": "\r\n                ", "title": "为何不用担心大公司偷你的绝世创业点子", "catotry": "创业", "content": "创业公司经常被问到这个问题。因为相比于典型创业公司的资源，大公司拥有数雄厚资金和众多工程师，所以这个问题听起来似乎非常合理。"}
+{"publish": "\r\n                ", "title": "每个程序员都需要知道一些游戏网络知识", "catotry": "IT技术", "content": "作为一个程序员，你有没有想象过多人游戏是如何实现的？"}
+{"publish": "\r\n                ", "title": "带着问题学习分布式系统之数据分片", "catotry": "IT技术", "content": "何为数据分片（segment，fragment， shard， partition）？就是按照一定的规则，将数据集划分成相互独立、正交的数据子集，然后将数据子集分布到不同的节点上。注意，这里提到，数据分片需要按照一定的规则，不同的分布式应用有不同的规则，但都遵循同样的原则：按照最主要、最频繁使用的访问方式来分片。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "数据结构中各种树", "catotry": "IT技术", "content": "数据结构中有很多树的结构，其中包括二叉树、二叉搜索树、2-3树、红黑树等等。本文中对数据结构中常见的几种树的概念和用途进行了汇总，不求严格精准，但求简单易懂。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "能当主力，能入虚拟机，还能随时打包带走，Linux 就是这么强大", "catotry": "IT技术", "content": "一台机器上，可以同时安装Windows跟若干Linux系统，Windows下可以通过虚拟机来运行位于本地磁盘的这些Linux系统，而这些Linux系统下也可以通过容器或者虚拟机的方式互相运行。并且这些系统可以非常方便地备份跟删除，也可以随时创建以及运行快照。并且这些Linux系统可以随时打包带走，只需要经过很少的修改，就能直接在U盘或者其他机器上运行。"}
+{"publish": "\r\n                ", "title": "Linux TCP GSO 和 TSO 实现", "catotry": "IT技术", "content": "TSO(TCP Segmentation Offload): 是一种利用网卡来对大数据包进行自动分段，降低CPU负载的技术。其主要是延迟分段。GSO(Generic Segmentation Offload): GSO是协议栈是否推迟分段，在发送到网卡之前判断网卡是否支持TSO，如果网卡支持TSO则让网卡分段，否则协议栈分完段再交给驱动。如果TSO开启，GSO会自动开启。"}
+{"publish": "\r\n                ", "title": "浅析 Linux 的共享内存与 tmpfs 文件系统", "catotry": "IT技术", "content": "POSIX共享内存与SYS V共享内存在内核都是通过tmpfs实现，但对应两个不同的tmpfs实例，相互独立。"}
+{"publish": "\r\n                ", "title": "七大查找算法", "catotry": "IT技术", "content": "查找是在大量的信息中寻找一个特定的信息元素，在计算机应用中，查找是常用的基本运算。本文简单概括性的介绍了常见的七种查找算法，说是七种，其实二分查找、插值查找以及斐波那契查找都可以归为一类——插值查找。"}
+{"publish": "\r\n                ", "title": "实现前后端分离的心得", "catotry": "IT技术", "content": "对目前的web来说，前后端分离已经变得越来越流行了，越来越多的企业/网站都开始往这个方向靠拢。那么，为什么要选择前后端分离呢？前后端分离对实际开发有什么好处呢?"}
+{"publish": "\r\n                ", "title": "迪斯尼的华丽海洋动效算法，是如何实现的？", "catotry": "IT技术", "content": "《海洋奇缘》讲述了作为航海世家后代的波里尼西亚公主莫阿娜，为了找寻传说中的神秘之岛，独自踏上了航海之旅的故事。本文并没有详细介绍具体的动画技术，而是迪斯尼如何用心拍摄了一部感人至深的作品。"}
+{"publish": "\r\n                ", "title": "ASP.NET Core 2.0 新功能汇总", "catotry": "开发", "content": "ASP.NET Core 的变化和发展速度是飞快的，当你发现你还没有掌握 ASP.NET Core 1.0 的时候， 2.0 已经快要发布了，目前 2.0 处于 Preview 1 版本，意味着功能已经基本确定。"}
+{"publish": "\r\n                ", "title": "Linux 系统下 init 进程的前世今生", "catotry": "IT技术", "content": "Linux系统中的init进程(pid=1)是除了idle进程(pid=0，也就是init_task)之外另一个比较特殊的进程，它是Linux内核开始建立起进程概念时第一个通过kernel_thread产生的进程，其开始在内核态执行，然后通过一个系统调用，开始执行用户空间的/sbin/init程序，期间Linux内核也经历了从内核态到用户态的特权级转变，/sbin/init极有可能产生出了shell，然后所有的用户进程都由该进程派生出来…"}
+{"publish": "\r\n                ", "title": "软件开发和测试的 30 个最佳实践", "catotry": "开发", "content": "这些软件开发和测试的最佳实践，可以帮你节省时间和避免问题。"}
+{"publish": "\r\n                ", "title": "基于密码学的数据治理Crypto-based Data Governance", "catotry": "IT技术", "content": "最近得益于区块链在金融领域的火爆效应，Crypto-based currency&transaction改变了金融圈原本“数字货币=数字游戏”的印象，密码学货币不再只是数字货币，它还被赋予了“防篡改、去中心”的特性，但是本质上这些事务都是数据治理问题"}
+{"publish": "\r\n                ", "title": "谈一下我们是如何开展code review的", "catotry": "IT技术", "content": "众所周知，代码审查是软件开发过程中十分重要的环节。作者结合自己的实际工作经验，与大家分享一下在实际工作中代码审查是如何开展的。"}
+{"publish": "\r\n                ", "commentnum": "6  条评论", "title": "创业公司操蛋的面试过程", "catotry": "职场", "content": "抱怨当下创业公司不切实际的落后的面试工程师的方法，都学大公司问算法题，容易错过那些真能做事的人，而招到只会做题不会做事的人。"}
+{"publish": "\r\n                ", "title": "理解 Linux 的平均负载和性能监控", "catotry": "IT技术", "content": "本文解释 Linux 系统中最关键的管理任务之一，关于系统 / CPU 的负载和平均负载的性能监控。"}
+{"publish": "\r\n                ", "title": "使用 Nmon 监控 Linux 的系统性能", "catotry": "IT技术", "content": "Nmon（得名于 Nigel 的监控器）是IBM的员工 Nigel Griffiths 为 AIX 和 Linux 系统开发的一款计算机性能系统监控工具。Nmon 可以把操作系统的统计数据展示在屏幕上或者存储到一份数据文件里，来帮助了解计算机资源的使用情况、调整方向和系统瓶颈。"}
+{"publish": "\r\n                ", "title": "字符串的长度，是字符数量，还是字节数量？", "catotry": "IT技术", "content": "大多数的字符串函数，例如charindex，substring，stuff等函数，其位置都是针对字符数量的，这使得Len函数深入人心，但是，一个Unicode字符，占用的字节数量是2Bytes，而一个普通的ASCII字符占用的字节数量是1Byte，当需要计算字符串占用的字节数量时，要如何计算字符串的长度？"}
+{"publish": "\r\n                ", "title": "Linus Torvalds 说 Linux 仍然惊讶和激励着他", "catotry": "IT技术", "content": "周一，Linus Torvalds 首次来到中国参加在北京召开的 LinuxCon + ContainerCon + CloudOpen。在近 2000 名观众面前，Linus Torvalds 和 VMware 开源负责人 Dirk Hohndel 进行了进行了一次“炉边聊天”，谈及是什么在惊讶和激励着他，以及有志的开源开发者们该如何上手。"}
+{"publish": "\r\n                ", "title": "15位身份证补全为18位身份证算法", "catotry": "IT技术", "content": "身份证号码补全虽然简单，但是前提需要了解我国公民的身份证构成原理才能正确验证，今天将这个学习过程分享给大家，希望对大家有所帮助，学习是个永无止境的过程，只有不断学习才能有进步！"}
+{"publish": "\r\n                ", "title": "开发团队到底好不好，这 12 个问题能检验出来吗？", "catotry": "开发", "content": "3. 是否有问题跟踪器? 4. 写代码之前修正所有 bug 吗?  5. 是否有实时更新的计划表?  6. 是否实时更新产品功能和使用方法的文档? 7. 是否使用市面上最好的工具？ 8. 是否有完整的测试计划？"}
+{"publish": "\r\n                ", "title": "数据可视化产生生产力", "catotry": "IT技术", "content": "数据可视化就是借助于图形化手段，清晰有效地进行信息传达与沟通。许多人会着眼于“可视化”，认为数据可视化就是将一系列看上去很炫、很复杂的图表展示在页面上。其实不然，虽然可视化脱离不了各种图表类型，但并不意味着要以增加用户理解难度为代价去实现复杂的功能；或者为了看上去绚丽多彩而失去其最根本的意义：传达与沟通。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "不再迷惑，无值和 NULL 值", "catotry": "IT技术", "content": "在关系型数据库的世界中，无值和NULL值的区别是什么？一直被这个问题困扰着，甚至在写TSQL脚本时，心有戚戚焉，害怕因为自己的一知半解，挖了坑，贻害后来人，于是，本着上下求索，不达通幽不罢休的决心（开个玩笑），遂有此文。"}
+{"publish": "\r\n                ", "commentnum": "7  条评论", "title": "实例详解贝叶斯推理的原理", "catotry": "IT技术", "content": "提及贝叶斯推理时，人们时常会带着一种敬仰的心情。其实并非想象中那么富有魔力，或是神秘。尽管贝叶斯推理背后的数学越来越缜密和复杂，但其背后概念还是非常容易理解。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "服务端I/O性能大比拼：Node、PHP、Java和Go", "catotry": "IT技术", "content": "理解应用程序的输入/输出（I/O）模型，意味着其在计划处理负载与残酷的实际使用场景之间的差异。若应用程序比较小，也没有服务于很高的负载，也许它影响甚微。但随着应用程序的负载逐渐上涨，采用错误的I/O模型有可能会让你到处踩坑，伤痕累累。"}
+{"publish": "\r\n                ", "commentnum": "开发", "title": "PHP 框架 Laravel 作者的工作日常", "catotry": "PHP", "content": "经常有人问我有关日常工作的问题，比如我是如何管理时间的，我常用的工具有哪些，我喜欢用什么编辑器和配色方案。在这里，我将借这篇文章尝试回答这些问题。"}
+{"publish": "\r\n                ", "title": "当程序员写不出代码了，该怎么办？", "catotry": "职场", "content": "你已经对着电脑 n 个小时了。敲键盘正成为一种负担，你在想，键盘是否就像西西弗斯推着的那块巨石。"}
+{"publish": "\r\n                ", "title": "Redis 源码学习之事件驱动", "catotry": "IT技术", "content": "Redis基于多路复用技术实现了一套简单的事件驱动库，代码在ae.h、ae.c以及ae_epoll.c、ae_evport.c和ae_kqueue.c、ae_select.c这几个文件中。其中ae表示的是antirez eventloop的意思。"}
+{"publish": "\r\n                ", "title": "Kotlin 喧嚣过后，谈谈 Java 程序员未来的出路", "catotry": "开发", "content": "自从谷歌 I/O 2017宣布将支持 Kotlin 作为 Android 开发的 First-Class 语言，各种 Kotlin 能否取代 Java 的文章、争论层出不穷。 作为一名老 Java 程序员，虽然类似场面见过不少，但心态是比较复杂的。"}
+{"publish": "\r\n                ", "title": "应用敏感信息的 6 个配置原则", "catotry": "IT技术", "content": "应用往往需要用到配置信息，其中一些由于其特殊性会相比于其他配置信息更加敏感，它们需要被很好的保护起来以避免应用遭受黑客攻击。"}
+{"publish": "\r\n                ", "title": "做 Web 开发必备的安全核对清单", "catotry": "IT技术", "content": "在云端开发安全又健壮的 Web 应用非常难。如果你认为这很容易，那你技术水平要么已经很牛叉，要么还没有踩过坑。"}
+{"publish": "\r\n                ", "title": "13 年来，我写了这些糟糕的游戏代码", "catotry": "开发", "content": "Evan Todd 用风趣幽默的口吻点评了自己从 2004 年以来做游戏时写的代码，有 Java、C++、Python。经过十几年打怪练级，最近终于完整地做完并推出了自己的第一套游戏。Todd 今年 26 岁。"}
+{"publish": "\r\n                ", "title": "Linux 日志定时轮询流程详解", "catotry": "IT技术", "content": "logrotate是个十分有用的工具，它可以自动对日志进行截断（或轮循）、压缩以及删除旧的日志文件。例如，你可以设置logrotate，让/var/log/foo日志文件每30天轮循，并删除超过6个月的日志。配置完后，logrotate的运作完全自动化，不必进行任何进一步的人为干预。"}
+{"publish": "\r\n                ", "title": "MySQL 数据库误删除后的数据恢复操作说明", "catotry": "IT技术", "content": "在日常运维工作中，对于数据库的备份是至关重要的！数据库对于网站的重要性使得我们对 MySQL 数据库的管理不容有失！然而是人总难免会犯错误，说不定哪天大脑短路了，误操作把数据库给删除了，怎么办？"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "如何学习新技术", "catotry": "IT技术", "content": "我在 2010 年左右开始学习信息技术，从初期围绕单片机做电子设计，一路浅尝辄止，走马观花。什么语言都用过，在各种平台上都干过活，有用的没用的都学了一些，一路尝鲜一路丢。"}
+{"publish": "\r\n                ", "title": "Reddit 如何统计每个帖子的浏览量", "catotry": "IT技术", "content": "我们想要更好地向用户展示 Reddit 的规模。为了这一点，投票和评论数是一个帖子最重要的指标。然而，在 Reddit 上有相当多的用户只浏览内容，既不投票也不评论。所以我们想要建立能够计算帖子浏览数的系统。"}
+{"publish": "\r\n                ", "title": "数据库表设计，没有最好只有最适合", "catotry": "IT技术", "content": "我们在设计数据库的时候，是否会突破常规，找到最适合自己需求的设计方案，下面来举个例子"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "面试解惑：没有技术深度的苦恼", "catotry": "职场", "content": "有位朋友去面试 Android 开发，他师出名门（BAT中的一家公司），是有十年的软件开发经验的高级 Android 工程师，但却被以没有技术深度而遭拒绝。"}
+{"publish": "\r\n                ", "title": "Linux 下 logrotate 日志轮询操作梳理", "catotry": "IT技术", "content": "logrotate 程序是一个日志文件管理工具。用于分割日志文件，删除旧的日志文件，并创建新的日志文件，起到“转储”作用。可以节省磁盘空间。下面就对 logrotate 日志轮转操作做一梳理记录。"}
+{"publish": "\r\n                ", "title": "7 个开源数据库利弊对比，哪款才最适合你？", "catotry": "IT技术", "content": "当 IT 部门只有微薄预算下运行时，降低成本对于保持业务和保持 IT 业务盈利是非常重要的。"}
+{"publish": "\r\n                ", "title": "六个优雅的 Linux 命令行技巧", "catotry": "IT技术", "content": "使用 Linux 命令工作可以获得许多乐趣，但是如果您使用一些命令，它们可以减少您的工作或以有趣的方式显示信息时，您将获得更多的乐趣。 "}
+{"publish": "\r\n                ", "title": "在 Linux 中分割和重组文件", "catotry": "IT技术", "content": "csplit 是这些有趣的小命令中的一个，它永远伴你左右，一旦开始用它就离不开了。 "}
+{"publish": "\r\n                ", "title": "30 多年的编码经验浓缩成的 10 条最佳实践", "catotry": "IT技术", "content": "所以，如何写出一手好代码？良好的代码更易于阅读、理解、调试和修改，最重要的是它的缺陷也更少。显然，编写良好的代码需要更多的时间，但是从长远来看，它也具有更多的价值，因为这降低了维护的成本，而且具有更好的可重用性。"}
+{"publish": "\r\n                ", "title": "11 个超酷的编程新工具", "catotry": "IT技术", "content": "在这篇文章中，我们将列出你在日常工作中能够使用的新的开发工具。很多对在线流媒体感兴趣的开发人员已经开始在他们的开发环境中使用这些新工具，因为相比他们的旧的设施来讲这些工具提供了更多的优势。"}
+{"publish": "\r\n                ", "title": "全文搜索引擎 Elasticsearch 入门教程", "catotry": "IT技术", "content": "本文从零开始，讲解如何使用 Elastic 搭建自己的全文搜索引擎。每一步都有详细的说明，大家跟着做就能学会。"}
+{"publish": "\r\n                ", "title": "GitHub 简易入门指南", "catotry": "IT技术", "content": "GitHub 是一个在线平台，旨在促进在一个共同项目上工作的个人之间的代码托管、版本控制和协作。通过该平台，无论何时何地，都可以对项目进行操作（托管和审查代码，管理项目和与世界各地的其他开发者共同开发软件）。"}
+{"publish": "\r\n                ", "title": "Linux 开机引导和启动过程详解", "catotry": "IT技术", "content": "你是否曾经对操作系统为何能够执行应用程序而感到疑惑？那么本文将为你揭开操作系统引导与启动的面纱。 "}
+{"publish": "\r\n                ", "title": "一个时代的结束：Solaris 系统的那些年，那些事", "catotry": "IT技术", "content": "现在看来，Oracle 公司正在通过取消 Solaris 12 而终止 Solaris 的功能开发，这里我们要回顾下多年来在 Phoronix 上最受欢迎的 Solaris 重大事件和新闻。 "}
+{"publish": "\r\n                ", "title": "最实用的 Linux 命令行使用技巧", "catotry": "IT技术", "content": "我们可能每天都会要使用到很多的 Linux 命令行。 我们也会网络上知晓一些使用它们的小技巧，但是如果我们没有时常来进行练习，就有可能会忘掉怎么去使用它们。 所以我就决定把那些你可能会忘记的小提示和小技巧，或者对你而言可能是全新的东西都列表来。"}
+{"publish": "\r\n                ", "title": "成就 CTO 的关键技能是什么？", "catotry": "职场", "content": "什么是成为 CTO 的关键技能？"}
+{"publish": "\r\n                ", "title": "Redis 源码学习之 Redis 事务", "catotry": "IT技术", "content": "Redis作为一个内存型数据库，同样支持传统数据库的事务特性。这篇文章会从源代码角度来分析Redis中事务的实现原理。"}
+{"publish": "\r\n                ", "commentnum": "6  条评论", "title": "程序员最核心的竞争力是什么？", "catotry": "职场", "content": "社招面试时，有一个问题几乎是必问的：你为什么要离开上一家公司？ 其实这个问题主要是想试探一下求职者的核心诉求，并借此预估一下他在本公司工作的稳定性。常见的答案也无非就是这么几种：对薪酬不满意、干得不爽，或者是想换个环境。"}
+{"publish": "\r\n                ", "commentnum": "开发", "title": "提升 C++ 技能的 7 种方法", "catotry": "C/C++", "content": "有 7 种方法帮助你真正提高 C++，本文会给你一些小技巧来帮助你真正实现所选的目标。"}
+{"publish": "\r\n                ", "title": "一文了解 Kubernetes 是什么？", "catotry": "IT技术", "content": "这是一篇 Kubernetes 的概览。Kubernetes 是一个自动化部署、伸缩和操作应用程序容器的开源平台。 "}
+{"publish": "\r\n                ", "commentnum": "7  条评论", "title": "谷歌用两年时间研究了 180 个团队，发现高效团队有这五个特征", "catotry": "职场", "content": "Google 花了两年采访 200+ Google 员工，调查了 180+ 高效的工作团队，发现了 5 个特征。"}
+{"publish": "\r\n                ", "title": "DevOps 团队之殇", "catotry": "IT技术", "content": "DevOps在一遍遍被人们提及、一次次在项目中被实践时，也在不断地被重新定义，DevOps是什么？这个问题可能到现在也比较难说清楚，但是项目中的“DevOps”做了些什么，却是清晰可见的。本文就结合笔者的切身经历，谈一谈关于DevOps交付的价值以及在企业转型过程中遇到的一些问题。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Zookeeper，你可把我坑惨了！", "catotry": "IT技术", "content": "前些日子，我们被自己部署的 Zookeeper 集群 DDOS 攻击了，惊不惊喜，意不意外？"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Nginx 缓存引发的跨域惨案", "catotry": "IT技术", "content": "本文主要讲述了在Nginx环境中跨域请求使用时发现的问题和注意的事项。"}
+{"publish": "\r\n                ", "title": "从分布式计算到分布式训练", "catotry": "IT技术", "content": "对计算机来讲，所谓的计算，不过是将存储在各个地方的数据通过数据总线进行传输，然后经过算术逻辑单元执行一系列预设好的规则，最终再将输出写入到某个位置。在计算能力有限、存储成本偏高的情况下，就需要利用好计算机的资源，让它的计算能力发挥出最大的价值。"}
+{"publish": "\r\n                ", "commentnum": "趣文小说", "title": "这些奇怪的排序算法，你没见过吧？", "catotry": "IT技术", "content": "居然还有这样的操作？？？没想到吧~"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "MySQL 死锁与日志二三事", "catotry": "IT技术", "content": "最近线上 MySQL 接连发生了几起数据异常，都是在凌晨爆发，由于业务场景属于典型的数据仓库型应用，白天压力较小无法复现。甚至有些异常还比较诡异，最后 root cause 分析颇费周折。那实际业务当中咱们如何能快速的定位线上 MySQL 问题，修复异常呢？下文我会根据两个实际 case，分享下相关的经验与方法。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "可能是迄今为止最好的 GitHub 代码浏览插件", "catotry": "工具与资源", "content": "GitHub 是很多开发者远程协作的重要工具，其社交化编码的理念伴随着开源运动改变着整个开发社区的生态，无数优质项目依托 GitHub 在全球开源开发者的参与下蓬勃发展。"}
+{"publish": "\r\n                ", "title": "Linux 包管理基础：apt、yum、dnf 和 pkg", "catotry": "IT技术", "content": "本指南旨在快速地介绍下在多种 Linux 发行版中查找、安装和升级软件包的基础知识，并帮助您将这些内容在多个系统之间进行交叉对比。 "}
+{"publish": "\r\n                ", "title": "PHP实现定时任务（非linux-shell方式，与操作系统无关）", "catotry": "IT技术", "content": "用PHP实现定时任务（非linux-shell方式，与操作系统平无关）。适用于定时精确时间不低于1秒。web服务重启、或者php重启。该定时任务不会自动重启。可以用来处理大部分定时任务的结局方案，商城定时自动收货，关闭评论，订单回滚；定时发送邮件，数据备份等"}
+{"publish": "\r\n                ", "title": "决策树算法及实现", "catotry": "IT技术", "content": "在计算机科学中，树是一种很重要的数据结构，比如我们最为熟悉的二叉查找树（Binary Search Tree），红黑树（Red-Black Tree）等，通过引入树这种数据结构，我们可以很快地缩小问题规模，实现高效的查找。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "6 个理由，为什么 GNOME 仍然是最好的 Linux 桌面环境", "catotry": "IT技术", "content": "一位资深 Linux 用户告诉你为什么 GNOME 仍然是最好的 Linux 桌面环境"}
+{"publish": "\r\n                ", "title": "REST 的 6 个约束", "catotry": "IT技术", "content": "定义个一个 RESTful 系统的时候应该遵循 6 个约束。它们限制了服务端只能遵循这些约束来处理和响应客户端请求，但是遵循这些约束服务也可以获取理想的非函数化的属性，例如性能、可伸缩、简单程度、可变能力、可见度、灵活性、可信度。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "MySQL 高性能表设计规范", "catotry": "IT技术", "content": "良好的逻辑设计和物理设计是高性能的基石， 应该根据系统将要执行的查询语句来设计schema, 这往往需要权衡各种因素。"}
+{"publish": "\r\n                ", "title": "开发团队面临的 3 大安全挑战", "catotry": "IT技术", "content": "应用安全不能只依靠防火墙，必须要在应用开发阶段采取适当的安全控制措施，使得应用在发布上线前就具备较好的安全性，避免人为失误造成安全隐患。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "27 个机器学习、数学、Python 速查表", "catotry": "工具与资源", "content": "机器学习涉及到的方面非常多。当我开始准备复习这些内容的时候，我找到了许多不同的”速查表”, 这些速查表针对某一主题都罗列出了所有我需要知道的知识重点。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "小王子之程序员版", "catotry": "职场", "content": "Fred Hebert 仿照《小王子》小说，写了一个小程序员在学习软件开发中的各种历险，分了 11 个小故事。正如读者 lei 的评论所言：所有程序员都是文中这些人的缩影。"}
+{"publish": "\r\n                ", "title": "Redis 核心概念", "catotry": "IT技术", "content": "Redis有着更为复杂的数据结构并且提供对他们的原子性操作，这是一个不同于其他数据库的进化路径。Redis的数据类型都是基于基本数据结构的同时对程序员透明，无需进行额外的抽象。"}
+{"publish": "\r\n                ", "title": "MySQL EXPLAIN 详解", "catotry": "IT技术", "content": "MySQL EXPLAIN命令是查询性能优化不可缺少的一部分，该文主要讲解explain命令的使用及相关参数说明。 EXPLAIN Output Columns id id是用来顺序标识整个查询中SELELCT 语句的，在嵌套查询中id越大的语句越先执行。该值可能为NULL，如果这一行用来说明的是其他行的联合结果。 select_type 表示查询的类型 table 对应行正在访问哪一个表，…"}
+{"publish": "\r\n                ", "title": "教你如何比谷歌搜索更快速有效地利用 man", "catotry": "IT技术", "content": "Linux 的帮助手册其实拥有很多有用的信息，而且比你想象中更容易使用 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Facebook 这类网站如何处理数十亿请求并保持高可用性的？", "catotry": "IT技术", "content": "Facebook 这类网站如何处理数十亿请求并保持高可用性呢，答案是负载均衡，本文将对其一探究竟。"}
+{"publish": "\r\n                ", "title": "12 个 Vim 小窍门", "catotry": "IT技术", "content": "这篇 Vim 技巧文章，包含了一些我觉得比较有意思的从中级到高级的 Vim 技巧，让我们一起来回顾一下。"}
+{"publish": "\r\n                ", "title": "避免持续集成（CI）成为一个安全隐患", "catotry": "IT技术", "content": "在服务器的世界里，root用户就是神，拥有至高的权力和力量。如果有人获得了“神之力”，后果可能不堪设想。无论是Web服务器、数据库服务器还是持续集成服务器。都是这个世界里的二等公民，权限和力量都应该受到约束。执行的时候应该受到控制。"}
+{"publish": "\r\n                ", "title": "Linux Bash 提示符的一些骚操作", "catotry": "IT技术", "content": "一些能让你自定义 Bash 提示符的黑科技"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "我眼中的项目经理", "catotry": "职场", "content": "这一个个小故事，都是真实的，给我很多启发，在人生的道路上，能够聆听到成功者的教诲，是最难能可贵的。"}
+{"publish": "\r\n                ", "title": "大数据搜索选开源还是商业软件？ElasticSearch 对比 Splunk", "catotry": "IT技术", "content": "本文就架构，功能，产品线，概念等方面就ElasticSearch和Splunk做了一下全方位的对比，希望能够大家在制定大数据搜索方案的时候有所帮助。"}
+{"publish": "\r\n                ", "commentnum": "21  条评论", "title": "程序员之间的 N 层鄙视网", "catotry": "趣文小说", "content": "时至今日，这张鄙视网络已经相当的庞大。互联网的江湖中，有好事者开始归纳这张网，现在我们就来看看这张日益巨大的鄙视网。"}
+{"publish": "\r\n                ", "commentnum": "职场", "title": "自学的程序员如何找到好工作？", "catotry": "开发", "content": "这个问题来自一个 17 岁自学编程的小青年，他感觉自己缺乏很多有用的技能。想读大学拿软件开发相关学位，但又觉得上大学是为了工作。他处于迷茫阶段，期待好建议。Brain Knapp 给的建议在 Reddit 有 15k+ 赞同。"}
+{"publish": "\r\n                ", "commentnum": "7  条评论", "title": "让程序员跨界做设计，脑洞开的万万想不到", "catotry": "趣文小说", "content": "如果程序员来做设计，世界会变成什么样子？"}
+{"publish": "\r\n                ", "title": "Linux 中高效编写 Bash 脚本的 10 个技巧", "catotry": "IT技术", "content": "Shell 脚本编程 是你在 Linux 下学习或练习编程的最简单的方式。尤其对 系统管理员要处理着自动化任务，且要开发新的简单的实用程序或工具等（这里只是仅举几例）更是必备技能。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "我是如何开始踏上 bash 脚本编程之路的？", "catotry": "IT技术", "content": "通过一些简单的 Google 搜索，即使是编程入门者也可以尝试编写代码将以往枯燥和冗长的任务自动化。"}
+{"publish": "\r\n                ", "title": "给非英语母语的人从事开源项目的若干建议", "catotry": "IT技术", "content": "在这篇文章中，作为不以英语为母语的 OpenStack 的贡献者的我们将会分享一些所面临挑战——如何去克服它们，还有一些好的方案，它们能够减轻不以英语为母语且刚开始从事的人的焦虑。我们的总部在日本、巴西和中国，每天都会与世界各地的大型 OpenStack 社区合作。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "一步步实现 Redis 搜索引擎", "catotry": "IT技术", "content": "本文只是一个采用 Redis 优化查询搜索的一个简单 Demo，和现有的开源搜索引擎相比，它更轻量，学习成本也相应低些。其次，它的一些思想与开源搜索引擎是类似的，如果再加上词语解析，也可以实现类似全文检索的功能"}
+{"publish": "\r\n                ", "title": "通过机器学习来自动调优 DBMS，让任何人都可以部署数据库管理系统", "catotry": "IT技术", "content": "数据库管理系统（DBMS）是任何数据密集应用的关键部分。它们可以处理大量数据和复杂的工作负载，但同时也难以管理，因为有成百上千个“旋钮”（即配置变量）控制着各种要素，比如要使用多少内存做缓存和写入磁盘的频率。组织机构经常要雇佣专家来做调优，而专家对很多组织来说太过昂贵了。"}
+{"publish": "\r\n                ", "title": "使用 Go 语言来理解 Tensorflow", "catotry": "开发", "content": "本文通过一个简单的Go绑定实例，让读者一步一步地学习到Tensorflow有关ID、作用域、类型等方面的知识。"}
+{"publish": "\r\n                ", "title": "九年游戏开发经验谈", "catotry": "职场", "content": "程序员是一个充满了躁动与焦虑的职业，新人的不断涌入和频繁的跳槽正在不断消磨人们对这个行业的安全感。而我有幸认识了这样一位工程师，他从 08 年就加入育碧上海工作室从事他所热爱的游戏开发。这九年的时间里，他见证了游戏行业的蓬勃发展，开发技术的日新月异，而育碧也见证了他由青涩到成熟，在游戏开发行业中渐渐闯出自己的一番天地。"}
+{"publish": "\r\n                ", "title": "C++ 中命名空间的 5 个常见用法", "catotry": "C/C++", "content": "可能很多程序员对C++已经非常熟悉，但是对命名空间经常使用到的地方还不是很明白，这篇文章就针对命名空间这一块做了一个叙述。 "}
+{"publish": "\r\n                ", "title": "30 岁转行做初级程序员是什么样的体验", "catotry": "职场", "content": "30岁转行做程序员到底行不行？在互联网发展迅速的今天，很多人会产生这样的想法，这篇文章告诉你，没有什么不可以，关键看你怎么做。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "拯救 Java Code Style 强迫症", "catotry": "开发", "content": "有一位工程师对Code Style特别在意，所以在Code Review的大部分时间中都是该工程师在指出哪里哪里的格式不对，但是团队并没有找到改进方法，每次的结论都是“下次我注意一点。”"}
+{"publish": "\r\n                ", "title": "2017 十大最佳用于隐私和安全保护的 Linux 发行版", "catotry": "工具与资源", "content": "这篇文章将列出十个关注隐私和安全性的 Linux 发行版"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "数据科学家和机器学习工程师有什么不同", "catotry": "开发", "content": "近十年来，“数据科学”和“数据科学家”备受关注。但对于哪些人可以被称为是“数据科学家”，则争论不休。"}
+{"publish": "\r\n                ", "title": "揭秘 Reddit 愚人节项目的技术实现过程", "catotry": "IT技术", "content": "每到愚人节，各科技公司都俗套地弄一些愚人节项目，绝大部分既没意思又没技术含量。但今年 Reddit 的愚人节项目一枝独秀，既有意思又有技术含量，发动全球网友一个像素一个像素实时地画图。"}
+{"publish": "\r\n                ", "title": "2017 年最佳开源网络监控工具", "catotry": "工具与资源", "content": "对开源软件的需求持续增长，网络管理工具已经适应了这一浪潮。你不再需要为可能不是你所需的软件支付小额的费用，请留意下（大部分）免费的开源工具，用来监控、配置和映射你的联网设备。这里有 14 个开源网络监控工具来协助IT管理员完成工作。"}
+{"publish": "\r\n                ", "commentnum": "7  条评论", "title": "我给你钱，你帮我改好不好？", "catotry": "职场", "content": "并不是所有的人都适合编程，有些人天生就爱编程，编程就像流淌在他身体里的血液，是他的生命，他的一切，这种人可遇不可求。"}
+{"publish": "\r\n                ", "title": "如何从参与开源项目的过程中获取自信", "catotry": "其他", "content": "随着大脑的发育，你渐渐学会了这世上什么事情可以/应该做，以及什么事情不能/不应该做。你所有的行为都受到周围大众的影响，很多时候，阻碍你参与某事的原因就是你缺乏自信。"}
+{"publish": "\r\n                ", "title": "移花接木：针对OAuth2的攻击", "catotry": "IT技术", "content": "作为第三方应用，为了提升用户体验，往往会提供第三方社交账号登录或者绑定的功能，这背后使用到的关键技术是OAuth认证。想要在自己的应用里集成OAuth不是难事儿，各大社交网站都提供了详尽的文档指南。"}
+{"publish": "\r\n                ", "title": "反转技术面试！还有这样的操作？", "catotry": "职场", "content": "如果你打算找一份程序员的工作，那么你必须要通过白板面试。 作为工程师，模拟白板面试也经常是我们早上例行公事的一部分。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "编程、出书、赛车……DHH 是如何兼顾这一切的？", "catotry": "职场", "content": "经常有人问 DHH 这个问题。好像他一定有些秘密或窍门。每晚只睡 5 小时？还是持续几个月每天工作 12 小时？还是其他什么的。"}
+{"publish": "\r\n                ", "title": "10小时到10分钟，一步步优化巨量关键词的匹配", "catotry": "IT技术", "content": "本文完整介绍了我的实现方式，看我如何将需要运行十小时的任务优化到十分钟以内。虽然实现语言是 PHP，但本文介绍的更多的思想，应该能给大家一些帮助。"}
+{"publish": "\r\n                ", "title": "MySQL 8.0.3 RC 版即将发布，看看有哪些变化", "catotry": "IT技术", "content": "MySQL 8.0.3 即将发布，一起看看有什么新变化吧 MySQL 8.0.3 即将发布 RC 版本，这预示着 8.0 版本离 GA 越来越近了。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "技术面试中常被问到是否参与开源，那如何清晰展示 GitHub 项目呢？", "catotry": "IT技术", "content": "你面试的公司找你要 GitHub 链接，猎头找你要 GitHub 链接。“你参与过开源项目么？”是目前 IT 技术面试中的常见问题之一。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "100:10:1方法 : 我是这样参与开源的", "catotry": "IT技术", "content": "许多年里我一直全心投入于开源运动，不过那时候我很少在空闲时写代码，在 Sourceforge、GoogleCode、GitHub 之类的代码托管平台，也找不到我的项目（repo）。然而随着时间流逝，我逐渐意识到向全球公开代码的责任，毫不夸张的说，这吸引住了我。"}
+{"publish": "\r\n                ", "title": "Linux 系统开机启动项清理", "catotry": "IT技术", "content": "一般情况下，常规用途的 Linux 发行版在开机启动时拉起各种相关服务进程，包括许多你可能无需使用的服务。 "}
+{"publish": "\r\n                ", "title": "基于 Redis 实现分布式应用限流", "catotry": "IT技术", "content": "限流的目的是通过对并发访问/请求进行限速或者一个时间窗口内的的请求进行限速来保护系统，一旦达到限制速率则可以拒绝服务。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "如何向 6 岁的孩子解释何为编程", "catotry": "趣文小说", "content": "任务：向一组六岁的孩子解释你的工作（我自己的女儿也在其中）。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "完美主义对新手程序员的影响", "catotry": "职场", "content": "我是一个完美主义者，或者，至少我喜欢这样自居。不管怎样，我绝对离完美主义者不远了。"}
+{"publish": "\r\n                ", "title": "MySQL 进行 Replace 操作时造成数据丢失——那些坑你踩了吗？", "catotry": "IT技术", "content": "公司开发人员在更新数据时使用了 replace into 语句，由于使用不当导致了数据的大量丢失，到底是如何导致的数据丢失？"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "MySQL 创始人：写代码比打游戏还爽，程序员应该多泡开源社区", "catotry": "职场", "content": "他一个人写完了MySQL几乎全部的代码，55岁时仍然是自己公司最好的程序员。"}
+{"publish": "\r\n                ", "title": "使用 Redis 解决“树”形数据的复杂查询", "catotry": "IT技术", "content": "近因业务需要，研究了一下树数据结果的存储及查询解决方案。 最初的想法是使用neo4j，可是在网上看了一下开源的不支持集群，感觉用的人不多。网上也查了一些树形结构数据存储方案但每种实现方案都有它的一定局限性。想了一短时间后，想出了下面的方案。"}
+{"publish": "\r\n                ", "title": "程序员的技术选择：发达国家和发展中国家有这些差异", "catotry": "开发", "content": "Stack Overflow 的工程师最近做了一次数据分析，总结了程序员的技术选择和所在国家收入之间的关系。"}
+{"publish": "\r\n                ", "title": "给中级 Meld 用户的实用技巧", "catotry": "IT技术", "content": "Meld 是 Linux 上功能丰富的可视化比较和合并工具。在本教程中，我们将讨论一些非常有用的技巧，这将让你使用工具的体验更好。 "}
+{"publish": "\r\n                ", "title": "树形结构数据存储方案（五）：区间嵌套", "catotry": "IT技术", "content": "前面的一篇文章介绍了左右值编码，不知道大家注意到了没有，如果数据庞大，每次更新都需要更新差不多全表，效率较低没有更好的方式？今天我们就来研究下区间嵌套法。"}
+{"publish": "\r\n                ", "title": "Linux 系统上的可视化比较与合并工具 Meld", "catotry": "IT技术", "content": "Meld 主要是一个可视化的比较和合并的工具，目标人群是开发者（当然，我们将要讲到的其它部分也会考虑到最终用户）。这个工具同时支持双向和三向的比较，不仅仅是比较文件，还可以比较目录，以及版本控制的项目。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "编程趋势：21 个热门和 21 个要降温的", "catotry": "IT技术", "content": "InfoWorld 作者总结的 21 个热门编程趋势和 21 个要变冷的趋势，包含 Web 开发、移动开发、大数据、教育等方面。 "}
+{"publish": "\r\n                ", "title": "树形结构数据存储方案（四）：左右值编码", "catotry": "IT技术", "content": "在基于数据库的一般应用中，查询的需求总要大于删除和修改。为了避免对于树形结构查询时的“递归”过程，基于Tree的前序遍历设计一种全新的无递归查询、无限分组的左右值编码方案，来保存该树的数据。"}
+{"publish": "\r\n                ", "title": "颜值即正义，超好用的 Linux 桌面个性化工具推荐", "catotry": "IT技术", "content": "对于系统桌面，有人追求美观，有人追求简洁，有人追求实用，也有人就是喜欢默认的设置效果。接下来，推荐几款适用于 Linux 的开源桌面个性化工具，代码敲累了的时候，换换主题，说不定也能让你更放松。"}
+{"publish": "\r\n                ", "title": "树形结构数据存储方案（三）：闭包表", "catotry": "IT技术", "content": "将 Closure Table 翻译成闭包表不知道是否合适，闭包表的思路和物化路径差不多，都是空间换时间，Closure Table，一种更为彻底的全路径结构，分别记录路径上相关结点的全展开形式。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "树形结构数据存储方案（二）： 物化路径", "catotry": "IT技术", "content": "前一篇文章介绍了比较简单的邻接列表模式，物化路径其实更加容易理解，其实就是在创建节点时，将节点的完整路径进行记录。"}
+{"publish": "\r\n                ", "title": "树形结构数据存储方案（一）：邻接列表模式", "catotry": "IT技术", "content": "在程序开发中，我们常遇到用树型结构来表示某些数据间的关系，如企业的组织架构、商品的分类、操作栏目等，目前的关系型数据库都是以二维表的形式记录存储数据，而树型结构的数据如需存入二维表就必须进行Schema设计。最近对此方面比较感兴趣，专门做下梳理。其中最简单的方法是：Adjacency List（邻接列表模式）。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "MySQL 主从复制搭建，基于日志（binlog）", "catotry": "IT技术", "content": "什么是MySQL主从复制？简单来说，就是保证主SQL（Master）和从SQL（Slave）的数据是一致性的，向Master插入数据后，Slave会自动从Master把修改的数据同步过来（有一定的延迟），通过这种方式来保证数据的一致性，就是主从复制。"}
+{"publish": "\r\n                ", "commentnum": "开发", "title": "谷歌大牛的 C 语言编程建议和技巧", "catotry": "C/C++", "content": "① 不要断定程序会在什么地方耗费运行时间；④ 花哨的算法比简单的算法更容易有 bug，而且实现起来也更困难。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "技术面试宝典： 很全面的算法和数据结构知识（含代码实现）", "catotry": "IT技术", "content": "本文汇总了程序员技术面试时需要了解的算法和数据结构知识。"}
+{"publish": "\r\n                ", "title": "初级开发者面试中的不合理问题", "catotry": "开发", "content": "我有很多刚做开发的朋友，有位给我讲了他在应聘初级开发工程师时的事。下面就说说我和另一个朋友是如何解题，两个高级工程师来解决这个初级工程师的面试题，显得有点大材小用，但结果令人出乎意外。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "没有功能需求设计文档？对不起，拒绝开发！", "catotry": "开发", "content": "在很多软件公司，特别是一些创业型的团队中，对于这样的情景可能大家都很熟悉：项目经理或者产品经理（产品狗）口头或者简单记录一下软件产品的大致要做的功能，直接就让研发团队的兄弟（程序猿）去狂撸代码。然后他就去喝茶撩妹或者回家陪老婆了…"}
+{"publish": "\r\n                ", "title": "大白话解析模拟退火算法", "catotry": "IT技术", "content": "介绍模拟退火前，先介绍爬山算法。爬山算法是一种简单的贪心搜索算法，该算法每次从当前解的临近解空间中选择一个最优解作为当前解，直到达到一个局部最优解。"}
+{"publish": "\r\n                ", "commentnum": "11  条评论", "title": "和程序员谈恋爱，是什么样的体验", "catotry": "趣文小说", "content": "我最近读了一篇关于为什么应该和程序员约会的文章。 当然了，那篇文章就是程序员写的。"}
+{"publish": "\r\n                ", "title": "大白话讲解遗传算法", "catotry": "IT技术", "content": "遗传算法 ( GA , Genetic Algorithm ) ，也称进化算法 。 遗传算法是受达尔文的进化论的启发，借鉴生物进化过程而提出的一种启发式搜索算法。因此在介绍遗传算法前有必要简单的介绍生物进化知识。"}
+{"publish": "\r\n                ", "title": "长 URL 转短链接的简单设计与实现", "catotry": "IT技术", "content": "非常多的时候，我们不想在分享的时候采用长长的链接。本文主要介绍代码实现短链接生成。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Linux DNS 服务器安装、配置和维护", "catotry": "IT技术", "content": "每个 IP 地址都可以有一个主机名，主机名由一个或多个字符串组成，字符串之间用小数点隔开。有了主机名，就不要死记硬背每台 IP 设备的 IP 地址，只要记住相对直观有意义的主机名就行了。这就是 DNS 协议所要完成的功能。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "软件的复杂性：命名的艺术", "catotry": "开发", "content": "想把一个东西写好很难。为什么呢？因为只要写好了，才会有很好的阅读体验。我们往往关注了前者而忽略了后者。我们忘记了代码只写一次，但要读很多次。"}
+{"publish": "\r\n                ", "commentnum": "7  条评论", "title": "常坐电脑前面，这些健康问题你注意到了么？", "catotry": "职场", "content": "本文要讨论的健康问题其实并不仅仅限于程序员，其他那些需要长期坐在电脑前的工作，比如：网络编辑、网站管理员、IT 从业人员等，也会面临同样的健康问题。除了指出问题，本文还给出了相应建议。"}
+{"publish": "\r\n                ", "title": "Bloom Filter 概念和原理", "catotry": "IT技术", "content": "Bloom Filter 是一种空间效率很高的随机数据结构，它利用位数组很简洁地表示一个集合，并能判断一个元素是否属于这个集合。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "为什么说 LINQ 要胜过 SQL", "catotry": "IT技术", "content": "如果你还没有沉溺于 LINQ，就会想这有啥大惊小怪的。SQL 并没有坏掉，为什么还要对它进行修补呢? 为什么我们还需要另外一种查询语言呢?"}
+{"publish": "\r\n                ", "title": "编写好代码：如何减少代码的认知负荷", "catotry": "开发", "content": "Bug 少，性能好，容易修改。好的代码影响深远，而且它可能是产生 10 倍工作效率的开发者的主要原因。尽管好代码十分重要，但开发新手却不得要领。"}
+{"publish": "\r\n                ", "title": "函数式编程从崛起到没落到再崛起", "catotry": "IT技术", "content": "λ演算是关于函数组合的。函数组合是一种极富有表现力的组合软件的方法。本文将讨论函数组合在软件设计中的重要性。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "马拉松式学习与技术人员的成长性", "catotry": "职场", "content": "一个人，要想在某方面获得睿智，唯一的办法就是持续地学习、调整、提高、成长。这个过程需要耐力和坚持，而最终你会收获成功和乐趣。"}
+{"publish": "\r\n                ", "title": "负载均衡原理的解析", "catotry": "IT技术", "content": "不能狭义地理解为分配给所有实际服务器一样多的工作量，因为多台服务器的承载能力各不相同，这可能体现在硬件配置、网络带宽的差异，也可能因为某台服务器身兼多职……"}
+{"publish": "\r\n                ", "title": "错误的抽象", "catotry": "IT技术", "content": "软件工程教科书教育我们，要把重复的代码抽取出来，变成函数或者类，美观实用好维护。实际上呢？往往随着时间的推移，原先抽象出来的类或者函数被改得凌乱不堪，还不如把原来重复的代码放回去……"}
+{"publish": "\r\n                ", "title": "程序员的“认知失调”", "catotry": "职场", "content": "“不可能啊”、“一定是服务器的原因”、“我的程序不应该有问题啊”，这些年工作听到的最多的就是这些话了，程序员都是比较自信的，总是觉得自己的程序肯定没问题。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "200 行代码实现一个简单的区块链", "catotry": "IT技术", "content": "区块链的基础概念很简单：一个分布式数据库，存储一个不断加长的 list，list 中包含着许多有序的记录。本文将通过 200 行 JS 实现的超级简单的区块链，来帮助大家理解。"}
+{"publish": "\r\n                ", "title": "代码生成利器：IDEA 强大的 Live Templates", "catotry": "IT技术", "content": "对于这种小范围的代码生成，我们可以利用 IDEA 提供的 Live Templates功能。下面我来介绍一下Live Templates的用法。"}
+{"publish": "\r\n                ", "title": "用户熟悉的设计，才是最好的设计", "catotry": "设计", "content": "在设计上没有太大变动，用户的学习成本低了，也降低了工作难度。"}
+{"publish": "\r\n                ", "commentnum": "7  条评论", "title": "为什么该和程序员约会？我有 20 个理由", "catotry": "其他", "content": "2009 年美国有一项关于离婚率的调查，发现绝大多数工程专业的从业人员的离婚率都位于 13% 以下。"}
+{"publish": "\r\n                ", "title": "持续部署微服务的实践和准则", "catotry": "IT技术", "content": "微服务给业务和技术的扩展性带来了极大的便利，同时在组织和技术层面带来了极大的挑战。由于在架构的演进过程中，会有很多新服务产生，持续部署是技术层面的挑战之一，好的持续部署实践和准则可以让团队从基础设施抽离出来，关注与产生业务价值的功能实现。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "编程语言的叛逃路线，猜猜 PHP 转投最多的是？", "catotry": "开发", "content": "为什么我们要从 X 语言转到 Y 语言，这类主题的技术文章，网上有很多。程序员 Erik 看过某篇文章后，突发奇想，是不是可以把这些文章归纳起来，生成一个关于从 X 语言转到 Y 语言的表。他说干就干！"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "Github 对程序员职业生涯的影响", "catotry": "职场", "content": "在未来的 12 到 24个月，即 2018 年到 2019 年，程序员的聘用方式将会彻底地发生改变。13 年前我在红帽时，上司对我说：“你在这里所做的一切工作都是开源的。将来你不再需要简历，人们可以直接通过谷歌来了解你。”"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "未来是属于算法的，不是代码", "catotry": "IT技术", "content": "大数据的时代已经来临。数据带来的狂潮就犹如又一次工业革命一样席卷着人类。在大数据的时代，人类对世界的理解方法从有限具体向抽象过渡，这也就是为什么算法比代码更加重要的原因。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Linux 命令行工具使用小贴士及技巧（4）", "catotry": "IT技术", "content": "在这第四期、也是最后一期文章中，我们会讨论别名的概念以及你可以如何使用它们使你的命令行导航更加轻松和平稳。 "}
+{"publish": "\r\n                ", "title": "让我们再聊聊TDD（续）：人人都在做TDD", "catotry": "IT技术", "content": "现在还有非常多的软件工程师在质疑 TDD 的可行性，比如太难不会、成本太高无法推动、意义不是很大等，但是他们却一直都在做着TDD，只不过没有意识到而已，这便是“不识庐山真面目，只缘身在此山中”。"}
+{"publish": "\r\n                ", "title": "Linux 命令行工具使用小贴士及技巧（3）", "catotry": "IT技术", "content": "CDPATH 环境变量时一把双刃剑，如果没有掌握完善的知识和随意使用，可能会令你陷入困境，并花费你大量宝贵时间去解决问题。"}
+{"publish": "\r\n                ", "commentnum": "6  条评论", "title": "技术的成长曲线", "catotry": "职场", "content": "小李毕业后在一家公司做软件工程师，转眼间一年多的时间已经过去了。回想刚毕业那会，他是怀着无比忐忑的心情进入了这家公司的技术部门。各种新奇的开发工具，叫不上名字的众多软件框架，庞大的代码库，井然有序的工作流程，都是小李以前在学校里不曾遇到过的，这让他感到了前所未有的压力。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "我们有一个富邻居，他叫施乐", "catotry": "趣文小说", "content": "当乔布斯雇微软作为 Macintosh 的首个第三方应用软件开发者时，他就思考过他们可能会把苹果的创意复制到基于 PC 机的用户界面上。"}
+{"publish": "\r\n                ", "commentnum": "11  条评论", "title": "开发者技能修炼的五个等级", "catotry": "职场", "content": "这里的阶梯划分出自我过往八年的工作经验，对于第四、第五阶梯，我本无意划出高下之分，怎奈文笔功力有限，只好粗断为两个部分。回顾前文，我对于开发者的阶段划分又有了新的想法，开发者在历经以上五个层级之后又该如何发展，是科学家还是哲学家？我想听听你的见解。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "漫画赏析：Linux 内核到底长啥样", "catotry": "趣文小说", "content": "今天，我来为大家解读一幅来自 TurnOff.us 的漫画 “InSide The Linux Kernel”。 这幅漫画是以一个房子的侧方刨面图来绘画的。使用这样的一个房子来代表 Linux 内核。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "人人都可以做深度学习应用：入门篇", "catotry": "开发", "content": "这一轮AI的技术突破，主要源于深度学习技术。在这里，我尝试以一名工程师的视角，以尽量容易让大家理解的方式一起探讨下深度学习的原理。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "C 语言高效编程与代码优化", "catotry": "C/C++", "content": "在本篇文章中，我收集了很多经验和方法。应用这些经验和方法，可以帮助我们从执行速度和内存使用等方面来优化C语言代码。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "Stack Overflow 与全民编程时代", "catotry": "开发", "content": "曾有讽刺新闻吐槽，”计算机编程铁律”将会被正式命名为「Google 一下，然后 Stack Overflow」。 就像其他一些精彩的吐槽那样，这个玩笑并非无中生有。"}
+{"publish": "\r\n                ", "title": "TDD 已死？让我们再聊聊 TDD", "catotry": "IT技术", "content": "TDD并没有死，死的是你的持续学习、思考、实践与总结。当前国内很多软件开发人员对于TDD的理解比较模糊，大部分人也没有明确和有意识的去实施TDD，因此很多人都有着不同的理解。"}
+{"publish": "\r\n                ", "commentnum": "工具与资源", "title": "TensorFlow 资源大全中文版", "catotry": "IT技术", "content": "jtoy 发起整理的 TensorFlow 资源，包含一些很棒的 TensorFlow 工程、库、项目等。"}
+{"publish": "\r\n                ", "commentnum": "职场", "title": "代码只是事业的 5%，程序员创业注意事项", "catotry": "创业", "content": "代码只是程序员技术创业中的 5%，还要做长远考虑，要有耐心，产品设计要简单易用，勇于删除某些已经花了时间做了但不奏效的功能。"}
+{"publish": "\r\n                ", "title": "SSH 协议端口号 22 背后的故事", "catotry": "IT技术", "content": "为什么 SSH（安全终端）的端口号是 22 呢，这不是一个巧合，这其中有个我未曾诉说的故事。 "}
+{"publish": "\r\n                ", "title": "API 的历史", "catotry": "IT技术", "content": "历史无处不在。研究我们来自何方，有助于指引我们前行。科技的发展日新月异，但时常停一下匆忙的脚步，稍稍回顾一下历史，却总是有益的。下面就让我们来看一看 API 的历史。"}
+{"publish": "\r\n                ", "title": "以程序员的名义，分析 “人民的名义”", "catotry": "其他", "content": "我自小就惧怕吵架，觉得人不该像公鸡，脸红脖子粗的掐架特别不好，人就该斯斯文文的。 这让我爱上了官场剧，不论是古代的官场剧，还是当代的官场剧，都喜欢。官员们聊起天来不动声色，暗藏机锋，生死对决都是在谈笑间搞定，这都让我啧啧称羡。 所以，我是要看 “人民的名义” 的。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "开发者的副项目 ，归公司所有吗？", "catotry": "职场", "content": "程序员在非工作时间（比如：晚上或节假日）做的副项目（side project），版权是不是归雇主所有？"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "王小波的计算机水平到底有多好？", "catotry": "其他", "content": "王小波的计算机水平到底有多好，在王小波自己的小说中，王小波非常骄傲地说，写书的软件都是自己编写的，王小波是自学的还是教的？都会什么语言？"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "命令行的生活是如此的 F*ck", "catotry": "IT技术", "content": "你是不是经常在终端敲错命令，其实这都是因为该死的终端不配合，不能领会你的意思。"}
+{"publish": "\r\n                ", "title": "15 款炫酷的 Sublime Text 插件推荐", "catotry": "工具与资源", "content": "Sublime Text 是目前最受欢迎的代码编辑器，因其高效、简洁和插件丰富等特点受到开发者的喜爱。本文筛选了开发者日常使用较多的 15 款 Sublime Text 插件。"}
+{"publish": "\r\n                ", "title": "如何快速处理线上故障", "catotry": "IT技术", "content": "线上故障通常是指大规模的影响线上服务可用性的问题或者事件，通俗点讲就是：掉‘坑’里了，这个‘坑’就是线上故障！线上故障的处理过程可以形象地表达为：‘踩坑’、‘跳坑’、‘填坑’、‘避坑’。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "一张优惠券引发的血案", "catotry": "IT技术", "content": "消失好久好久的小灰终于回归了。为啥消失这么久？被优惠券折腾惨了！"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "有哪些命令行的软件堪称神器？", "catotry": "IT技术", "content": "都有哪些命令行软件称得上是神器呢？"}
+{"publish": "\r\n                ", "title": "速度与激情 8 中的信息安全技术", "catotry": "IT技术", "content": "作为一个信息安全从业者，看完「速8」后有必要扒一扒里面的黑客技术。"}
+{"publish": "\r\n                ", "title": "机器是如何学会歧视的？机器学习中的偏见", "catotry": "IT技术", "content": "倘若 AI 接管了我们的生活，那不大会发生人类与机器人之间的战争，因为 AI 已可以肉体上奴役我们了。相反， AI 程序已经通过机器学习算法为我们推荐喜欢的电影、在照片上认出哪个朋友可能会拒绝给你借钱等等。既然人类创造了这些算法，它们就容易产生偏见，从而导致糟糕的决策和结果。"}
+{"publish": "\r\n                ", "title": "DevOps 发展的 9 个趋势", "catotry": "IT技术", "content": "DevOps包含了太多方面的技术和实践，很难通过一个统一的工具链来描述其发展。有幸作为主编参与了最新一期技术雷达的译制，作为DevOps的爱好者，在这一过程中看到DevOps未来发展的几个趋势。"}
+{"publish": "\r\n                ", "title": "也许 MySQL 适合 Uber，但它不一定适合你", "catotry": "IT技术", "content": "Markus Winand 是数据库专家，著有《SQL Performance Explained》一书。2013 年 Uber 从 MySQL 迁移到 PostgreSQL，而在 2016 年 8 月，Uber 工程博客发文称他们从 PostgreSQL 迁回 MySQL。当时在业内引发热议，Markus 写下了这篇文章来回应。"}
+{"publish": "\r\n                ", "commentnum": "6  条评论", "title": "它们养活了一票国产软件！这些开源软件你知道吗", "catotry": "IT技术", "content": "现在各种国产软件已经牢牢占据了国内市场，无论是在浏览器、下载软件、压缩软件还是视频播放器等领域，都可以看到国产软件活跃的身影。诚然，国产软件在很多方面体验都不错，但之所以它们这么强，很大程度上是因为在核心技术方面，借用了相当多来自开源软件的技术。"}
+{"publish": "\r\n                ", "title": "关于 Linux 进程你所需要知道的一切", "catotry": "IT技术", "content": " 在这篇指南中，我们会逐步对进程做基本的了解，然后简要看看如何用特定命令管理 Linux 进程。"}
+{"publish": "\r\n                ", "title": "Linux 下网络协议分析器 Wireshark 使用基础", "catotry": "IT技术", "content": " Wireshark 是 Kali 中预置的众多有价值工具中的一种。与其它工具一样，它可以被用于正面用途，同样也可以被用于不良目的。当然，本文将会介绍如何追踪你自己的网络流量来发现潜在的非正常活动。"}
+{"publish": "\r\n                ", "commentnum": "9  条评论", "title": "Ubuntu 放弃战斗，Linux 桌面的悲哀", "catotry": "IT技术", "content": "Ubuntu 做为全世界 Linux 界的桌面先驱者和创新者，突然宣布放弃自己多年开发的 Unity，相当于在桌面领域，直接放弃了战斗向微软投降，不仅仅是 Linux 桌面的悲哀，更是对于全球 Linux 黑客坚信 Linux 必胜信心的极大打击。"}
+{"publish": "\r\n                ", "commentnum": "趣文小说", "title": "趣文：什么时候该加入创业公司？", "catotry": "创业", "content": "本文以诙谐的口吻，描述了处于各阶段的创业公司的工作体验。加入起步阶段的公司，幻想着发达后买小岛；加入刚融资种子轮的公司，幻想着挑着城市买别墅……"}
+{"publish": "\r\n                ", "title": "Linux 命令行工具使用小贴士及技巧（1）", "catotry": "IT技术", "content": "无论你的技术能力水平怎么样，这篇文章中的一些小贴士和技巧都会对你有所帮助。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "C♯ 7 中的 Tuple 特性", "catotry": "IT技术", "content": "Tuple是异类对象的有序序列。 我们经常可以写出返回多个值的方法，所以我们需要创建一个包含多个数据元素的简单结构。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "为什么机器学习行业的发展离不开 “开源”", "catotry": "IT技术", "content": "2016 年底，Google DeepMind 开源了它们的机器学习平台 — DeepMind Lab。尽管像霍金教授这样的专家曾就人工智能技术发出过警告，谷歌仍决定向其他开发人员开源其软件，这也是它们进一步发展机器学习能力的一部分。"}
+{"publish": "\r\n                ", "commentnum": "13  条评论", "title": "不给代码写文档，让代码文档化", "catotry": "开发", "content": "要不要给代码写文档？需要给代码写文档吗？这是程序员讨论了很久的一个话题。我曾经觉得这个话题实在是让人难以应付。也认为除去一些特殊的情况（比如编写公用 API），代码文档并不是那么必要。"}
+{"publish": "\r\n                ", "title": "Etsy 在试验了一些 SEO 小技巧后得出的结论", "catotry": "IT技术", "content": "1，网页标题越短越好，搜索关键词匹配的百分比越高越好；2，Meta description尽量长；3，网页里要使用 H1."}
+{"publish": "\r\n                ", "title": "无人驾驶技术与个人隐私的终结", "catotry": "业界", "content": "随着计算机视觉的发展，无人驾驶中使用到的技术会将它所经过的每一处都识别记录下来并上传至互联网，对我们的隐私造成巨大的冲击。"}
+{"publish": "\r\n                ", "title": "关于新媒体盈利模式的讨论", "catotry": "访谈", "content": "风投Hunter Walk、Kickstarter前PM、纽约时报CTO三人关于线上媒体、自媒体、艺术家们如何在网上赚钱的讨论。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "周鸿祎：很多程序员一看就知道不会创业", "catotry": "其他", "content": "很多人都向往着有一天自己创业，程序员更是如此。如果你想创业，那么该怎样创业、需要有哪些准备、自己还有什么不足等等这些问题你考虑过吗？"}
+{"publish": "\r\n                ", "commentnum": "25  条评论", "title": "我也 30 了，来谈谈程序员的迷茫年龄", "catotry": "职场", "content": "今年 30 了，到了传说中程序员最应该迷茫的年龄了，那么我迷茫吗，没的说，按照某司 34 岁就要劝退的要求，我还有 4 年的程序生涯。"}
+{"publish": "\r\n                ", "title": "提高 Unity 中 C# 代码质量的 21 条准则", "catotry": "开发", "content": "本文将《Effective C# Second Edition》一书中适用于 Unity 游戏引擎里使用 C# 的经验之谈进行了提炼，总结成为21条准则，供各位快速地掌握这本书的知识梗概，在 Unity 中写出更高质量的 C# 代码。"}
+{"publish": "\r\n                ", "title": "malloc 背后的系统知识", "catotry": "IT技术", "content": "面试的时候经常会被问到 malloc 的实现。从操作系统层面来说，malloc 确实是考察面试者对操作系统底层的存储管理理解的一个很好的方式，涉及到虚拟内存、分页/分段等。下面逐个细说。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "为什么优秀的程序员喜欢命令行？", "catotry": "开发", "content": "我周围就有很多非常牛的程序员，无一例外都非常擅长在命令行中工作。那什么叫熟悉命令行呢？简单来说，就是90%的日常工作内容可以在命令行完成。当然，喜欢／习惯使用命令行可能只是表象，其背后包含的实质才是优秀的程序员之所以优秀的原因。"}
+{"publish": "\r\n                ", "title": "卷积神经网络初探", "catotry": "IT技术", "content": "将神经网络应用于大图像时，输入可能有上百万个维度，如果输入层和隐含层进行“全连接”，需要训练的参数将会非常多。如果构建一个“部分联通”网络，每个隐含单元仅仅只能连接输入单元的一部分，参数数量会显著下降。卷积神经网络就是基于这个原理而构建的。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "最大成人网站的安全做得比某些安全公司还要好！", "catotry": "IT技术", "content": "2016 年 10 月左右发生过几起 DDoS 攻击事件。Dyn 攻击事件使得 Twitter、Amazon  等客户受到不同程度的影响。通过深入研究和缜密思考，我由表象发现，P***Hub 似乎在信息安全方面比一些所谓的“安全”公司做得更好。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "我为什么不在乎人工智能", "catotry": "IT技术", "content": "有人听说我想创业，给我提出了一些“忽悠”的办法。他们说，既然你是程序语言专家，而现在人工智能（AI）又非常热，那你其实可以搞一个“自动编程系统”，号称可以自动生成程序，取代程序员的工作，节省许许多多的人力支出，这样就可以趁着“AI 热”拉到投资。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "不惜一切代价，远离这 10 种不靠谱的同事", "catotry": "职场", "content": "有毒之人（Toxic People）不讲逻辑。他们中一些人不知道自己对周围人的负面影响，另一些人似乎以制造混乱和惹怒别人取乐。本文列举了工作中的 10 种不靠谱的同事，以及如何保护自己并避免跟他们接触。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "这个时代会残酷惩罚不肯改变的人", "catotry": "职场", "content": "       花点时间，有点耐心，看完下面的这个故事！"}
+{"publish": "\r\n                ", "title": "谷歌人工智能背后的大脑", "catotry": "访谈", "content": "谷歌在 1998 年成立，Jeff Dean 1999 年加入公司，是早期员工之一。他在公司的成长过程中扮演了重要角色，设计并实现了支撑谷歌大部分产品的分布式计算基础架构。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "为期一周的机器学习", "catotry": "IT技术", "content": "在门外汉看来，机器学习（Machine Learing，ML）入门是个不可完成的任务。如果你选错了方向，确实就是不可能的了。然而，在我学习机器学习的基本知识一周后，发现入门比我想象的容易。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "我不再强求生活完美，而是让它有趣", "catotry": "职场", "content": "Dropbox 的 CEO Drew Houston 是 MIT 2005 届校友，本文是他在 2013 年 6 月 7 日麻省理工学院第 147 届毕业典礼上的演讲。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "看漫画学 SELinux 强制策略", "catotry": "趣文小说", "content": "SELinux 是一个功能强大的标签系统，控制着内核授予每个进程的访问权限。最主要的特性是类型强制，策略规则定义的进程访问权限基于进程被标记的类型和客体被标记的类型。"}
+{"publish": "\r\n                ", "title": "远程办公这 5 年的感受", "catotry": "职场", "content": "了解到可以在家办公、可以选择位置无关的生活方式的时刻，对我来说是一个非常重要的时刻。在此之前，我还从未有过“工作自由”之类的概念。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "没时间思考，思维之死", "catotry": "其他", "content": "没时间思考。一有空闲就刷手机、刷社交媒体。一天下来好像接受了许许多多的信息，但却没有动脑思考消化这些信息。"}
+{"publish": "\r\n                ", "title": "Linux 日志终极指南", "catotry": "IT技术", "content": "虽然提取的时候，不总是和你想的一样简单，但是日志中有大量信息在等着你。在这部分，我们会讲一些基本分析示例，你可以马上拿来处理你的日志（只是搜索里面有什么）。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "下一代蓝领职业大军是程序员", "catotry": "职场", "content": "提起程序员，在很多人的印象里是扎克伯格那样的人用技术改变世界，然而现实是像小扎那样的人只是很小一部分，更多人拿着平常的薪水做着默默无闻的工作。《连线》文章认为，未来的蓝领职业就是程序员"}
+{"publish": "\r\n                ", "title": "2016 年度顶级开源创作工具", "catotry": "工具与资源", "content": "无论你是想修改图片、编译音频，还是制作动画，这里的自由而开源的工具都能帮你做到。 "}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "数据工程师的崛起", "catotry": "IT技术", "content": "本文作者以自己在 Airbnb、Facebook、Yahoo 做数据工程师的经验告诉大家：数据工程师的主要职责、当代数据工程的范畴，以及要做数据工程师都需要哪些技能。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "Windows 纸牌游戏是我开发的，但我没从中拿到一分钱", "catotry": "其他", "content": "用过 Windows 的朋友，应该对纸牌游戏不陌生。但有多少人知道这个小游戏的开发者是谁呢？"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "25 个常用的 Linux iptables 规则", "catotry": "IT技术", "content": "一些常用的 Linux iptables 规则，请根据自己的具体需要再修改。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "通过这 9 本开源书，学好 C++", "catotry": "书籍与教程", "content": "书籍非常具有个人主观性，编程类的书籍也不例外。但是不管书籍的风格，重点或者节奏如何，好的 C++ 编程书能带读者开启一段引人入胜的旅程，拓展 C++ 语言的能力，向读者展示如何使用 C++ 来构建各种东西。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "边工作边带娃，我是如何在 1 年内拿到第 2 个学位和 5 个开发者认证的", "catotry": "职场", "content": "学习编程是一件很有挑战性的事情，尤其是在同时兼顾工作和带娃的情况下。尽管如此，我还是认为自己应该不走寻常路。"}
+{"publish": "\r\n                ", "title": "在苹果工作 12 年学到的创新经验", "catotry": "职场", "content": "她主要是在 90 年代的时候在苹果公司，和内容创造者、音乐公司打交道，奠定了后来推出 iPod 和 iTunes 的基础。要创新绝对不能搞众议、投票、民主这套，要有人拍板，用人不疑，疑人不用。"}
+{"publish": "\r\n                ", "title": "机器学习流行趋势一览", "catotry": "IT技术", "content": "作者分析了近 5 年内超过 28,000 份机器学习论文，对机器学习和深度学习的模型、算法的流行趋势做了整理和总结。"}
+{"publish": "\r\n                ", "title": "千万千万不要运行的 Linux 命令", "catotry": "IT技术", "content": "文中列出的命令绝对不可以运行，即使你觉得很好奇也不行，除非你是在虚拟机上运行（出现问题你可以还原），因为它们会实实在在的破坏你的系统。"}
+{"publish": "\r\n                ", "commentnum": "13  条评论", "title": "35，40 甚至 50 岁转行做软件开发晚吗？看这 10 个成功故事", "catotry": "职场", "content": "常有人说 30 或 35 岁不适合做开发写代码了。那 35 岁以后转行做软件开发还可行么？ 35、40 甚至 50 岁之后才开始学习编程，年龄会不会太大了？让我们来看看 10 个成功转行软件开发的真实故事。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "为何有些牛逼的计算机系教授不去公司赚大钱而是选择教书和做研究", "catotry": "其他", "content": "牛逼的计算机教授本可以去公司赚更多的钱，为什么他们喜欢去教学和做研究呢？我只是想知道这些教授和研究员们是怎么想的，并不是怀疑他们的选择。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "程序员晚上最常用的编程语言", "catotry": "开发", "content": "Stack Overflow 的公开数据集是个好东西，之前 SO 家程序员 Julia Silge 在 2 月份根据数据集做了一次「程序员在周末常用的那些编程语言」。前几日 SO 家程序员 David Robinson 对「程序员晚上常用编程语言」做了一次分析。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "用户 4 亿多，Instagram是如何做持续部署的？", "catotry": "IT技术", "content": "Instagram 每天部署后端代码大约是 30~50 次。无论什么时候，只要工程师提交了修改到服务器，都会做一次部署，而大多数情况下都无人参与。尤其是在 4 亿多用户规模之下，这听起来很疯狂。"}
+{"publish": "\r\n                ", "title": "适用于开发者的最佳火狐插件", "catotry": "IT技术", "content": "嗨…你还记得火狐么？ 谷歌的 Chrome 浏览器现在是浏览器群英中的王者，不过火狐依然独树一帜并且依旧是网页应用开发者最好的浏览器。我知道它稍微有点慢，并且略占内存，不过其各种定制化功能绝对是无懈可击的。我们列举出了一些我们收藏的火狐插件，让我们作为开发者的生活变得更加简单，并且希望它能帮助节省你一点点时间。"}
+{"publish": "\r\n                ", "title": "在微服务中使用领域事件", "catotry": "IT技术", "content": "领域事件主要用于解耦微服务，此时各个微服务之间将形成最终一致性。事件风暴活动有助于我们对微服务进行拆分，并且有助于我们深入了解某个领域。领域事件作为已经发生过的历史数据，在建模时应该将其创建为不可变的特殊值对象。存在多种方式用于发布领域事件，其中“在聚合中临时保存领域事件”的方式是值得推崇的。"}
+{"publish": "\r\n                ", "title": "实例化 DevOps 原则", "catotry": "IT技术", "content": "本文所讨论的DevOps原则可以用“人、产品、流程和工具”这4个维度来进行组织。"}
+{"publish": "\r\n                ", "commentnum": "14  条评论", "title": "勾搭程序员的 11 个技巧", "catotry": "职场", "content": "大家都知道， 在所有的上班族当中，软件工程师是一群最有特点，智商最高，最自命不凡的人。我非常确信这一点——因为我就要嫁给这样一个人了。但是，为了让这群自命不凡的人能拜倒在自己的石榴裙下，你不必像我一样把一生的幸福搭进去。我这里有11个非常巧妙的技巧"}
+{"publish": "\r\n                ", "commentnum": "6  条评论", "title": "有前途的程序员的14个习惯，你有几个？", "catotry": "开发", "content": "慎于说Yes；敢于说No；构建自己的知识体系；代码规范；代码审查；良好的时间管理；深入理解客户需求……"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "趣文：程序员和HR的交锋", "catotry": "趣文小说", "content": "程序员和HR们一言不合就开始互怼，但是吐槽归吐槽，文章的目的就是为了告诉大家，程序员和HR双方都不容易。站在对方的角度上考虑一下，很多槽点笑一下也就过去了。"}
+{"publish": "\r\n                ", "title": "分布式系统设计的求生之路", "catotry": "IT技术", "content": "分布式系统理念渐渐成为了后台架构技术的重要选择，本文介绍了作者在手游领域对分布式系统进行的种种尝试，并在尝试中制定了对服务的定义、整体框架的构建以及服务内部拆分的流程。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "QQ18年，解密8亿月活的QQ后台服务接口隔离技术", "catotry": "IT技术", "content": "1999年2月10日，腾讯QQ横空出世。光阴荏苒，那个在你屏幕右下角频频闪动的企鹅已经度过了18个年头。随着QQ一同成长的你，还记得它最初的摸样吗？"}
+{"publish": "\r\n                ", "title": "高性能服务器架构思路，不仅是思路", "catotry": "IT技术", "content": "在服务器端程序开发领域，性能问题一直是备受关注的重点。业界有大量的框架、组件、类库都是以性能为卖点而广为人知。然而，服务器端程序在性能问题上应该有何种基本思路，这个却很少被这些项目的文档提及。"}
+{"publish": "\r\n                ", "title": "记一次MySQL性能优化过程", "catotry": "IT技术", "content": "所谓mysql的优化，三分是配置的优化，七分是sql语句的优化，通过一些案例分析，希望给大家在工作中带来一些思路。"}
+{"publish": "\r\n                ", "title": "数据库新手常犯的 5 个错误", "catotry": "IT技术", "content": "刚做开发人时，需要掌握的东西非常多。首先是编程语言本身，还有所有你用到的框架的的特定用法，前端开发的东西也会混进来，在开发过程中你还要考虑数据存在哪的问题。由于你有太多东西需要迅速掌握，在应用设计的过程中，会倾向于把数据库放在后面考虑（大概因为它对用户的使用体验没什么影响）。结果就是在处理数据库的时候，会发现很多不好的实践。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "技术的热门度曲线", "catotry": "IT技术", "content": "全球最大的 IT 咨询公司 Gartner，有一个”技术热门度曲线”模型（Gartner Hype Cycle）。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "用 C 语言写面向的对象是一种什么样的体验", "catotry": "C/C++", "content": "最近从老东家离职，跳出来跟这几个以前的老同事，拉了一个创业团队，准备干一票，去之前也了解了一番，此次将使用C语言来开发，对于毕业之后一直从事C++面向对象思维编码的我来说，虽然不舍，但是仔细想了下，这都不是事，谁说用C语言写不了面向对象？"}
+{"publish": "\r\n                ", "title": "如何给品牌取个英文名字？", "catotry": "其他", "content": "“我们是用现有的词取名，还是造个新词？” 经常有做消费者产服务的企业家这样问我。2009 年，微软公司重新推出的微软 MSN 即时搜索——“Bing”，我想是时候更新一下我对于起名、造词和品牌的一些旧想法了。"}
+{"publish": "\r\n                ", "commentnum": "7  条评论", "title": "在大公司成长的烦恼", "catotry": "职场", "content": "我在微软工作多年后加入了谷歌，一年后又离开谷歌去了一家创业公司。原因很简单：绩效考核体系。当开发者的薪酬几乎不取决于产品质量，而是在很大程度上取决于他与同行相比表现如何时，工程师文化就会受损。"}
+{"publish": "\r\n                ", "commentnum": "8  条评论", "title": "在 Stack Overflow 远程办公是怎样一种体验？", "catotry": "职场", "content": "StackOverflow 公司近 400 个员工里有 85 人在家远程办公。为了让这些远程办公的人有归属感，他们公司采取了一系列很人性化的手段、并额外提供一些福利。"}
+{"publish": "\r\n                ", "title": "搜索引擎原理及使用", "catotry": "IT技术", "content": "此项目是自己学习搜索引擎过程中的一些心得，在使用 Go 语言的时候，发现了悟空这个搜索引擎项目，结合此项目代码以及《信息检索导论》，自己对搜索引擎的原理是实现都有了一个初步的认识，然后结合工作中可能遇到的场景，做了一个简单的 Demo。"}
+{"publish": "\r\n                ", "commentnum": "10  条评论", "title": "编程能力与编程年龄", "catotry": "职场", "content": "程序员这个职业究竟可以干多少年，在中国这片神奇的土地上，很多人都说只能干到30岁，然后就需要转型，每每我听到这样的言论，都让我感到相当的无语。今天，看到一篇论文，写下这篇文章，送给那些和我一样准备为技术和编程执着和坚持的人。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "推荐每个程序员都看的技术演讲", "catotry": "IT技术", "content": "我喜欢优秀的技术演讲。我不仅喜欢观看这类演讲，并乐于与人分享。最近我有充足的空闲时间，于是整理出了一个“每个程序员必看”的技术演讲列表。在选材时，我并没有把演讲的主题局限于具体的语言或库，而是选择了一些有宏观视野的内容。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "怎样写出漂亮整洁的代码？聊聊 Clean Code 的编码、重构技巧", "catotry": "开发", "content": "Clean Code，顾名思义就是整洁的代码，或者说清晰、漂亮的代码，相信大多数工程师都希望自己能写出这样的代码。"}
+{"publish": "\r\n                ", "title": "防范 CSRF 跨站请求伪造", "catotry": "IT技术", "content": "本文将简要介绍CSRF产生的原因以及利用方式，然后对如何避免这种攻击方式提供一些可供参考的方案，希望广大程序猿们都能够对这种攻击方式有所了解，避免自己开发的应用被别人利用。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "Nginx 日志分析及性能排查", "catotry": "IT技术", "content": "最近一直在做性能排查，思路就是根据分析nginx日志，得到响应耗时的url、以及请求时间，再得到这段时间的请求量，并发量，分析是并发的原因，还是本身就比较慢，如果是应用本身的原因"}
+{"publish": "\r\n                ", "title": "百亿互金平台救火故事", "catotry": "IT技术", "content": "多年前，又是周六客服打电话过来，平台官网不能访问，app完全无法打开，客户在QQ群和微信群中各种反馈，说平台是不是跑路了？客服的多条400热线完全被打爆，电话已经接不过来…"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "推荐给程序员的一些书（不止是技术书）", "catotry": "书籍与教程", "content": "阅读对一个人的职业生涯至关重要。我也有一些好书推荐给同为程序员的你们，希望你们能试着读一读。"}
+{"publish": "\r\n                ", "commentnum": "9  条评论", "title": "2016 腾讯软件开发面试题（部分）", "catotry": "职场", "content": "这篇博客是 2016 腾讯软件开发面试题中不定项选择题集合中的 1 -12 题，而且选择题相对来说，难度没那么大，更主要的是为了让大家全面的感受一下腾讯的面试题。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "坑：时间和空间的平衡", "catotry": "IT技术", "content": "这一篇的坑主要来说说架构中时间和空间的平衡吧，这里的时间指代比较广，可能是开发时间，但大部分指的是执行时间，也就是算法的时间复杂度了，而空间就是算法中经常说的空间换时间中的空间了"}
+{"publish": "\r\n                ", "title": "为什么越来越少的开源项目使用 GPL 协议", "catotry": "IT技术", "content": "前段时间，我在 RedMonk 上看到了一篇来自 Stephen O’Grady 的有趣推文，介绍了开源许可证目前的状态，以及此图表： 此图展示了从2010年到2017年开源许可证的使用情况。能很明显看到，GPL 2.0 的使用量已经减少了…"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "趣文：编程其实是文科", "catotry": "趣文小说", "content": "编程究竟是文科还是理科？"}
+{"publish": "\r\n                ", "title": "赶集网三年 DBA 总结", "catotry": "IT技术", "content": "2012年初入职赶集，当时处在流量讯猛增长的阶段，3年DBA生涯收获坡多，其实坑更多(泪… 后来在做开发时，慢慢体会到 ”运维“ 和 “开发” 确实存在沟通问题：知识不对称。如何解决呢？"}
+{"publish": "\r\n                ", "commentnum": "10  条评论", "title": "在 Google 工作 10 年，到底能学到啥？", "catotry": "职场", "content": "我在 2006 年 3 月加入 Google，2016 年 9 月离开，前后 10.5 年。代码写了不少，团队也带过好几个。"}
+{"publish": "\r\n                ", "title": "一个由进程内存布局异常引起的问题", "catotry": "IT技术", "content": "前段时间业务反映某类服务器上更新了 bash 之后，ssh 连上去偶发登陆失败。该版本 bash 为部门这边所定制，但实现上并没有改动原有逻辑，只是加入了些监控功能，那么错误是从哪里来？是 bash 的锅吗？"}
+{"publish": "\r\n                ", "commentnum": "10  条评论", "title": "技术人员的发展之路", "catotry": "职场", "content": "2012年我写过《程序算法与人生选择》，我用算法来类比如何做选择，说白了就是怎么去计算，但是并没有讲程序员可以发展的方向有哪些。 所以就算是有这些所谓的方法论，我们可能对自己的发展还是会很纠结和无所事从，尤其是人到了30岁，这种彷徨和迷惑越来越重。"}
+{"publish": "\r\n                ", "title": "全球分布式数据库：Google Spanner（论文翻译）", "catotry": "IT技术", "content": "Spanner 是谷歌公司研发的、可扩展的、多版本、全球分布式、同步复制数据库。它是第一个把数据分布在全球范围内的系统，并且支持外部一致性的分布式事务。本文描述了 Spanner 的架构、特性、不同设计决策的背后机理和一个新的时间 API，这个 API 可以暴露时钟的不确定性。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "一个脚本引发的血案", "catotry": "IT技术", "content": "我们本身是一家互联网金融公司，公司的主流业务就是p2p，因为各种原因吧，15年底启动建设众筹平台。考虑到前期开发过程中的一些弊端和架构经验，本次架构引用了dubbo做soa服务的治理，web容器nginx+tomcat，后端语言采用java,框架选择spring+mybaits,前端模板引擎使用的是btl……"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "坑：缓存 + 哈希 = 高并发？", "catotry": "IT技术", "content": "上篇已经讲了高可用，当前互联网时代，怎么少的了高并发呢？高并发和高可用一样， 已经变成各个系统的标配了，如果你的系统QPS没有个大几千上万，都不好意思跟人打招呼，虽然可能每天的调用量不超 100。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "从零到百亿互联网金融架构发展史", "catotry": "IT技术", "content": "回想起从公司成立敲出的第一行代码算起到现在也快三年了，平台的技术架构，技术体系也算是经历了四次比较重大的升级转化（目前第四代架构体系正在进行中），临近年底也想抽出时间来回顾一下，一个小公司从最开始的零交易到现在交易量超过百亿背后的技术变迁。"}
+{"publish": "\r\n                ", "title": "趣文：三分钟了解敏捷开发", "catotry": "趣文小说", "content": "小灰经过千辛万苦，终于拿到了心仪的offer。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "一个程序员要扔掉多少代码，才能成为真正的程序员", "catotry": "开发", "content": "俗语说，女怕嫁错郎，男怕入错行。程序员这行当，不贫不富，靠技术吃饭，一直还算个体面职业。进了程序员这行的兄弟们，即便日后飞黄腾达了，谈起早年的编程生涯，都还是自豪的。"}
+{"publish": "\r\n                ", "title": "程序员提高编程能力万无一失的办法", "catotry": "职场", "content": "那就是去读别人写的代码。读那些你常用的库、编程框架的源代码，读那些你景仰的大牛的源代码，读代码里的测试（测试本身就是一种有效的文档）；读代码、改代码、运行代码。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "使用 LVS 实现负载均衡原理及安装配置详解", "catotry": "IT技术", "content": "常用的负载均衡开源软件有nginx、lvs、haproxy，商业的硬件负载均衡设备F5、Netscale。本文主要是学习 LVS 并对其进行了详细的总结记录。"}
+{"publish": "\r\n                ", "commentnum": "工具与资源", "title": "9 个超酷的深度学习案例", "catotry": "IT技术", "content": "深度学习是机器学习中一种基于对数据进行表征学习的方法。关于深度学习的应用，网上有非常多的出色案例，伯乐在线在本文摘录 9 个。"}
+{"publish": "\r\n                ", "title": "为什么 QA 不喜欢重构？", "catotry": "IT技术", "content": "作为一名QA，每次听到“重构”两个字，既想给追求卓越代码的开发人员点赞，同时又会感觉非常紧张，为什么又要重构？马上就要上线了，怎么还要改？是不是应该阻止开发人员做重构？"}
+{"publish": "\r\n                ", "title": "如何做有效的Code Review？我有这些建议", "catotry": "IT技术", "content": "代码评审是保证代码质量的一种有效手段，做得好的话，对公司来讲是一笔收益颇高的时间投资。但实践起来往往变成了炫耀编程技能、固执己见、恶言相向、同事关系恶化的事，这该如何是好？"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "150 多个 ML、NLP 和 Python 相关的教程", "catotry": "工具与资源", "content": "作者整理了在网上找到的和 机器学习、NLP 相关的教程资源，其中文章将分四个主题：机器学习、自然语言处理、Python 和数学。"}
+{"publish": "\r\n                ", "title": "CoreOS，一款 Linux 容器发行版", "catotry": "IT技术", "content": "CoreOS 可以控制发行版的升级（基于 ChromeOS 代码），并结合了 Docker 和潜在的核对/修复功能，这意味着不用停止或者重启你的相关进程，就可以在线升级。 "}
+{"publish": "\r\n                ", "title": "cp 命令两个高效的用法", "catotry": "IT技术", "content": "在 Linux 上能使用鼠标点来点去的图形化界面是一件很美妙的事……但是如果你喜欢的开发交互环境和编译器是终端窗口、Bash 和 Vim，那你应该像我一样经常和终端打交道。即使是不经常使用终端的人，如果对终端环境深入了解也能获益良多。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "程序员的自我修养：温故而知新", "catotry": "职场", "content": "目的：从最基本的编译，静态链接到操作系统如何转载程序，动态链接及运行库和标准库的实现，和一些操作系统的机制。了解计算机上程序运行的一个基本脉络。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "用神经网络训练一个文本分类器", "catotry": "IT技术", "content": "理解聊天机器人的工作原理是非常重要的。聊天机器人内部一个非常重要的组件就是文本分类器。我们看一下文本分类器的神经网络（ANN）的内部工作原理。"}
+{"publish": "\r\n                ", "title": "编写高质量代码的思考", "catotry": "开发", "content": "前最近在看《代码大全》，可以说是一本软件开发的百科全书，特别厚，但是干货也很多。平时写代码，代码规范是一个最低的要求（很多老代码连最低要求都达不到），为什么要这样规定代码要这么写，而不是那么写？这是一个值得深究的问题。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "你的时间值多少钱？", "catotry": "其他", "content": "并非所有对时间的利用都是均等的，而且这个简单的道理可以让生活大为不同。明白怎样充分利用自己的时间，始于了解到（准确地说是）你的时间价值多少。本文讲述如何系统计算你时间的价值。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "用 C 语言写一个简单的 Unix Shell（2）", "catotry": "C/C++", "content": "在第一部分中我们讨论了 fork 系统调用以及它的注意事项。在本文中，我们将研究怎样执行命令。"}
+{"publish": "\r\n                ", "title": "文件系统层次标准（FHS）简介", "catotry": "IT技术", "content": "当你好奇地看着系统的根目录（/）的时候，可能会发现自己有点不知所措。大多数三个字母的目录名称并没有告诉你它们是做什么的，如果你需要做出一些重要的修改，那就很难知道在哪里可以查看。 "}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "什么是现代化编程？", "catotry": "开发", "content": "用 IDE 并不代表着“现代化”。现在的 IDE 和过去的 IDE 非常相像。虽然我们编程的内容改变了，但在很多情况下，我们如何编程却没有改变。"}
+{"publish": "\r\n                ", "title": "从集装箱历史看 DevOps 的发展进程", "catotry": "IT技术", "content": "那些创新了人与事物连接方式，且极大降低这种连接成本的技术，才能真正促进生产力的提升。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "一文带你理解深度学习的局限性", "catotry": "IT技术", "content": "深度学习最令人惊讶的特点便是极易上手。十年以前，没有人可以猜得到经过梯度下降法训练过的简单参数模型可以在机器感知问题上实现如此惊人的结果。现在，事实证明，研究者所需要做的只是使用足够大的梯度下降素材来训练参数模型。正如 Feynman 曾经描述宇宙一样，“它并不复杂，只是里面包含的东西实在太多。”"}
+{"publish": "\r\n                ", "title": "C++17 中那些值得关注的特性", "catotry": "C/C++", "content": "C++17标准在2017上半年已经讨论确定，正在形成ISO标准文档，今年晚些时候会正式发布。本文介绍了C++17的fold expression、constexpr if、constexpr lambda和string_view。fold expression为了简化可变模板参数的展开，让可以模板参数的使用变得更简单直观。 "}
+{"publish": "\r\n                ", "title": "使用 Kdump 检查 Linux 内核崩溃", "catotry": "IT技术", "content": "kdump 是获取崩溃的 Linux 内核转储的一种方法，但是想找到解释其使用和内部结构的文档可能有点困难。在本文中，我将研究 kdump 的基本使用方法，和 kdump/kexec 在内核中是如何实现。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "系统管理员应该知道的 20 条 Linux 命令", "catotry": "IT技术", "content": "在这个全新的工具和多样化的开发环境井喷的大环境下，任何开发者和工程师都有必要学习一些基本的系统管理命令。特定的命令和工具包可帮助开发者组织、排查故障并优化他们的应用程序，而且当出现错误时，也可以为运维人员和系统管理员提供有价值的分类信息。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "写给自学者的入门指南", "catotry": "其他", "content": "在 IT 工程师和培训机构多如牛毛的时代，拜师学艺并不难。但自学编程对于毫无基础的同学来说却可能是个问题，相信有过类似经历的朋友都有一把辛酸泪和一肚不吐不快的体会。让我们从一个故事说起…"}
+{"publish": "\r\n                ", "title": "优秀的程序员都有哪些习惯？", "catotry": "开发", "content": "「我不是卓越的程序员，我只不过是一个有着卓越习惯的程序员。」技术大牛 Kent Beck 曾这样说过自己。"}
+{"publish": "\r\n                ", "title": "Neo4j 图数据库基础", "catotry": "IT技术", "content": "对于海量的各种非结构化信息来说，图数据库已经成为帮助收集、管理和搜索大量数据的技术。在本文中，我将向你展示图数据库的基础知识，帮助你快速了解概念模型。 "}
+{"publish": "\r\n                ", "title": "ss：查看网络连接的另一种方法", "catotry": "IT技术", "content": "ss，它是 iproute2 包附带的另一个工具，允许你查询 socket 的有关统计信息。可以完成 netstat 同样的任务，但是，ss 稍微快一点而且命令更简短。 "}
+{"publish": "\r\n                ", "title": "照顾好应用的缓存，应付大流量", "catotry": "IT技术", "content": "为了提升系统的响应速度，通常会系统中使用缓存，例如：中央缓存，本地缓存等。但是使用缓存有好有坏，坏处是，如果缓存数据是旧的，那么应用输出的数据便是错误的数据，可能造成严重的影响。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（47）： iostat 命令", "catotry": "IT技术", "content": "Linux系统中的 iostat是I/O statistics（输入/输出统计）的缩写，iostat工具将对系统的磁盘操作活动进行监视。它的特点是汇报磁盘活动统计情况，同时也会汇报出CPU使用情况。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（46）： vmstat 命令", "catotry": "IT技术", "content": "vmstat是Virtual Meomory Statistics（虚拟内存统计）的缩写，可对操作系统的虚拟内存、进程、CPU活动进行监控。他是对系统的整体情况进行统计，不足之处是无法对某个进程进行深入分析。"}
+{"publish": "\r\n                ", "title": "开源项目 RethinkDB 关闭，创始人总结失败教训", "catotry": "创业", "content": "当我们宣布RethinkDB关闭时，我答应写一个调查分析。我花了一些时间来整理所得的教训和经验，现在可以清楚地写出来。 在HN讨论贴中，人们提出了许多关于为什么RethinkDB失败的原因，从莫名的人性和聪明的MongoDB…"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（45）： free 命令", "catotry": "IT技术", "content": "free命令可以显示Linux系统中空闲的、已用的物理内存及swap内存,及被内核使用的buffer。在Linux系统监控的工具中，free命令是最经常使用的命令之一。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "每天一个 Linux 命令（44）： top 命令", "catotry": "IT技术", "content": "top命令是Linux下常用的性能分析工具，能够实时显示系统中各个进程的资源占用状况，类似于Windows的任务管理器。下面详细介绍它的使用方法。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（41）： ps 命令", "catotry": "IT技术", "content": "Linux中的ps命令是Process Status的缩写。ps命令用来列出系统中当前运行的那些进程。ps命令列出的是当前那些进程的快照，就是执行ps命令的那个时刻的那些进程，如果想要动态的显示进程信息，就可以使用top命令。"}
+{"publish": "\r\n                ", "commentnum": "12  条评论", "title": "亲戚问你每月多少工资？程序员该如何机智回答", "catotry": "职场", "content": "每次一回家，看到各种亲戚就觉得不敢和他们说话，不敢提钱，不敢提工作，原因是什么呢？当然是怕他们问工资多少。程序员的工资虽然不少，但是也不想这样被问来问去的，起码咱是读书人啊……"}
+{"publish": "\r\n                ", "title": "3 个在 Linux 中永久并安全删除文件和目录的方法", "catotry": "其他", "content": "在大多数情况下，我们习惯于使用 Delete 键、垃圾箱或 rm 命令从我们的计算机中删除文件，但这不是永久安全地从硬盘中（或任何存储介质）删除文件的方法。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（40）： wc 命令", "catotry": "IT技术", "content": "Linux系统中的wc(Word Count)命令的功能为统计指定文件中的字节数、字数、行数，并将统计结果显示输出。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "坑：高可用架构的银弹", "catotry": "IT技术", "content": "我想很多人理解的高可用就是单台机器挂掉了整个服务不会挂掉，所以写代码的时候使用集群的思想去写代码，比如做成无状态的服务，保证在集群使用的时候无状态，单机故障不影响服务，从而达到高可用的效果。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "坑：重构过程中的过度设计", "catotry": "IT技术", "content": "本文说的「重构」，和《重构:改善既有代码的设计》这本书中的重构不太一样，这是本好书，它主要说的是代码级别的重构，这种重构是需要在编码的时候时时刻刻进行的，更多的是一种编程思想的训练，而我们这篇的重构主要是说系统设计的重构。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（39）： grep 命令", "catotry": "IT技术", "content": "Linux系统中grep命令是一种强大的文本搜索工具，它能使用正则表达式搜索文本，并把匹 配的行打印出来。grep全称是Global Regular Expression Print，表示全局正则表达式版本，它的使用权限是所有用户。"}
+{"publish": "\r\n                ", "title": "服务拆分与架构演进", "catotry": "IT技术", "content": "企业想要实施微服务架构，经常问到的第一个问题是，怎么拆？如何从单体到服务化的结构？第二个问题是拆完后业务变了增加了怎么办？另外，我们想要改变的系统往往已经成功上线，并有着活跃的用户。那么对其拆分还需要考虑现有的系统运行，如何以安全最快最低成本的方式拆分也是在这个过程中需要回答的问题。本文会针对以上问题，介绍我们团队在服务拆分和演进过程中的实践和经验总结。"}
+{"publish": "\r\n                ", "commentnum": "18  条评论", "title": "如何做到老板来了就自动切换桌面（含源码）", "catotry": "IT技术", "content": "当你工作的时候，肯定会浏览一些与工作无关的东西，别说你没有过。这时被老板发现就太尴尬了。当然，我也可以马上切换桌面，但这种举动太可疑了，而且有的时候我根本没注意到老板来了。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（38）： cal 命令", "catotry": "IT技术", "content": "cal命令可以用来显示公历（阳历）日历。公历是现在国际通用的历法，又称格列历，通称阳历。“阳历”又名“太阳历”，系以地球绕行太阳一周为一年，为西方各国所通用，故又名“西历”。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（37）： date 命令", "catotry": "IT技术", "content": "在linux环境中，不管是编程还是其他维护，时间是必不可少的，也经常会用到时间的运算，熟练运用date命令来表示自己想要表示的时间，肯定可以给自己的工作带来诸多方便。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（36）： diff 命令", "catotry": "IT技术", "content": "diff 命令是 linux上非常重要的工具，用于比较文件的内容，特别是比较两个版本不同的文件以找到改动的地方。diff在命令行中打印每一个行的改动。最新版本的diff还支持二进制文件。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "每天一个 Linux 命令（35）： ln 命令", "catotry": "IT技术", "content": "ln是linux中又一个非常重要命令，它的功能是为某一个文件在另外一个位置建立一个同步的链接.当我们需要在不同的目录，用到相同的文件时，我们不需要在每一个需要的目录下都放一个必须相同的文件，我们只要在某个固定的目录，放上该文件，然后在 其它的目录下用ln命令链接（link）它就可以，不必重复的占用磁盘空间。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "放弃测试优先式开发（TDD）", "catotry": "IT技术", "content": "再来一篇批判 TDD（test-driven development）教条主义的文章。用了TDD，写程序的目就变成了让一堆测试通过，变得保守、不敢改代码，因为惧怕花大时间去修复坏掉的测试。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "垃圾回收原来是这么回事", "catotry": "IT技术", "content": "John McCarthy身为Lisp之父和人工智能之父，同时，他也是GC之父。1960年，他在其论文中首次发布了GC算法（其实是委婉的提出😂）。而Java的前身Oak是在1990发布的，利用JVM实现了跨平台。GC因此一举成名。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（59）： rcp 命令", "catotry": "IT技术", "content": "rcp代表“remote file copy”（远程文件拷贝）。该命令用于在计算机之间拷贝文件。rcp命令有两种格式。第一种格式用于文件到文件的拷贝；第二种格式用于把文件或目录拷贝到另一个目录中。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "首批程序员他们是如何编程的？", "catotry": "职场", "content": "我们大家都记得自己用过的第一台电脑。Joyce Wheeler 也不例外。但是她的情况略有不同，她是第一批使用电脑的人。"}
+{"publish": "\r\n                ", "title": "分布式系统中唯一 ID 的生成方法", "catotry": "IT技术", "content": "本文主要介绍在一个分布式系统中, 怎么样生成全局唯一的 ID"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（58）： telnet 命令", "catotry": "IT技术", "content": "telnet命令通常用来远程登录。telnet程序是基于TELNET协议的远程登录客户端程序。Telnet协议是TCP/IP协议族中的一员，是Internet远程登陆服务的标准协议和主要方式。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "IDEA 代码生成插件 CodeMaker", "catotry": "开发", "content": "Java 开发过程中经常会遇到手工编写重复代码的事情，例如说：编写领域类和持久类的时候，大部分时候它们的变量名称，类型是一样的，在编写领域类的时候常常要重复写类似的代码。所以开发了一个 IDEA 的代码生成插件，通过 Velocity 支持自定义代码模板来生成代码。"}
+{"publish": "\r\n                ", "title": "一个屌丝程序猿的人生（47）", "catotry": "趣文小说", "content": "“咦？竟然还锁住了？”安玲聪的妈妈拧了拧把手，门并没有打开，不过这下安玲聪的妈妈彻底炸了，朝着安玲聪大声呵斥道：“竟然还锁门了！里面要是没人，为什么要锁门？你还说没带人回来？那个男生肯定藏在这屋子里！”"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（57）： ss 命令", "catotry": "IT技术", "content": "ss是Socket Statistics的缩写。顾名思义，ss命令可以用来获取socket统计信息，它可以显示和netstat类似的内容。但ss的优势在于它能够显示更多更详细的有关TCP和连接状态的信息，而且比netstat更快速更高效。"}
+{"publish": "\r\n                ", "title": "全栈必备：网络编程基础", "catotry": "IT技术", "content": "我们是幸运的，因为我们拥有网络。网络是一个神奇的东西，它改变了你和我的生活方式，改变了整个世界。 然而，网络的无标度和小世界特性使得它又是复杂的，无所不在，无所不能，以致于我们无法区分甚至无法描述。对于一个码农而言，了解网络的基础知识可能还是从了解定义开始，认识OSI的七层协议模型，深入Socket内部，进而熟练地进行网络编程。"}
+{"publish": "\r\n                ", "title": "程序员如何提一个好问题？", "catotry": "职场", "content": "提出好的问题是在编写软件时的一个非常重要的技能。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（56）： netstat 命令", "catotry": "IT技术", "content": "netstat命令用于显示与IP、TCP、UDP和ICMP协议相关的统计数据，一般用于检验本机各端口的网络连接情况。netstat是在内核中访问网络及相关信息的程序，它能提供TCP连接，TCP和UDP监听，进程内存管理的相关报告。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（55）： traceroute 命令", "catotry": "IT技术", "content": "通过traceroute我们可以知道信息从你的计算机到互联网另一端的主机是走的什么路径。当然每次数据包由某一同样的出发点（source）到达某一同样的目的地(destination)走的路径可能会不一样，但基本上来说大部分时候所走的路由是相同的。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "试试Linux下的ip命令，ifconfig已经过时了", "catotry": "IT技术", "content": "linux的ip命令和ifconfig类似，但前者功能更强大，并旨在取代后者。使用ip命令，只需一个命令，你就能很轻松地执行一些网络管理任务。ifconfig是net-tools中已被废弃使用的一个命令，许多年前就已经没有维护了。iproute2套件里提供了许多增强功能的命令，ip命令即是其中之一。 "}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（54）： ping 命令", "catotry": "IT技术", "content": "Linux系统的ping命令是常用的网络命令，它通常用来测试与目标主机的连通性，我们经常会说“ping一下某机器，看是不是开着”、不能打开网页时会说“你先ping网关地址192.168.1.1试试”。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（53）： route 命令", "catotry": "IT技术", "content": "Linux系统的route命令用于显示和操作IP路由表（show / manipulate the IP routing table）。要实现两个不同的子网之间的通信，需要一台连接两个网络的路由器，或者同时位于两个网络的网关来实现。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（52）： ifconfig 命令", "catotry": "IT技术", "content": "许多windows非常熟悉ipconfig命令行工具，它被用来获取网络接口配置信息并对此进行修改。Linux系统拥有一个类似的工具，也就是ifconfig(interfaces config)。通常需要以root身份登录或使用sudo以便在Linux机器上使用ifconfig工具。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（51）： lsof 命令", "catotry": "IT技术", "content": "lsof（list open files）是一个列出当前系统打开文件的工具。在linux环境下，任何事物都以文件的形式存在，通过文件不仅仅可以访问常规数据，还可以访问网络连接和硬件。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（50）： crontab 命令", "catotry": "IT技术", "content": "前一天学习了 at 命令是针对仅运行一次的任务，循环运行的例行性计划任务，linux系统则是由 cron (crond) 这个系统服务来控制的。Linux 系统上面原本就有非常多的计划性工作，因此这个系统服务是默认启动的。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（49）： at 命令", "catotry": "IT技术", "content": "在windows系统中，windows提供了计划任务这一功能，在控制面板 -> 性能与维护 -> 任务计划， 它的功能就是安排自动运行的任务。 通过’添加任务计划’的一步步引导，则可建立一个定时执行的任务。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（48）： watch 命令", "catotry": "IT技术", "content": "watch是一个非常实用的命令，基本所有的Linux发行版都带有这个小工具，如同名字一样，watch可以帮你监测一个命令的运行结果，省得你一遍遍的手动运行。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "这10本由浅入深的好书，或让你成为机器学习领域的专家", "catotry": "IT技术", "content": "机器学习是个跨领域的学科，而且在实际应用中有巨大作用，但是没有一本书能让你成为机器学习的专家。在这篇文章中，我挑选了 10 本书，这些书有不同的风格，主题也不尽相同，出版时间也不一样。因此，无论你是新手还是领域专家，一定能找到适合你的。"}
+{"publish": "\r\n                ", "title": "谷歌地图基于 ML 的停车难度预测", "catotry": "IT技术", "content": "据英国每日电讯报报道，平均每位司机在找车位上要花费 2549 个小时，也就是106 天。这些是英国的统计数据，但是我打赌住在美国大都市的司机花在找车位上面的时间并不会比这个少。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "如何从业余爱好者自学进阶成专业开发者", "catotry": "职场", "content": "几年前，我交替干着园艺工作和餐饮的工作。那时候我刚离开大学，还不知道我这一生到底该干什么。我有很多想法，但是没有方向。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "顺丰菜鸟大战背后真实原因，也许没有那么复杂", "catotry": "IT技术", "content": "顺丰和菜鸟的争论越来越火。我是一名老顺丰，对于顺丰有非常深厚的感情，而菜鸟是我非常喜欢的一家公司。两家公司我都曾认真写文分析过，也收到很好的反馈。关于两家公司的争吵，不宜再去蹭热点。我想换些角度去讨论这个事情。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "不要再争论代码风格了！", "catotry": "开发", "content": "用制表符（Tab）还是空格（Space）？在同一行中使用大括号，还是新起一行？每行是 80 个字符，还是 120 个？程序员都喜欢争论这类型的事情…… 对于这些争论，我在文末会给出一个明确的答案。"}
+{"publish": "\r\n                ", "title": "理想的创业合伙人是什么样的？", "catotry": "创业", "content": "Sam Altman 是全球知名的创业孵化机构 Y Combinator 的 CEO。经常有人问他「什么样的人，才是理想的创业合伙人」。他在本文中用 OpenAI 的 CTO 作为实际例子，分享了他的看法。"}
+{"publish": "\r\n                ", "commentnum": "11  条评论", "title": "没有业余代码项目，但这不说明我毫无激情", "catotry": "职场", "content": "在一次面试过程中，招聘方想看我写的代码，然而他们也知道，我之前为其他公司写的代码不能展示。当然，这不成问题，我可以给他们展示我正在做的众多业余项目中的任何一个。但问题是，我没有业余的代码项目可给他们看……"}
+{"publish": "\r\n                ", "title": "为什么要给软件做测试？如何测试呢？", "catotry": "IT技术", "content": "有些人对这些问题有非常简单的回答。及时享乐型的程序员根本懒得去测试，快乐地活在当下。更严肃的程序员会告诉你软件测试是为了开发出高质量的产品。为了可以开发出高质量的产品，必须始终编写单元测试和集成测试，并做 QA 测试。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "经典的 Fork 炸弹解析", "catotry": "开发", "content": "Jaromil 在 2002 年设计了最为精简的一个Linux Fork炸弹，整个代码只有13个字符，在 shell 中运行后几秒后系统就会宕机。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "我是见鬼了么？这是史上最邪恶的脚本！没有之一！", "catotry": "IT技术", "content": "这是一个 bash shell 脚本，其中有若干可以整蛊（结仇）你的同事的小技巧——或者说恶作剧。看完之后，感觉不寒而栗，要是谁敢这样整我，我一定和他绝交！ "}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "我想对所有新手程序员说些肺腑之言", "catotry": "开发", "content": "我编程的时间，已超过 20 年了。截至目前，我开的编程入门课，也有六七门了。传授编程的总时间，大约也有 1000 小时了。下面这些话，没有特别的前后顺序，我对自己学员不止说过一次。"}
+{"publish": "\r\n                ", "title": "大型分布式团队的代码版本管理", "catotry": "IT技术", "content": "介绍这个话题，有两个原因：① 从开始工作到现在，我经历过没有代码版本管理、代码集中式管理，以及现在的分布式管理，我深刻体会到它在软件开发过程中的重要性；② 我在工作中遇到的很多客户都存在对于代码版本管理的各种问题、困惑和不同的需求。"}
+{"publish": "\r\n                ", "title": "维护大型开源项目，是怎样的体验？", "catotry": "开发", "content": "参与开源的开发者也越来越多，GitHub 的活跃度也佐证了这种现象。Nolan 在《做开源项目的维护者，是怎样一种体验？》分享了他的感受和经验。伯乐在线另外摘编了 2 位国内程序员的分享。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "为何你会觉得写测试很烦？", "catotry": "IT技术", "content": "在学校里学了几年的编程，很少人有机会去写测试，对测试这门手艺活当然很陌生了。摆正思想，多练习，自然就熟练了。"}
+{"publish": "\r\n                ", "title": "如何把好技术变为好产品？", "catotry": "管理", "content": "大多数创业始于极好的创意和技术专长，但好技术和好产品有着天壤之别。这篇文章写给那些想构建用户实际使用的产品，而不是只解决问题但无法形成规模的技术。我用来形容这个过程的动词就是“产品化”。产品化意味着把某种东西（比如好的创意、技术等）转化为产品。"}
+{"publish": "\r\n                ", "title": "NoSQL 数据库的主主备份", "catotry": "IT技术", "content": "Tarantool DBMS 的高性能应该很多人都听说过，包括其丰富的工具套件和某些特定功能。比如，它拥有一个非常强大的 on-disk 存储引擎 Vinyl，并且知道怎样处理 JSON 文档。然而，大部分文章往往忽略了一个关键点：通常 Tarantool 仅仅被视为存储器，而实际上其最大特点是能够在存储器内部写代码，从而高效处理数据。"}
+{"publish": "\r\n                ", "title": "写给程序员的 Unicode 入门介绍", "catotry": "IT技术", "content": "程序员世界对这个名字发自内心的恐惧和敬畏。Unicode 很深奥，它有千页的 Unicode 标准，还有几十页的补充附录、报告和注解，简直太吓人了。即使 Unicode 诞生 30 多年后，我们还觉得它很神秘。"}
+{"publish": "\r\n                ", "commentnum": "8  条评论", "title": "谷歌大牛说：为什么 Kotlin 比你们用的那些垃圾语言都好", "catotry": "开发", "content": "5月18日，安卓团队在谷歌 I/O 2017 大会上宣布 Kotlin 成为官方头等支持语言。这条爆炸性资讯在当天就是 Hacker News 首页热门讨论，与此同时，谷歌技术大牛 Steve Yegge 也写了一篇关于 Kotlin 的使用体会总结文章，同样是首页热门，并引发 200+ 讨论。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "不按传统套路，我是这样学习新编程语言的", "catotry": "开发", "content": "以往我们认为学习新编程语言的最佳方式是看语法，然后做小项目练习。Sahil Dua 另辟蹊径，找到了学习新语言的新方法。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "思维的局限", "catotry": "职场", "content": "去年写了一篇关于《容器化时代对测试的机遇》的文章，提到了一些分布式自动化测试和容器化技术结合的架构设想。但是目前来说，分布式运行并不是难点，亟需解决的问题是针对特殊平台和复杂场景下的测试，例如复杂业务场景下iOS平台的自动化测试。"}
+{"publish": "\r\n                ", "title": "不局限技术领域，结交其他行业的精英", "catotry": "职场", "content": "对那些还处于事业初期或者发展期的技术从业者一点建议：多关注弱联系。当你在技术领域建立一定数量的人脉后，比如去结识 100 个不同的人，你与领域内绝大多数陌生人之间只有一跳的距离。"}
+{"publish": "\r\n                ", "commentnum": "书籍与教程", "title": "通过这 9 本开源好书学习 C 语言", "catotry": "C/C++", "content": "我们都是通过阅读书籍来帮助掌握某种语言的基本知识。随后又通过阅读书籍来全面探索这门语言的灵活性。我仔细考察了一些我最喜爱的 C 语言书籍，并从其中选出了对我意义最大的九本。有没有哪一本能够吸引你？好好享受吧！"}
+{"publish": "\r\n                ", "commentnum": "9  条评论", "title": "误删 300G，GitLab 官方对删库事故的事后分析", "catotry": "IT技术", "content": "2月1日，一个GitLab工程师误删了一个包含 300GB 实时产品数据的文件夹，在取消 rm -rf 删除命令后只剩下 4.5GB 数据。并且最近的数据还是在6小时前备份的。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "一次 DNS 缓存引发的惨案", "catotry": "IT技术", "content": "时间2015年的某个周六凌晨5点，公司官方的QQ群有用户反馈官网打不开了，但有的用户反馈可以打开，客服爬起来自己用电脑试了一下没有问题，就给客户反馈说，可能是自己网络的问题，请过会在试试。早点8点，越来越多的用户反馈官网无法打开，并且有部分用户开发反馈app也打不开了，客服打电话叫起了还在梦乡中的我。"}
+{"publish": "\r\n                ", "title": "一次生产事故的优化经历", "catotry": "IT技术", "content": "在一次正常的活动促销之后，客服开始陆续反馈有用户反应在抢标的时候打不开网页或者APP，在打开的时候标的就已经被抢光了，刚开始没有特别的上心，觉得抢标不就是这样吗，抢小米手机的时候也不就这样吗？随着活动继续推进，有更多的用户强烈抗议，用户领了加息卷或者抵现卷之后抢不上标的，认为是平台作假故意不让使用以达到节省资源。"}
+{"publish": "\r\n                ", "title": "技术文章如何写，才能有较好的阅读体验？", "catotry": "职场", "content": "技术文章如何写作能让读者有较好的阅读体验，是一个仁者见仁，智者见智的问题。甚至很多人都认为根本不需要考虑读者的感受，把技术写好写准确就可以了，这其实就是一大误区，你的写作如果只是给自己看，当然我也就不多说什么，但如果你的写作是给别人看，就一定要考虑如何写的问题"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "写技术博客的无限好处", "catotry": "职场", "content": "没有读者，写技术博客文章感觉不到太多的作用，是浪费时间的事情，是这样吗？"}
+{"publish": "\r\n                ", "commentnum": "趣文小说", "title": "趣文：妓女、二奶和软件外包哪个靠谱", "catotry": "开发", "content": "公司要开发一款 app。没有移动上的开发工程师，便考虑把这个项目外包了。但对于外包是否靠谱，公司里分成两派，产生了很大争议。CEO 看大家争论得不可开交，就把王大锤叫来，让他谈谈看法。王大锤是个项目经理，在某家外包公司干过几年，也许能知道点实际情况。"}
+{"publish": "\r\n                ", "title": "软件咨询师的工具箱", "catotry": "IT技术", "content": "作为软件领域的专家，软件咨询师擅长利用个人丰富的领域知识，去解决软件开发、测试过程中的各种难题。除此之外，他们需要利用各种技能与工具帮助自己快速收集信息，分析、定位客户的问题所在。"}
+{"publish": "\r\n                ", "title": "一个开源项目维护者的笔记：为什么我关闭 PR", "catotry": "IT技术", "content": "我在 GitHub 上和其他地方维护着许多的开源项目（截止本文写作时超过 160 个）。在过去几年里，我已经合并 以及/或者 关闭了上千个 Pull Requests (PRs) 和补丁，现在想在这里总结一下我不合并许多 PRs 的原因。 "}
+{"publish": "\r\n                ", "title": "无需跑路，GitLab 删库事件的借鉴意义", "catotry": "IT技术", "content": "俗话说，天灾可怕，人祸更甚，最近的 GitLab 删库曾一度牵动了码界尤其是运维圈的神经。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "程序员在周末偏向用哪些编程语言？", "catotry": "IT技术", "content": "程序员周末主要做哪什么呢？有些陪伴家人，有些看书学习，还有有些忙个人项目……总之答案很多。那些周末还在投身于编程项目或学习的程序员，他们常用哪些编程语言（技术）呢？StackOverflow 的数据工程师 Julia Silge 根据 SO 的公开数据集，分析工作日和周末 SO 问答帖的差异，为你揭开答案。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（60）： scp命令", "catotry": "IT技术", "content": "scp是secure copy的简写，用于在Linux下进行远程拷贝文件的命令，和它类似的命令有cp，不过cp只是在本机进行拷贝不能跨服务器，而且scp传输是加密的。可能会稍微影响一下速度。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "一个工程师对流程管理的思考", "catotry": "管理", "content": "以工程师的视角对流程管理的理解和认知，从逻辑上探讨需要注意的因素。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "如何利用 C++ 的 Lambda 表达式提升 Qt 代码", "catotry": "C/C++", "content": "Lambda 表达式是在 C++11 中加入的 C++ 特性。在这篇文章中我们将看到如何用 Lambda 表达式来简化 Qt 代码。Lambda 很强大，但也要小心它带来的陷阱。"}
+{"publish": "\r\n                ", "commentnum": "11  条评论", "title": "编程没有捷径：奇葩冒牌程序员的故事", "catotry": "职场", "content": "成为优秀的编程人员没有捷径，你要拥有高智商，要保持谦逊，还要不断的努力，犯错，在错误中成长，深刻理解你所学习的材料。"}
+{"publish": "\r\n                ", "title": "100 行 C 代码终端打印树形结构", "catotry": "IT技术", "content": "树形结构是算法里很常见的一种数据结构，从二叉树到多叉树，还有很多变种。很多涉及到算法的工作，就需要程序员自己手动实现树形结构，但出于结构本身复杂性，不太容易做对，需要一种调试工具来检测正确性。"}
+{"publish": "\r\n                ", "title": "从测试策略到测试架构", "catotry": "IT技术", "content": "现在业界流行的测试金字塔和测试象限只是两种高度抽象和简化的测试策略模型，不具备实际可操作性，只具备高层次的指导性和参考性。直接根据这两个模型来工作是低效的，甚至可能带来负面效果。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Linus 谈软件开发管理经验", "catotry": "管理", "content": "没有人比 Linus Torvalds 更了解软件开发项目管理中的酸甜苦辣了。作为 Linux 的创建者，Torvalds在过去二十年指导了数以千计的开发者共同改进开源操作系统内核。文中Linus Torvalds分享了他在软件管理方面的宝贵经验。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "研发团队 GIT 开发流程新人学习指南", "catotry": "IT技术", "content": "本文定位于为使用GIT标准分支开发流程的开发团队新人提供一份参考指南，其中的内容都是我们公司在研发团队初创时所遵循的一些开发流程标准，经过近一年的实践，虽说还有很多不足，但是随着团队经验的丰富和人员的扩张，我会适时地更新本文，分享我们在使用GIT开发流程中遇到的问题和解决方案。"}
+{"publish": "\r\n                ", "title": "TensorFlow 团队如何管理开源项目", "catotry": "IT技术", "content": "开源不仅仅是把代码贡献出来，然后希望有人来使用它。我也知道这一点，不过在成为 Google TensorFlow 团队的成员后，我才认识到围绕一个软件构建一个社区所需要考虑的因素实在是很多。"}
+{"publish": "\r\n                ", "title": "GitHub 官方推荐的开源指南，新手老手都别错过", "catotry": "开发", "content": "对程序员而言，参与开源有着难以置信的回报，比如有一个自己的出色开源项目，在技术面试能增色很多，极大加分。所以，越来越多的人在参与到开源运动中来。但对应很多新手来说，如何参与开源做出第一个贡献，如何发起一个新项目，却成了一个问题。"}
+{"publish": "\r\n                ", "title": "大事件：Kotlin 成了 Android 开发的官方语言", "catotry": "开发", "content": "今天是 Google I/O 2017 大会第一日。一觉醒来，发现 Kotlin 成为了 Android 的官方开发语言。谷歌安卓团队今天宣布对 Kotlin 提供 first-class 的支持。"}
+{"publish": "\r\n                ", "commentnum": "9  条评论", "title": "大白话解释 Git 和 GitHub", "catotry": "IT技术", "content": "本文旨在使用通俗易懂的文字，讲解版本控制背后的理论，以便你能对程序员们如何工作有个全局概念。本文不涉及代码，不用下载啥东西，循序渐进，不关注繁复细节，只有文字和一些不怎么漂亮的手绘涂鸦。"}
+{"publish": "\r\n                ", "title": "做数据分析时，R 用户如何学习 Python？", "catotry": "开发", "content": "本文是帮助 R 用户增强技能和为数据科学进阶而学习 Python (从零开始)。毕竟，R 和 Python 是数据科学从业者必需掌握的两门最重要的编程语言。"}
+{"publish": "\r\n                ", "title": "详解 awk 工具的使用方法", "catotry": "IT技术", "content": "awk 是一个强大的文本分析工具。它不仅是 Linux 中，也是任何环境中现有的功能最强大的数据处理引擎之一。相对于 grep 的查找，sed的编辑，awk在其对数据分析并生成报告时，显得尤为强大。"}
+{"publish": "\r\n                ", "title": "为何编程如此之难？Erlang 之父的感触", "catotry": "开发", "content": "多年前我曾一度认为编程很简单，然而随着岁月的流逝，我终于意识到编程并不是件容易的事。这是因为，我所认为的「究竟什么是编程」和「程序员到底是做什么的」，在感知上已经渐渐地发生了转变。"}
+{"publish": "\r\n                ", "title": "Quora 在 2017 年是如何运用机器学习的", "catotry": "IT技术", "content": "Quora 的工程经理 Nikhil-Dandekar 讲解 Quora 在 2017 年如何运用机器学习来优化问题检索、邀请、回答的排序和广告等。"}
+{"publish": "\r\n                ", "commentnum": "6  条评论", "title": "一名 40 岁“老”程序员的反思", "catotry": "职场", "content": "我是一名程序员，几个月前刚过完 40 岁生日。某个星期六的早晨，我参加了一个 React Native 技术交流会，演讲者正在竭力说服我们为什么它会成为移动开发领域真正的下一个大事件。但对我来说，它有点像 15 年前的 JSP……"}
+{"publish": "\r\n                ", "title": "Linux kernel 的设计是否已经过时？", "catotry": "IT技术", "content": "Linux 多年来取得的成绩毋庸多言。但最近，reddit 上有人发起了一个话题，想知道 Linux 的内核设计是否已经过时，并得到了一些有趣的答案。"}
+{"publish": "\r\n                ", "title": "程序员必备的项目时间估算指南", "catotry": "其他", "content": "有位 PM 最近告诉我她面临的一个难题：“软件工程师永远不能估算出他们的项目需要多长时间。我该怎么办？”还有两位 CEO 最近也告诉我同样的事情。我们工程师也都深有体会。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "我是如何意外阻止了勒索病毒的全球攻击", "catotry": "IT技术", "content": "我现在终于有时间写写周五发生的 WannaCrypt 病毒事情了，这两天各种电话和 Skype 都快把我催爆了，这件事情也花掉了我整个周末的时间。也许你已经从各种媒体上听说了此事，但是我觉得你最好听听我的版本。"}
+{"publish": "\r\n                ", "title": "6 个编程范型将改变你对编程的看法", "catotry": "开发", "content": "本文介绍了一些比较小众的编程范型，也提到了一些小众的语言，作者希望借此让大家更多的了解一些不是主流的编程范型，进而改变对编程的看法和思考。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "向 Linus 学习，让代码具有 good taste", "catotry": "开发", "content": "在最近关于 Linus Torvalds 的一个采访中，Linus 提及了关于代码的 “good taste”。什么是 good taste？采访者请他展示更多的细节，于是，Linus Torvalds 展示了一张提前准备好的插图。 "}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "做开源项目的维护者，是怎样一种体验？", "catotry": "职场", "content": "热门开源项目的维护者都很不容易的，素不相识的伸手党会因为你没有及时回答问题、没有及时帮他们搜索出他们想要的答案而开骂，开源项目维护者们往往会憋出心理疾病来的。Nolan 参与开源有 7 年了，请看他的体会。"}
+{"publish": "\r\n                ", "title": "程序员在工作时间做私活，是否该开除？", "catotry": "职场", "content": "我是一家创业公司的 CTO 和联合创始人，我刚刚发现一个软件工程师每天会占用 2-3 个小时的工作时间做私活。其他工程师们也向我抱怨，希望我能对此采取一些行动。我该怎么做？应该开除他吗？"}
+{"publish": "\r\n                ", "title": "Linux 中引号的那些事", "catotry": "IT技术", "content": "我们将把编写脚本的事情暂时搁在一边，然后来讨论一些，我们一直在用的，但是没有解释的东西。在这一节里面，我们会讲述引号。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "什么？项目延期有解药？", "catotry": "管理", "content": "当我们要考虑如何让项目不延期时，我们是否做到让每个员工都满负荷了？我们追求的是不延期，还是追求更卓越的产品？"}
+{"publish": "\r\n                ", "title": "如何将 MySQL 查询速度提升 300 倍", "catotry": "IT技术", "content": "在进行性能分析前，需要先定位耗时查询。MySQL 提供了内建的耗时查询日志。使用前，打开 my.cnf 文件，将slow_query_log 设置为”On”。 同时将 long_query_time 设置为一个对一次查询来说比较慢的时间（秒数），比如 0.2。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "重构之十六字心法", "catotry": "IT技术", "content": "旧的不变、新的创建、一步切换、旧的再见。大道至简，一旦领悟并掌握了这个心法，就发现自己一下从之前狭义的代码重构中跳脱出来，任何广义上的重构都立刻变得有章可循。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "零 bug 策略：要么立马修复，要么忽略", "catotry": "开发", "content": "所谓的 0 Bug 策略：当发现一个新的 bug，要么立刻马上修复，要么直接忽略不再理会。与对待生活中的人与事一样，不是每个 bug 都值得去花时间的。你得成长到有能力去判断什么该花时间、什么不该花时间。"}
+{"publish": "\r\n                ", "title": "第 0 期技术微周刊，从经典的 Linux 命令系列开始", "catotry": "开发", "content": "每周一期，一期包括和技术相关的重要业界资讯 和 技术文章与动态。周刊的内容甄选自一周的精彩内容，有技术干货、技术动态，也有技术人生，末尾还加了小彩蛋。"}
+{"publish": "\r\n                ", "commentnum": "12  条评论", "title": "我是小有成就，但我过不了白板面试", "catotry": "开发", "content": "关于程序员面试时现场写代码，大家还记得 2015 年 6 月的一个新闻，知名包管理工具 Homebrew 的作者 Max Howell 去 Google 面试。因为他没能写出反转二叉树算法，最后被 Google 拒绝了。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "开发者的实用 Vim 插件（3）", "catotry": "IT技术", "content": "在之前已介绍了 Pathogen 插件管理包安装基本的 vim 插件，也提及了另外三个插件：Tagbar、delimitMate 和 Syntastic。现在，在最后一部分将介绍另一个十分有用的插件 a.vim。 "}
+{"publish": "\r\n                ", "commentnum": "15  条评论", "title": "聊聊分布式事务", "catotry": "IT技术", "content": "分布式事务场景如何设计系统架构及解决数据一致性问题，个人理解最终方案把握以下原则就可以了，那就是：大事务=小事务（原子事务）+异步（消息通知）。解决分布式事务的最好办法其实就是不考虑分布式事务，将一个大的业务进行拆分，整个大的业务流程，转化成若干个小的业务流程，然后通过设计补偿流程从而考虑最终一致性。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "自动补全不算什么，一键直达目录才是终极神器", "catotry": "IT技术", "content": "autojump 是一个命令行工具，它允许你可以直接跳转到你喜爱的目录，而不用管你现在身在何处。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "阿里巴巴 Java 开发手册评述", "catotry": "开发", "content": "我想阿里巴巴发布的 Java 开发手册之所以叫做”开发手册”，而不是像 Google 那样叫做 “Style Guide(样式风格)”，是因为它不仅仅局限于style guide 这一方面。"}
+{"publish": "\r\n                ", "commentnum": "8  条评论", "title": "趣文：程序员相亲指南", "catotry": "趣文小说", "content": "王美丽有些烦躁。她实在对程序员们失望了。这群码农，能把计算机搞得七颠八倒的，和女人打起交道竟这么笨蛋。"}
+{"publish": "\r\n                ", "commentnum": "9  条评论", "title": "没热情就不够格做程序员么？", "catotry": "职场", "content": "作者根据自身软件开发的经验，加上整理比尔·盖茨，Peter Thiel 等各大名家曾经提过的理论及其中矛盾，试图找出软件开发生涯中的付出的努力、热情以及私人生活的平衡。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "适用于开发者的最佳 Chrome 扩展工具", "catotry": "IT技术", "content": "Chrome 备受开发者青睐，它提供了一套 Chrome DevTools，是 Web开发和性能调试的必备工具，旨在为开发人员提供更轻松的生活。 本文列出了一些对开发者的最有用的、用户友好和功能丰富的扩展工具并附上评分。"}
+{"publish": "\r\n                ", "title": "Linux 命令行工具使用小贴士及技巧（2）", "catotry": "IT技术", "content": "在本文中，我们将讨论如何使用 pushd 和 popd 命令在 Linux 命令行上获得更快的导航体验。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "10 个常见的 Linux 终端仿真器", "catotry": "IT技术", "content": "对于 Linux 用户来说，最重要的应用程序之一就是终端仿真器。它允许每个用户获得对 shell 的访问。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "我为什么鼓励工程师写博客", "catotry": "职场", "content": "工程师该怎样才能突破自己能力瓶颈？写博客！工程师该怎样精进自己在职涯上所需要的能力？写博客！工程师该怎样才能保持学习与成长的动能？写博客！工程师该怎样才能证明自己的潜力与特质？写博客！"}
+{"publish": "\r\n                ", "commentnum": "开发", "title": "2017 年 PHP 程序员未来路在何方？", "catotry": "PHP", "content": "作为一个资深的 PHP 开发者，在技术上给各位 PHP 程序十点未来的建议，希望对大家有所帮助。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "APP「登录注册模块」详解", "catotry": "IT技术", "content": "设计一个好的登录注册系统并不是很轻松。 登录注册的方式都有哪些？登录注册的流程都是怎样的？登录过程中的异常状态怎么处理？怎样设计一个完整的登录注册流程等等，其间还要考虑大量的细节问题。"}
+{"publish": "\r\n                ", "title": "Apache Spark 内存管理详解", "catotry": "IT技术", "content": "Spark 是基于内存的分布式计算引擎，本文旨在按照堆内和堆外内存规划、内存空间分配、存储内存管理和执行内存管理的线索，全方位梳理 Spark 内存管理的脉络。"}
+{"publish": "\r\n                ", "title": "Nginx+Tomcat 配置负载均衡集群", "catotry": "IT技术", "content": "本文详细介绍Nginx和Tomcat来配置负载均衡集群的过程以及Nginx的复杂均衡策略。"}
+{"publish": "\r\n                ", "title": "神秘的 10 倍效率程序员", "catotry": "职场", "content": "在编程的神话中，一个 10 倍效率的程序员可以完成一个普通程序员 10 倍的工作。"}
+{"publish": "\r\n                ", "title": "从某网站的支付泄漏看安全实践", "catotry": "IT技术", "content": "混用测试环境与产品环境、明文记录用户敏感数据、违反相关技术标准、公网暴露数据库密码。X网站的安全事故对很多企业的IT部门都是警示，它提醒我们，随着互联网的发展，软件安全和信息安全不再是安装防火墙所能保障的，它需要企业从软件开发的第一分钟就开始关注安全并积极采取行动，把软件安全内建到研发过程中。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "Emacs 是否真的能煮咖啡？", "catotry": "趣文小说", "content": "坊间有传言曰:“emacs 无所不能, 甚至能够用来煮咖啡!”"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（30）:  chown 命令", "catotry": "IT技术", "content": "chown将指定文件的拥有者改为指定的用户或组，用户可以是用户名或者用户ID；组可以是组名或者组ID；文件是以空格分开的要改变权限的文件列表，支持通配符。系统管理员经常使用chown命令，在将文件拷贝到另一个用户的名录下之后，让用户拥有使用该文件的权限。 "}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "神经网络浅讲：从神经元到深度学习", "catotry": "IT技术", "content": "神经网络是一门重要的机器学习技术。它是目前最为火热的研究方向–深度学习的基础。学习神经网络不仅可以让你掌握一门强大的机器学习方法，同时也可以更好地帮助你理解深度学习技术。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "一个 Linux 上分析死锁的简单方法", "catotry": "IT技术", "content": "本文主要介绍一种在 Linux 上分析死锁问题的简单方法。主要介绍死锁的基本概念，以及如何使用 pstack 和 gdb 对死锁问题进行分析。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "MySQL 线程池内幕", "catotry": "IT技术", "content": "在MySQL中，线程池指的是用来管理处理MySQL客户端连接任务的线程的一种机制，我厂用的percona版本已经是集成了线程池，只需要通过如下参数开启即可。"}
+{"publish": "\r\n                ", "title": "聊聊面试时让候选人写代码", "catotry": "其他", "content": "我们正在对后端开发人员招聘流程做了一些改变，简化了岗位描述与面试流程，但额外增加了一个环节：请候选人写点代码。 这是基于我对招聘流程的经验，和他们对代码评审的使用来考虑的。"}
+{"publish": "\r\n                ", "title": "一个屌丝程序猿的人生（46）", "catotry": "趣文小说", "content": "“哎！马上就来啊！”安玲聪一边安抚着门外的父母，一边和林萧商量着对策。"}
+{"publish": "\r\n                ", "commentnum": "7  条评论", "title": "一个提高查找速度的小技巧", "catotry": "C/C++", "content": "在一个数组中查找某一个元素，或是在一个字符串中查找某个字符，我们一般用的代码虽然简洁明了，但在数组元素很多的情况下，并不是一个很好的解决方案，今天我就来分享一个提高查找速度的小技巧."}
+{"publish": "\r\n                ", "title": "MFC双缓冲绘图实例", "catotry": "C/C++", "content": "本人之前一直了解双缓冲绘图的基本原理，但是在研究很久之后才大概知道具体的使用过程，本文将详细介绍本人在实际项目中使用双缓冲绘图的案例。"}
+{"publish": "\r\n                ", "title": "C++大随机数的问题", "catotry": "C/C++", "content": "C++的随机数最大值是RAND_MAX，在头文件中定义。"}
+{"publish": "\r\n                ", "commentnum": "7  条评论", "title": "变量命名指南", "catotry": "开发", "content": "软件是写给人来理解的；因此要合理地选择变量名。别人需要梳理你的代码，并且去理解代码的意图，才能够扩展或者修复。既浪费了空间又不直接明了的变量名很多。即使用心良苦，很多工程师最后选的变量名最多也只是徒有其表。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（29）: chgrp 命令", "catotry": "IT技术", "content": "在lunix系统里，文件或目录的权限的掌控以拥有者及所诉群组来管理。可以使用chgrp指令取变更文件与目录所属群组，这种方式采用群组名称或群组识别码都可以。Chgrp命令就是change group的缩写！要被改变的组名必须要在/etc/group文件内存在才行。"}
+{"publish": "\r\n                ", "title": "如何在 Linux 中找出最近或今天被修改的文件", "catotry": "IT技术", "content": "Linux 用户在命令行上遇到的常见问题之一是定位具有特定名称的文件，如果你知道确定的文件名则可能会容易得假设你忘记了白天早些时候创建的文件的名称（在你包含了数百个文件的 home 文件夹中），但现在你有急用。"}
+{"publish": "\r\n                ", "title": "如何按最后修改时间对 ls 命令的输出进行排序", "catotry": "IT技术", "content": "我们列出目录内容时，可以按照不同的标准进行排序，例如文件名、修改时间、添加时间、版本或者文件大小。可以通过指定一个特别的参数来使用这些文件的属性进行排序。 "}
+{"publish": "\r\n                ", "title": "一个屌丝程序猿的人生（45）", "catotry": "趣文小说", "content": "林萧懵逼的指了指自己，“你说我吗？”"}
+{"publish": "\r\n                ", "title": "关于【error C3646: 未知重写说明符】的若干种可能性", "catotry": "C/C++", "content": "如果在程序中出现了error C3646，那么这个错误可能是由多种问题所导致的，这篇文章将对多种错误及对应解决方法进行分析。"}
+{"publish": "\r\n                ", "title": "Qt 5 中的信号槽", "catotry": "C/C++", "content": "Qt4信号槽存在一些明显的不足，Qt5中不仅解决了上述Qt4中的问题,而且还有一些扩充。"}
+{"publish": "\r\n                ", "title": "一个简单粗暴的人脸认证标注工具的实现", "catotry": "C/C++", "content": "这个程序主要的功能是完成一个人脸认证的标注工具。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（28）：tar 命令", "catotry": "IT技术", "content": "通过SSH访问服务器，难免会要用到压缩，解压缩，打包，解包等，这时候tar命令就是是必不可少的一个功能强大的工具。linux中最流行的tar是麻雀虽小，五脏俱全，功能强大。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "自写信息管理系统—— C 实现", "catotry": "C/C++", "content": "该管理系统分为三个权限：学生，老师，管理员，用双向链表实现，文件储存，有账号密码功能。密码实现MD5加密，较难破解，实现了链表添加，查找，排序，删除等基本操作"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "使用 C++ 的 StringBuilder 提升 4350% 的性能", "catotry": "C/C++", "content": "你测试大字符串写文件的速度，发现快如闪电。然后你再测试所有字符串拼接的速度。"}
+{"publish": "\r\n                ", "title": "C++中几个值得分析的小问题", "catotry": "C/C++", "content": "下面3个小问题都是我认为C++ Beginner应该能够解答或辨别清楚的。希望我们能通过题目挖掘更多的信息，而不仅仅局限在解题。我最喜欢说的话：能力有限，所以作为抛砖引玉，希望共同讨论，指出错误。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "C++中泛型使用导致的膨胀问题", "catotry": "C/C++", "content": "C++有个问题就是模板的滥用会导致生成的文件膨胀。"}
+{"publish": "\r\n                ", "title": "浅谈C++指针直接调用类成员函数", "catotry": "C/C++", "content": "本文分析了C++编程中用指针调用“类” 成员函数时出现的问题、原因及后果，讨论了一般函数指针和“类”成员函数指针的不同。得出结论：任何指向“类”的成员函数指针，由于携带额外的所属对象信息，与一般的函数有根本的不同，不能直接用来进行函数调用。此外，本文给出了几种间接调用类的成员函数的方法。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（21）：find命令之xargs", "catotry": "IT技术", "content": "在使用 find命令的-exec选项处理匹配到的文件时， find命令将所有匹配到的文件一起传递给exec执行。但有些系统对能够传递给exec的命令长度有限制，这样在find命令运行几分钟之后，就会出现溢出错误。错误信息通常是“参数列太长”或“参数列溢出”。这就是xargs命令的用处所在，特别是与find命令一起使用。"}
+{"publish": "\r\n                ", "title": "Sku 多维属性状态判断算法", "catotry": "IT技术", "content": "这个问题来源于选择商品属性的场景。比如我们买衣服、鞋子这类物件，一般都需要我们选择合适的颜色、尺码等属性…"}
+{"publish": "\r\n                ", "commentnum": "25  条评论", "title": "面试被问设计模式？不要怕看这里：单例模式", "catotry": "IT技术", "content": "设计模式是老生常谈的问题，有人工作多年却对设计模式一窍不通，但是更多的人是懂一点点，但是不求甚解。其实这样不好，暂且不说在工作中的应用，即便是在面试时，被面试官问到设计模式时一脸懵逼，是非常尴尬的事情。"}
+{"publish": "\r\n                ", "title": "C 中 static 的常见作用", "catotry": "C/C++", "content": "编写C语言程序时经常会用到static，总结记录一下其常见作用"}
+{"publish": "\r\n                ", "title": "C++读取、旋转和保存 bmp 图像文件编程实现", "catotry": "C/C++", "content": "通过我这些天用C++读写bmp图像的经历，摸索再摸索，终于对bmp文件的结构、操作有了一定的了解，下面就大概介绍bmp图片纯C++的读取、旋转和保存的实现过程。"}
+{"publish": "\r\n                ", "title": "C/C++ 二进制读写 png 文件", "catotry": "C/C++", "content": "为了弄OpenGl的纹理代码，发现书上没有图片像素的获取，然后就想写个来获取png的，只有最简单的读写"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "每天一个 Linux 命令（20）：find命令之exec", "catotry": "IT技术", "content": "find是我们很常用的一个Linux命令，但是我们一般查找出来的并不仅仅是看看而已，还会有进一步的操作，这个时候exec的作用就显现出来了。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "为什么软件开发，人多事少，还会工作量大？", "catotry": "开发", "content": "我来谈谈亲身经历过的“怪现象”。为什么说怪呢，人多力量大，似乎才符合常理，但是往往在软件项目开展的过程中会出现人多、事少、工作量大的情况，这跟我们以往的认知大相径庭。"}
+{"publish": "\r\n                ", "title": "C/C++ 结构体字节对齐详解", "catotry": "C/C++", "content": "从理论上讲，对于任何 变量的访问都可以从任何地址开始访问，但是事实上不是如此，实际上访问特定类型的变量只能在特定的地址访问，这就需要各个变量在空间上按一定的规则排列， 而不是简单地顺序排列，这就是内存对齐。"}
+{"publish": "\r\n                ", "title": "pthread_create() 给创建的线程传递参数", "catotry": "C/C++", "content": "对于pthread_create为创建线程传递参数的问题，先前只知道传递单个参数的方法，现在需要传递多个参数。对于新手的我比较纠结，下面把帖子中认为对自己有用的知识摘录下来，以后经常看看。"}
+{"publish": "\r\n                ", "title": "详解 C++ 的模板中 typename 关键字的用法", "catotry": "C/C++", "content": "在C++的Template中我们经常可以见到使用typename来定义类型名称,更加具体的我们就在接下来为大家详解C++的模板中typename关键字的用法,需要的朋友可以参考下"}
+{"publish": "\r\n                ", "title": "自动化是节省脑力，而非时间", "catotry": "职场", "content": "花 60 分钟写了个每次运行可节省 2 分钟的自动化脚本，但该脚本使用频率极低，还有必要花时间写这个脚本吗？"}
+{"publish": "\r\n                ", "title": "一个复杂系统的拆分改造实践", "catotry": "IT技术", "content": "为什么要拆分？"}
+{"publish": "\r\n                ", "title": "高速网络下的 Netmap 单 RX 队列内核旁路技术", "catotry": "IT技术", "content": "在 前一篇文章 中，我们讨论了 Linux 内核网络协议栈的性能瓶颈。我们详细说明了如何利用内核旁路技术，让用户空间程序可以接收大量的数据包。遗憾的是，没有开源解决方案讨论过这个问题，来满足我们的需求。为了改善现状，我们决定为 Netmap 项目 做点贡献。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（19）：find 命令概览", "catotry": "IT技术", "content": "Linux下find命令在目录结构中搜索文件，并执行指定的操作。Linux下find命令提供了相当多的查找条件，功能很强大。由于find具有强大的功能，所以它的选项也很多，其中大部分选项都值得我们花时间来了解一下。即使系统中含有网络文件系统( NFS)，find命令在该文件系统中同样有效，只你具有相应的权限。"}
+{"publish": "\r\n                ", "title": "C++ 中三种正则表达式比较（C regex，C ++regex，boost regex）", "catotry": "C/C++", "content": "工作需要用到C++中的正则表达式，所以就研究了C regex，C ++regex，boost regex 三种正则。"}
+{"publish": "\r\n                ", "title": "C程序编译过程浅析", "catotry": "C/C++", "content": "前几天看了《程序员的自我修养——链接、装载与库》中的第二章“编译和链接”，主要根据其中的内容简单总结一下C程序编译的过程吧。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "全面了解 Nginx 主要应用场景", "catotry": "IT技术", "content": "Nginx能做什么？反向代理；负载均衡；HTTP服务器（包含动静分离）；正向代理。以上就是我了解到的Nginx在不依赖第三方模块能处理的事情。接下来本文就详细说说这些功能。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "排序算法的彩色可视化，一目了然", "catotry": "IT技术", "content": "9 种排序算法的彩色可视化，各算法的速度快慢，一目了然。"}
+{"publish": "\r\n                ", "title": "Paxos 算法原理与推导", "catotry": "IT技术", "content": "Paxos算法在分布式领域具有非常重要的地位。但是Paxos算法有两个比较明显的缺点：1.难以理解 2.工程实现更难。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "ZooKeeper 原理及其在 Hadoop 和 HBase 中的应用", "catotry": "IT技术", "content": "ZooKeeper是一个开源的分布式协调服务，由雅虎创建，是Google Chubby的开源实现。分布式应用程序可以基于ZooKeeper实现诸如数据发布/订阅、负载均衡、命名服务、分布式协调/通知、集群管理、Master选举、分布式锁和分布式队列等功能。"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "HTTPS 为什么更安全，先看这些", "catotry": "IT技术", "content": "HTTPS 是建立在密码学基础之上的一种安全通信协议，严格来说是基于 HTTP 协议和 SSL/TLS 的组合。理解 HTTPS 之前有必要弄清楚一些密码学的相关基础概念，比如：明文、密文、密码、密钥、对称加密、非对称加密、信息摘要、数字签名、数字证书。"}
+{"publish": "\r\n                ", "commentnum": "20  条评论", "title": "也许，这样理解HTTPS更容易", "catotry": "IT技术", "content": "本文尝试一步步还原HTTPS的设计过程，以理解为什么HTTPS最终会是这副模样。但是这并不代表HTTPS的真实设计过程。在阅读本文时，你可以尝试放下已有的对HTTPS的理解，这样更利于“还原”过程。"}
+{"publish": "\r\n                ", "commentnum": "8  条评论", "title": "会编程的 AI + 会修 Bug 的 AI，等于什么 ？", "catotry": "IT技术", "content": "2015年11月，MIT 研究人员对外展示了一个自动修复 Bug 的系统。最近微软和剑桥大学的研究员发布了一篇论文，对外展示一个会编程的机器学习系统。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "为什么我再也不想和 Google HR 交谈了", "catotry": "职场", "content": "Google、Amazon、Facebook 等大公司是很多人向往的工作去处，能收到这些公司 HR 发来的邀请邮件，是件让人高兴的事，但知名程序员博主 Yegor Bugayenko 再也不想和这些公司的 HR 交谈了。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "一个屌丝程序猿的人生（49）", "catotry": "趣文小说", "content": "从林萧的老家县城到学校，算上坐汽车和火车的时间，足足需要将近20个小时。而且，由于现在是开学季，正是人流大的时候，一路上更加折磨人。"}
+{"publish": "\r\n                ", "title": "WASD 何时成了游戏操作的主流？", "catotry": "趣文小说", "content": "在今天，WASD已成了游戏的标配。尽管多数玩家对此习以为常，但我们可以负责任地说，在20年前，这种键位还非常新鲜。"}
+{"publish": "\r\n                ", "title": "硬盘写到一半时断电，文件系统里会发什么？", "catotry": "IT技术", "content": "断电时文件系统发生了什么？硬盘又发生了什么？下一次开机时写到一半的文件在系统层面还在吗？在底层还在吗？"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "看过这两张图，就明白 Buffer 和 Cache 之间区别", "catotry": "IT技术", "content": "Cache 和 Buffer 都是「缓存」，但它们之间有什么区别呢？看看沈万马的回答。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "编程界 12 位祖师爷级别的 “大牛”", "catotry": "职场", "content": "每位程序员或多或少都为这个社会贡献着什么东西，然而有些程序员的贡献却超过了一个普通人一辈子能奉献的力量，他们是先驱，是伟大的，值得我们致敬。"}
+{"publish": "\r\n                ", "title": "一个屌丝程序猿的人生（48）", "catotry": "趣文小说", "content": "看着安玲聪的来电，林萧眉头紧锁，随后抬头瞅了眼跟前的三人，突然计上心头，随后接起了电话。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "生活中该最应该了解哪些重要的事？", "catotry": "职场", "content": "生活中你最需要知道哪些事情呢？看看 Quora 网友的三个精彩回答！"}
+{"publish": "\r\n                ", "commentnum": "4  条评论", "title": "为什么不能每周发布一次？", "catotry": "IT技术", "content": "要缩短发布周期、杜绝hotfix，需要从需求切分、迭代规划、技术架构、团队能力建设和测试策略调整等多方面进行优化，才能保证持续、快速的发布节奏，这是一个系统的问题。"}
+{"publish": "\r\n                ", "title": "想写无Bug的安全代码？看防御性编程的艺术", "catotry": "其他", "content": "不安全的软件不仅无用，而且还可怕。软件 Bug 引发的惨烈案例有很多，比如 1996 年因为导航系统代码复用引发的 Bug，导致欧洲航天局 Ariane 5 型运载火箭偏离预定路径而自毁爆炸。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "代码发布系统实现", "catotry": "IT技术", "content": "在我日常运维工作中，代码发布可能是最普遍的一项工作之一，尤其是网页代码的更新，碎片化发布需求非常频繁。在前期开发人员比较少时，还可以由自己来上服务器通过脚本来发布代码。但随着公司项目的增多，更多的开发人员加入到公司，发布代码需求开始增多，这就占用了我大部分时间，经常的被打断其它工作来发布代码，非常地不爽，然后开始想解决方法。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "记录一次 MySQL 死锁排查过程", "catotry": "IT技术", "content": "以前接触到的数据库死锁，都是批量更新时加锁顺序不一致而导致的死锁，但是上周却遇到了一个很难理解的死锁。借着这个机会又重新学习了一下mysql的死锁知识以及常见的死锁场景。"}
+{"publish": "\r\n                ", "commentnum": "6  条评论", "title": "程序员的沟通之痛", "catotry": "职场", "content": "近年来发现沟通越发成为一件重要的事。在近期工作中也会观察到一些沟通问题，比如跨团队开会沟通时发生的一些分歧与争论。作为程序员的我，感觉沟通一直是一个痛点，所以近年来一直在思考关于沟通的问题，下面就写写我的观察与思考吧。"}
+{"publish": "\r\n                ", "title": "bind( )适配器(Adapter) -- 调用全局函数及成员函数", "catotry": "C/C++", "content": "分析了bind( )适配器调用全局函数及成员函数，个人学习之路，若有误，欢迎指正。"}
+{"publish": "\r\n                ", "title": "一次性能优化实战经历", "catotry": "IT技术", "content": "每次经历数据库性能调优，都是对性能优化的再次认识、对自己知识不足的有力验证，只有不断总结、学习才能少走弯路。"}
+{"publish": "\r\n                ", "title": "C++ 自由存储区是否等价于堆？", "catotry": "C/C++", "content": "自由存储区与堆是两块不同的内存区域吗？它们有可能相同吗？"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "从汇编层面深度剖析 C++ 虚函数", "catotry": "C/C++", "content": "虚函数是C++语言实现运行时多态的唯一手段，因此掌握C++虚函数也成为C++程序员是否合格的试金石。C++虚函数的结构会因编译器不同而异，但所使用的原理是一样的。为此，本文使用linux平台下的g++编译器，试图从汇编的层面上分析虚函数表的结构，以及如何利用它来实现运行时多态。"}
+{"publish": "\r\n                ", "title": "写出易调试的 SQL", "catotry": "IT技术", "content": "相比高级语言的调试，调试SQL是件痛苦的事。特别是那些上千行的存储过程，更是我等码农的噩梦。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（24）：Linux 文件类型与扩展名", "catotry": "IT技术", "content": "Linux文件类型和Linux文件的文件名所代表的意义是两个不同的概念。我们通过一般应用程序而创建的比如file.txt、file.tar.gz ，这些文件虽然要用不同的程序来打开，但放在Linux文件类型中衡量的话，大多是常规文件（也被称为普通文件）。"}
+{"publish": "\r\n                ", "title": "哪种编程语言最流行？", "catotry": "IT技术", "content": "经常有人问哪个编程语言最流行？这问题很简单，但是回答起来可没那么简单。 "}
+{"publish": "\r\n                ", "commentnum": "15  条评论", "title": "漫画：程序员不是修电脑的！", "catotry": "趣文小说", "content": "程序员春节回家，如果没被亲戚朋友叫去修电脑/手机/路由器之类的，那还真不好意思说自己是程序员了 :)"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "一个屌丝程序猿的人生（43）", "catotry": "趣文小说", "content": "“我想见见你……”"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "普通程序员如何转向人工智能方向？", "catotry": "IT技术", "content": "本文目的是给出一个简单平滑、易于实现的学习方法，帮助 “普通” 程序员踏入AI领域这个门。这里，我对普通程序员的定义是：拥有大学本科知识；平时工作较忙；自己能获取的数据有限。因此，本文更像是一篇从零开始的AI入门教程。"}
+{"publish": "\r\n                ", "title": "把 SQL Server 迁移到 Linux？不如换成 MySQL", "catotry": "IT技术", "content": "最近几年，数量庞大的个人和组织放弃 Windows 平台选择 Linux 平台，而且随着人们体验到更多 Linux 的发展，这个数字将会继续增长。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "每天一个 Linux 命令（23）：Linux 目录结构", "catotry": "IT技术", "content": "对于每一个Linux学习者来说，了解Linux文件系统的目录结构，是学好Linux的至关重要的一步.，深入了解linux文件目录结构的标准和每个目录的详细功能，对于我们用好linux系统只管重要，下面我们就开始了解一下linux目录结构的相关知识。"}
+{"publish": "\r\n                ", "title": "char* 转 LPCWSTR 解决方案", "catotry": "C/C++", "content": "在Windows编程中，经常会碰到字符串之间的转换，char*转LPCWSTR也是其中一个比较常见的转换。下面就列出几种比较常用的转换方法。"}
+{"publish": "\r\n                ", "title": "在 C++ 中子类继承和调用父类的构造函数方法", "catotry": "C/C++", "content": "构造方法用来初始化类的对象，与父类的其它成员不同，它不能被子类继承（子类可以继承父类所有的成员变量和成员方法，但不继承父类的构造方法）。因此，在创建子类对象时，为了初始化从父类继承来的数据成员，系统需要调用其父类的构造方法。"}
+{"publish": "\r\n                ", "title": "C++ 类中调用基类带参数构造函数以及常量如何初始化", "catotry": "C/C++", "content": "文章解决了有时候，基类构造函数是带有参数，而子类构造函数是不带参数的如何定义的问题"}
+{"publish": "\r\n                ", "title": "内存映射文件详解-----C++实现（即一块内存和一个文件相映射对应）", "catotry": "C/C++", "content": "内存映射文件，是由一个文件到一块内存的映射。Win32提供了允许应用程序把文件映射到一个进程的函数 (CreateFileMapping)。内存映射文件与虚拟内存有些类似"}
+{"publish": "\r\n                ", "title": "C++ 中两个类互相引用的问题", "catotry": "C/C++", "content": "最近在改一个C++程序的时候碰到一条警告信息，从警告信息来看，程序应该存在内存泄露的问题，我决定解决这个问题，以下是我解决的过程"}
+{"publish": "\r\n                ", "title": "delete 和 delete [] 的真正区别", "catotry": "C/C++", "content": "c++中对new申请的内存的释放方式有delete和delete[两种方式，到底这两者有什么区别呢？"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "Git 最佳实践：分支管理", "catotry": "IT技术", "content": "git 和 svn 的一个显著区别就是提供更丰富的分支特性，我们今天就要说一下如何合理并且高效地利用这些分支。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（22）：find 命令的参数详解", "catotry": "IT技术", "content": "find一些常用参数的一些常用实例和一些具体用法和注意事项。例如文件名选项是find命令最常用的选项，要么单独使用该选项，要么和其他选项一起使用。  可以使用某种文件名模式来匹配文件，记住要用引号将文件名模式引起来。"}
+{"publish": "\r\n                ", "title": "C++模板”>>”编译问题与词法消歧设计", "catotry": "C/C++", "content": "在编译理论中，通常将编译过程抽象为5个主要阶段：词法分析(Lexical Analysis)，语法分析(Parsing)，语义分析(Semantic Analysis)，优化(Optimization)，代码生成(Code Generation)。这5个阶段类似Unix管道模型，上一个阶段的输出作为下一个阶段的输入。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（27）：linux chmod 命令", "catotry": "IT技术", "content": "chmod命令用于改变linux系统文件或目录的访问权限。用它控制文件或目录的访问权限。该命令有两种用法。一种是包含字母和操作符表达式的文字设定法；另一种是包含数字的数字设定法。"}
+{"publish": "\r\n                ", "title": "一个屌丝程序猿的人生（44）", "catotry": "趣文小说", "content": "“去你家？现在吗？”林萧有点蒙圈。"}
+{"publish": "\r\n                ", "title": "RESTful 架构风格下的 4 大常见安全问题", "catotry": "IT技术", "content": "伴随着RESTful架构风格的大量应用微服务架构的流行，一些本来难以察觉到的安全问题也逐渐开始显现出来。在我经历过的各种采用RESTful微服务架构风格的应用中，某些安全问题几乎在每个应用中都会出现。然而它们并非是什么高深的技术难题，只不过是借着微服务的流行而显得越发突出，这些都可以通过一些安全实践来避免。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "秒杀抢购思路以及高并发下数据安全", "catotry": "IT技术", "content": "秒杀和抢购的场景，流量往往是超乎我们系统的准备和想象的。在多线程写入同一个文件的时候，会存现“线程安全”的问题；而在秒杀和抢购的场景中，还有另外一个问题，就是“超发”，如果在这方面控制不慎，会产生发送过多的情况。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "微服务架构的基础框架选择：Spring Cloud还是Dubbo？", "catotry": "IT技术", "content": "最近一段时间不论互联网还是传统行业，凡是涉及信息技术范畴的圈子几乎都在讨论微服务架构。那么第一次实施微服务架构时，我们应该选择哪个基础框架更好呢？"}
+{"publish": "\r\n                ", "title": "Nginx 性能调优", "catotry": "IT技术", "content": "调优的时候要遵循的一个准则：一次只改一个设置，如果对性能无有效提升，就改回默认值。我们先从讨论Linux调优开始，因为一些操作系统配置的设置决定了如何优化Nginx的配置。"}
+{"publish": "\r\n                ", "title": "C++ 程序内存泄漏检测方法", "catotry": "C/C++", "content": "在Windows平台，服务器和客户端开发人员惯用的调试方法有很大不同。下面结合我的实际经验，整理下常见定位内存泄漏的方法，对比它们的优缺点。"}
+{"publish": "\r\n                ", "title": "C++ STL 内存配置的设计思想与关键源码分析", "catotry": "C/C++", "content": "我认为要读懂STL中allocator部分的源码，并汲取它的思想，至少以下几点知识你要了解：operator new和operator delete、handler函数以及一点模板知识。下面会结合关键源码分析C++STL(SGI版本)的内存配置器设计思想"}
+{"publish": "\r\n                ", "title": "C++ 中的也能使用正则表达式", "catotry": "C/C++", "content": "正则表达式Regex(regular expression)是一种强大的描述字符序列的工具。在许多语言中都存在着正则表达式，C++11中也将正则表达式纳入了新标准的一部分，不仅如此，它还支持了6种不同的正则表达式的语法，分别是：ECMASCRIPT、basic、extended、awk、grep和egrep。其中ECMASCRIPT是默认的语法，具体使用哪种语法我们可以在构造正则表达式的时候指定。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（26）：用 SecureCRT 来上传和下载文件", "catotry": "IT技术", "content": "用SSH管理linux服务器时经常需要远程与本地之间交互文件.而直接用SecureCRT自带的上传下载功能无疑是最方便的，SecureCRT下的文件传输协议有ASCII、Xmodem、Zmodem。"}
+{"publish": "\r\n                ", "title": "面试被问设计模式？不要怕看这里：工厂模式", "catotry": "IT技术", "content": "设计模式是老生常谈的问题，有人工作多年却对设计模式一窍不通，但是更多的人是懂一点点，但是不求甚解。其实这样不好，暂且不说在工作中的应用，即便是在面试时，被面试官问到设计模式时一脸懵逼，是非常尴尬的事情。本文不废话，不谈大篇理论教学，只针对面试，给出设计模式的关键点，从应试的角度，让大家认识和理解设计模式。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "现代 C++ 中的异步操作", "catotry": "C/C++", "content": "老实说，C++11中对异步的支持不比Python和JavaScript弱。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Node.js 和 C++ 之间的类型转换", "catotry": "C/C++", "content": "虽然在 Node.js 官方网站有很多的关于怎么使用这些 API 的文档，但是在 JavaScript 和 C++ 之间传递数据是一件非常麻烦的事情，C++ 是强类型语言（”1024” 是字符串类型而不是整数类型），而 JavaScript 却总是默认的帮我们做一些类型转换。"}
+{"publish": "\r\n                ", "title": "模板显式、隐式实例化和（偏）特化、具体化的详细分析", "catotry": "C/C++", "content": "最近看了看到了模板的特化，突然想起来上说的显式具体化、隐式具体化、特化、偏特化、具体化等概念弄得头晕脑胀，我在网上了找了好多帖子，才把概念给理清楚。"}
+{"publish": "\r\n                ", "title": "ZAB协议和Paxos算法", "catotry": "IT技术", "content": "本文介绍了一个和Chubby拥有类似功能的开放源码的分布式协调服务Zookeeper，以及Zookeeper数据一致性的核心算法ZAB。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（25）：Linux 文件属性详解", "catotry": "IT技术", "content": "Linux 文件或目录的属性主要包括：文件或目录的节点、种类、权限模式、链接数量、所归属的用户和用户组、最近访问或修改的时间等内容。"}
+{"publish": "\r\n                ", "title": "MySQL 闪回原理与实战", "catotry": "IT技术", "content": "DBA或开发者有时会误删或者误更新数据，如果是线上环境并且影响较大，就需要能快速回滚。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "HAProxy和Nginx负载均衡分析", "catotry": "IT技术", "content": "出于对负载均衡工具的疑问，分别对HAProxy和nginx的负载均衡进行了抓包分析，分析的过程跟大家分享下。"}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "Linux Shell从入门到删除根目录跑路指南", "catotry": "IT技术", "content": "shell 作为一门 linux 下使用广泛的系统语言，语法简单，上手容易，但是想要用好，少犯错误，也不是那么容易的一件事。本文会详细的讲述不同的场景下误删目录，以及相应的解决方案。"}
+{"publish": "\r\n                ", "title": "数据库压缩技术探索", "catotry": "IT技术", "content": "对于普通的以数据块/文件为单位的压缩，传统的（流式）数据压缩算法工作得不错，时间长了，大家也都习惯了这种数据压缩的模式。"}
+{"publish": "\r\n                ", "title": "如何用 OllyDbg 的跟踪功能分析虚拟机保护", "catotry": "IT技术", "content": "虚拟机保护已经是现代保护壳不可缺少的一环，虽然逆向方也发展出各种插件帮助分析，但只针对特定某款，通用性的方法却不多见。我总在想，既然虚拟机的结构是固定的，如果有一款工具能够记录指令流，那么按图索骥，也许能发展出一套通用的分析方法来。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "谷歌大脑 2016 年机器学习的 9 大进展", "catotry": "IT技术", "content": "多年来，Google Brain 团队致力于智能的机器学习来改善人们的生活。为此，无论是在纯理论研究的领域，还是将研究成果投入实际应用，探索从未停止。近期，Google Brain 团队负责人 Jeff Dean 对2016年在各领域取得的重大进展进行了总结。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Spring Batch 在大型企业中的最佳实践", "catotry": "IT技术", "content": "Spring Batch对批处理场景进行了合理的抽象，封装了大量的实用功能，使用它来开发批处理应用可以达到事半功倍的效果。在使用的过程中我们仍需要坚持总结一些最佳实践，从而能够交付高质量的可维护的批处理应用，满足企业级应用的苛刻要求。 "}
+{"publish": "\r\n                ", "commentnum": "3  条评论", "title": "我是如何开发公司年会抽奖系统的？", "catotry": "IT技术", "content": "在年会开始之前必须做出一个抽奖系统。这个系统很简单，后台可以设置总金额，然后每个用户可以获得的金额范围，金额派完则显示很遗憾没有中奖，还要设置抽奖活动时间。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（34）： du 命令", "catotry": "IT技术", "content": "Linux du命令也是查看使用空间的，但是与df命令不同的是Linux du命令是对文件和目录磁盘使用的空间的查看，还是和df命令有一些区别的."}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "面试被问设计模式？不要怕看这里：观察者模式", "catotry": "其他", "content": "从上篇工厂模式中，就已经有角色的概念。大家想想，工厂模式中有哪些角色？没错，就是工厂角色和产品角色。同样，在观察者模式中，也有两个角色，就是观察者和被观察者。"}
+{"publish": "\r\n                ", "title": "GC垃圾回收机制： 浅析与理解", "catotry": "开发", "content": "这是非常有害的，毫无疑问。结果将是不确定的（编译器能产生一些输出，导致任何事情都有可能发生），应该躲开写出这样代码的人除非他们同意改正错误。如果你担心这样的代码会出现在你的软件里，那么你最好完全避免使用引用，要不然就去让更优秀的程序员去做。"}
+{"publish": "\r\n                ", "title": "DB 分库分表（5）：一种支持自由规划无须数据迁移和修改路由代码的 Sharding 扩容方案", "catotry": "IT技术", "content": "作为一种数据存储层面上的水平伸缩解决方案，数据库Sharding技术由来已久，很多海量数据系统在其发展演进的历程中都曾经历过分库分表的Sharding改造阶段。"}
+{"publish": "\r\n                ", "commentnum": "5  条评论", "title": "代码写的好，出过畅销书，还拿过赛车冠军，这是一种什么体验？", "catotry": "职场", "content": "这事得问 DHH。 "}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Nginx 配置文件 nginx.conf 详解", "catotry": "IT技术", "content": "详解 Nginx 的配置文件 nginx.conf "}
+{"publish": "\r\n                ", "title": "DB 分库分表（4）：多数据源的事务处理", "catotry": "IT技术", "content": "系统经sharding改造之后，原来单一的数据库会演变成多个数据库，如何确保多数据源同时操作的原子性和一致性是不得不考虑的一个问题。总体上看，目前对于一个分布式系统的事务处理有三种方式：分布式事务、基于Best Efforts 1PC模式的事务以及事务补偿机制。我们下面对这三种处理方式一一进行分析。"}
+{"publish": "\r\n                ", "title": "Linux 的 EXT4 文件系统的历史、特性以及最佳实践", "catotry": "IT技术", "content": "让我们大概地从 EXT4 的历史、特性以及最佳实践这几个方面来学习它和之前的几代 EXT 文件系统有何不同。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "小团队管理与大团队管理", "catotry": "IT技术", "content": "我们公司和大部分传统软件公司一样，随着业务的发展和新领域的开拓，公司的管理风格越来越像华为，这是不是最佳的演进路线，我觉得值得探讨，以下是我的思考，希望跟大家讨论。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "人人都能读懂的设计模式（3）：行为型模式", "catotry": "IT技术", "content": "行为型设计模式关心对象之间的责任分配。与结构型设计模式不同的是，行为型设计模式不仅仅指定结构，而且还概述了它们之间的消息传递/通信的模式。或者换句话说，行为型模式帮助回答了“软件组件是如何运行的？”"}
+{"publish": "\r\n                ", "title": "DB 分库分表（3）：关于使用框架还是自主开发以及 sharding 实现层面的考量", "catotry": "IT技术", "content": "当团队对系统业务和数据库进行了细致的梳理，确定了切分方案后，接下来的问题就是如何去实现切分方案了，目前在sharding方面有不少的开源框架和产品可供参考，同时很多团队也会选择自主开发实现，而不管是选择框架还是自主开发，都会面临一个在哪一层上实现sharding逻辑的问题，本文会对这一系列的问题逐一进行分析和考量。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "MySQL 主从复制原理探索", "catotry": "IT技术", "content": "经历过一次mysql主从延迟之后，就开始思考，主从复制是什么东西？它是怎么实现的呢？它的原理是什么？于是乎就开始查阅资料、文章，现将自己理解到的内容总结在此，加深印象。"}
+{"publish": "\r\n                ", "title": "记一次 MySQL 主从复制延迟的踩坑", "catotry": "IT技术", "content": "最近开发中遇到的一个 MySQL 主从延迟的坑，记录并总结，避免再次犯同样的错误。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "人人都能读懂的设计模式（2）：结构型模式", "catotry": "IT技术", "content": "结构型设计模式主要关注对象组合，换句话说，关注实体之间如何互相使用。 或者还有另外一个解释，结构型设计模式有助于回答“如何构建软件组件？”"}
+{"publish": "\r\n                ", "title": "DB 分库分表（2）：全局主键生成策略", "catotry": "IT技术", "content": "本文将主要介绍一些常见的全局主键生成策略，然后重点介绍flickr使用的一种非常优秀的全局主键生成方案。"}
+{"publish": "\r\n                ", "title": "DB 分库分表（1）：拆分实施策略和示例演示", "catotry": "IT技术", "content": "对数据库进行分库分表(Sharding化)前，需要开发人员充分了解系统业务逻辑和数据库schema.一个好的建议是绘制一张数据库ER图或领域模型图，以这类图为基础划分shard,直观易行，可以确保开发人员始终保持清醒思路。"}
+{"publish": "\r\n                ", "commentnum": "其他", "title": "每天一个 Linux 命令（33）：df 命令", "catotry": "IT技术", "content": "linux中df命令的功能是用来检查linux服务器的文件系统的磁盘空间占用情况。可以利用该命令来获取硬盘被占用了多少空间，目前还剩下多少空间等信息。"}
+{"publish": "\r\n                ", "title": "无锁数据结构：队列", "catotry": "IT技术", "content": "队列多种多样，不同之处在于消息生产者、消费的数量不同；在于是基于预先分配的buffer有界队列，还是基于List的无界队列；在于是否支持优先级；在于是无锁非阻塞，还是有锁；在于严格遵守FIFO，公平还是非公平等等。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（32）：gzip 命令", "catotry": "IT技术", "content": "减少文件大小有两个明显的好处，一是可以减少存储空间，二是通过网络传输文件时，可以减少传输的时间。gzip是在Linux系统中经常使用的一个对文件进行压缩和解压缩的命令，既方便又好用。"}
+{"publish": "\r\n                ", "title": "面向开发人员的机器学习指南", "catotry": "IT技术", "content": "现如今，大多数的开发人员都听说过机器学习，但是当他们试图寻找捷径来学习这些技术时，却有很多人都对机器学习中的一些抽象概念望而却步，诸如回归、无监督学习、概率密度函数和其他许多定义。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "PHP 是最好的语言吗？", "catotry": "业界", "content": "最近被朋友们拉入了几个技术社群，有微信群，也有QQ群，尤其对一些年轻的朋友，大家乐此不疲的问题居然是 PHP 是最好的语言么？"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "万人创业失败记：用户所关心的", "catotry": "创业", "content": "时刻要牢记，不管是功能多还是少，但核心的功能一定是最需要完善的。在添加新功能之前，要考虑清楚这个功能是不是用户真正需要的，不然就很容易成为一次性功能。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "SQL 注入详解扫盲", "catotry": "IT技术", "content": "本文并不是什么很深入的技术文章，带领大家学习 SQL 注入的基本知识。"}
+{"publish": "\r\n                ", "title": "每天一个 Linux 命令（31）: /etc/group 文件详解", "catotry": "IT技术", "content": "  Linux /etc/group文件与/etc/passwd和/etc/shadow文件都是有关于系统管理员对用户和用户组管理时相关的文件。linux /etc/group文件是有关于系统管理员对用户和用户组管理的文件,linux用户组的所有信息都存放在/etc/group文件中。"}
+{"publish": "\r\n                ", "title": "虚拟机中的快照和备份之间的区别", "catotry": "IT技术", "content": "快照和备份的概念很容易被混淆和滥用，不便于新入行者的理解。该篇文章虽然篇幅较短，但是对于新人有很大的科普意义。这是我工作中涉及到的，顺手推荐。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "10年回顾：从机械绘图到炼油，再到微软MVP的华丽转身", "catotry": "职场", "content": "年底了，各种总结计划满天飞，有空的时候我也一直在思考这么多年，是怎么过来的。也曾经很迷茫，希望经验和经历能给大家一点带来一点正能量的东西。10年很长，10年前说实话我没有思考过现在的样子，但10年前的日子还历历在目。"}
+{"publish": "\r\n                ", "commentnum": "15  条评论", "title": "编辑器性能测试：Atom 、VS Code、Sublime Text", "catotry": "IT技术", "content": "我用 Sublime Text 已经差不多有三年了，在一两年前，我也尝试过用 Atom，其 UI 设计尤其吸引我，但我仍然坚持使用 Sublime 是因为 Atom 太慢了。近期我在网上搜索想看看 Atom 有没有什么显著改善。后来看到了 VS Code。所以做一个小测试，看看这几种编辑器的性能差异。"}
+{"publish": "\r\n                ", "commentnum": "2  条评论", "title": "DB 分库分表的基本思想和切分策略", "catotry": "IT技术", "content": "Sharding的基本思想就要把一个数据库切分成多个部分放到不同的数据库(server)上，从而缓解单一数据库的性能问题。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "Linux - 请允许我静静地后台运行", "catotry": "IT技术", "content": "开很多窗口管理会很不方便，还有万一手贱点了x，或者长时间不操作，远程终端断开了连接，进程停止了，再次打开，又是一番折腾。今天来介绍几个命令，帮大家系统地梳理一下 linux 的进程调度，并附上一些自己的使用心得和踩过的坑。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "如何理解并正确使用 MySQL 索引", "catotry": "IT技术", "content": "索引是存储引擎用于快速查找记录的一种数据结构，通过合理的使用数据库索引可以大大提高系统的访问性能，接下来主要介绍在MySql数据库中索引类型，以及如何创建出更加合理且高效的索引技巧。"}
+{"publish": "\r\n                ", "commentnum": "1 条评论", "title": "人人都能读懂的设计模式（1）：创建型模式", "catotry": "IT技术", "content": "用最简单的语言，解释设计模式。"}
+{"publish": "\r\n                ", "title": "Linux 内核驱动中对文件的读写", "catotry": "IT技术", "content": "在kernel中操作文件没有标准库可用，需要利用kernel的一些函数，这些函数主 要有： filp_open() filp_close(), vfs_read() vfs_write()，set_fs()，get_fs()等，这些函数在linux/fs.h和asm/uaccess.h头文件中声明。"}
+{"publish": "\r\n                ", "title": "基本性能分析，省了几百万美元", "catotry": "IT技术", "content": "本文是关于我如何应用基本性能分析技术，借助火焰图做了一处小改进，使得 Postgres 计算机集群的 CPU 状况获得了 10 倍的改善，并在第二年帮公司节省了几百万刀。"}
+{"publish": "\r\n                ", "title": "MySQL 之 ROUND 函数四舍五入的陷阱", "catotry": "IT技术", "content": "在MySQL中，ROUND函数用于对查询结果进行四舍五入，不过最近使用ROUND函数四舍五入时意外发现并没有预期的那样，本文将这一问题记录下来，以免大家跟我一样犯同样的错误。"}
+{"publish": "\r\n                ", "title": "你听说过“风格指南驱动开发”吗？", "catotry": "IT技术", "content": "它驱动着我们尽最大可能去重新使用已有的组件（代码）和设计更通用的组件，也驱动着我们（开发、UX、BA）进行更加频繁的沟通，它驱动着BA书写更加合理的Story，也驱动开发进行更加合理的代码和资源的管理。"}
